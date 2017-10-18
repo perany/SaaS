@@ -1,0 +1,46 @@
+<div class="banner">
+    <ul class="userAll">
+        <%=
+        var class1="";
+        for(var i=0;i<3;i++)
+        {
+        switch(i)
+        {
+        case 0:
+            class1="userAll1";
+            className="totalUv";
+            break;
+        case 1:
+            class1="userAll2";
+            className="totalRegUv";
+            break;
+        case 2:
+            class1="userAll3";
+            className="totalPayUv";
+            break;
+        }
+        =%>
+            <li class="<%==class1=%>">
+                <div class="title">
+                    <span class="titles"><%==p.data.title[i]=%></span>
+                </div>
+                <div class="content">
+                    <img src="../images/overView/<%==p.data.img[i]=%>" alt="">
+                    <span class="span <%==className=%>"></span>
+                </div>
+            </li>
+            <%=}=%>
+    </ul>
+    <div class="loading_cont">
+        <dl>
+            <dt></dt>
+            <dd>正在努力，加载中</dd>
+        </dl>
+    </div>
+    <div class="failLoad hide">
+        <dl>
+            <dt></dt>
+            <dd>加载失败，请<a class="reset">重新加载</a></dd>
+        </dl>
+    </div>
+</div>

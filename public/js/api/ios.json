@@ -1,0 +1,100 @@
+{
+
+  "目录一": [
+    {
+      "id": "集成准备",
+      "list": "ios_first.html"
+    }
+  ],
+  "二级目录请求复星提供Partner和TableName": [
+    {
+      "id": "Partner和TableName",
+      "list": "ios_first1.html"
+    }
+  ],
+  "二级目录请求复星提供SDK": [
+    {
+      "id": "请求复星提供SDK",
+      "list": "ios_first2.html"
+    }
+  ],
+    "二级目录导入SDK": [
+    {
+      "id": "导入SDK",
+      "list": "ios_first3.html"
+    }
+  ],
+     "二级目录添加依赖": [
+    {
+      "id": "添加依赖",
+      "list": "ios_first4.html"
+    }
+  ],
+     "二级目录添加编译参数": [
+    {
+      "id": "添加编译参数",
+      "list": "ios_first5.html"
+    }
+  ],
+"二级目录重要配置项": [
+    {
+      "id": "重要配置项",
+      "list": "ios_first6.html"
+    }
+  ],
+   "二级目录添加初始化函数": [
+    {
+      "id": "添加初始化函数",
+      "list": "ios_first7.html"
+    }
+  ],
+
+  "目录二": [
+    {
+      "id": "页面统计",
+      "list": "ios_second.html"
+    }
+  ],
+  "目录三": [
+    {
+      "id": "自定义事件统计",
+      "list": "ios_third.html"
+    }
+  ],
+   "目录四": [
+    {
+      "id": "注册",
+      "list": "ios_four.html"
+    }
+  ],
+    "目录五": [
+    {
+      "id": "付费",
+      "list": "ios_five.html"
+    }
+  ],
+    "目录六": [
+    {
+      "id": "自定义变量",
+      "list": "ios_six.html"
+    }
+  ],
+    "目录七": [
+    {
+      "id": "广告系列监测",
+      "list": "ios_seven.html"
+    }
+  ],
+    "二级目录安装来源监测": [
+    {
+      "id": "安装来源监测",
+      "list": "ios_seven1.html"
+    }
+  ],
+    "二级目录安装后来源监测": [
+    {
+      "id": "安装后来源监测",
+      "list": "ios_seven2.html"
+    }
+  ]
+}

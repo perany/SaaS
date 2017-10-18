@@ -1,0 +1,38 @@
+﻿<p class="titleTwo">4.1 页面访问</p>
+
+<ul class="show">
+  <li class="li3">
+  调用接口：void trackScreen(String path, String urlRef, Map &lt;String, String&gt; customData);
+  </li>
+  <li>
+  <table border="1px" cellpadding="0" cellspacing="0" width="900" >
+  	 <tr>
+  	 	<th width="33%">参数名</th>
+  	 	<th width="33%">类型</th>
+  	 	<th width="33%">说明</th>
+  	 </tr>
+  	 <tr>
+  	 	<td>path</td>
+  	 	<td>字符串</td>
+  	 	<td>当前页面路径，允许空值</td>
+  	 </tr>
+  	 <tr>
+  	 	<td>urlRef</td>
+  	 	<td>字符串</td>
+  	 	<td>前一个页面路径，允许空值</td>
+  	 </tr>
+  	 <tr>
+  	 	<td>customData</td>
+  	 	<td>Map&lt;String,String&gt;</td>
+  	 	<td>自定义参数，允许null</td>
+  	 </tr>
+  </table>
+  </li>
+  <li>
+  	为了统计页面访问，可在Activity的onCreate方法中调用trackScreen方法。</li>
+    <li>
+  	<b>示例代码</b></li>
+  <li>
+  	<img src="/images/templ/Android_five1.png"/>
+  </li>
+</ul>

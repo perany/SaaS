@@ -1,0 +1,53 @@
+﻿<p class="titleTwo">1.6 重要配置项</p>
+
+<ul class="show">
+  <li>
+    <b>1、配置fonovaSDK->fonovaAPI.boundle->setting.plist：</b>
+  </li>
+  <li>
+  	 <img src="/images/templ/ios_first6-1.png"/>
+  </li>
+  <li>
+  	<table border="1px" cellpadding="0" cellspacing="0">
+  		<tr>
+  			<th>参数名</th>
+  			<th>描述</th>
+  			<th>备注</th>
+  		</tr>
+  		<tr>
+  			<td>partner</td>
+  			<td>合作伙伴</td>
+  			<td>使用复星提供的partner</td>
+  		</tr>
+  		<tr>
+  			<td>bo</td>
+  			<td>表名</td>
+  			<td>使用复星提供的tableName</td>
+  		</tr>
+  		<tr>
+  			<td>installrefferrer</td>
+  			<td>安装渠道</td>
+  			<td>比如：appStore, 非appStore</td>
+  		</tr>
+  		<tr>
+  			<td>url</td>
+  			<td>URL</td>
+  			<td>图中为测试地址，正式地址为<br>https://tracking.fosun.com/</td>
+  		</tr>
+  		<tr>
+  			<td>path</td>
+  			<td>路径</td>
+  			<td>测试和正式同为<br>de-track/trackings/IOS</td>
+  		</tr>
+  	</table>
+  </li>
+  <li>
+  	<b>2、配置地理位置信息：</b>
+  </li>
+  <li>
+  	SDK内部加入了地理信息反馈，但需要用户授权。同时开发者需要在工程配置文件内部加入与地理位置相关的设置项
+  </li>
+  <li>
+  	 <img src="/images/templ/ios_first6-2.png"/>
+  </li>
+</ul>

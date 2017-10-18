@@ -1,0 +1,66 @@
+<div class="radio-control" type="">
+    <div class="radio-list fl">
+        <%=
+        var len = 0;
+        if(p.data.datas.length <5){
+            len = p.data.datas.length 
+        }else{
+            len = 5
+        }
+        for(var i=0;i<len;i++)
+        {
+        if(i==0){
+        =%>
+
+            <span class="radios selected">
+            <i></i>
+            <span class="contName" data_id="<%==p.data.datas[i].id=%>" start="<%==p.data.datas[i].start=%>" end="<%==p.data.datas[i].end=%>"><%==p.data.datas[i].name=%></span>
+            </span>
+            <%= }else{  =%>
+                <span class="radios">
+            <i></i>
+            <span class="contName" data_id="<%==p.data.datas[i].id=%>" start="<%==p.data.datas[i].start=%>" end="<%==p.data.datas[i].end=%>"><%==p.data.datas[i].name=%></span>
+                </span>
+                <%=
+        }
+        }
+        =%>
+    </div>
+    <div class="radio-more fl">
+        <a class="radio-more-btn">更多</a>
+        <div class="radio-div hide">
+            <div class="radio-title">
+                <span>活动</span>
+                <a class="radio-sure">确定</a>
+            </div>
+            <dl class="radio-detail">
+                <dt>
+                    <%=
+                    for(var i=0;i<len;i++)
+                    {
+                    =%>
+                    <span class="selected" data_id="<%==p.data.datas[i].id=%>" start="<%==p.data.datas[i].start=%>" end="<%==p.data.datas[i].end=%>"><%==p.data.datas[i].name=%></span>
+                    <%=
+                    }
+                    =%>
+                </dt>
+                <dd>
+                    <%=
+                    for(var i=0;i<p.data.datas.length;i++)
+                    {
+                    if(i<5){
+                    =%>
+                        <span class="selected" data_id="<%==p.data.datas[i].id=%>" start="<%==p.data.datas[i].start=%>" end="<%==p.data.datas[i].end=%>"><%==p.data.datas[i].name=%></span>
+                        <%=
+                    }else{
+                    =%>
+                            <span data_id="<%==p.data.datas[i].id=%>" start="<%==p.data.datas[i].start=%>" end="<%==p.data.datas[i].end=%>"><%==p.data.datas[i].name=%></span>
+                            <%=
+                    }
+                    }
+                    =%>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>

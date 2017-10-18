@@ -1,0 +1,68 @@
+<div class="circle_total">
+    <ul class="circle_ul">
+        <%=
+        var name="";
+        var class1="";
+        var className = "";
+        for(var i=0;i<4;i++)
+        {
+        switch(i)
+        {
+        case 0:
+            name="";
+            class1="circle_single";
+            className="circle1";
+            break;
+        case 1:
+            name="";
+            class1="circle_single";
+            className="circle2";
+            break;
+        case 2:
+            name="";
+            class1="circle_single";
+            className="circle3";
+            break;
+        case 3:
+            name="";
+            class1="circle_single2";
+            className="circle4";
+            break;
+        }
+        =%>
+            <li class="<%==class1=%> <%==className=%>">
+                <div class="circle_title">
+                    <span class="circle_title_color"></span>
+                    <span class="circle_title_text"><%==name=%></span>
+                    <span class="circle_title_tip tooltip" title="<%==i=%>" title-data="<%==p.data.tips[i]=%>"></span>
+                </div>
+                <div class="circle_content">
+                    <div class="circle_content_img">
+                        <img src="../../../../images/overView/<%==p.data.img[i]=%>">
+                    </div>
+                    <div class="circle_content_text <%==className=%>" style="color:<%==p.data.color[i]=%>">
+                        <%==p.data.data[i]=%>
+                    </div>
+                </div>
+                <%=if(p.data.historydata[i]!==""){=%>
+                    <div class="circle_average">
+                        <span class="circle_average_text">历史平均值：</span>
+                        <span class="circle_average_num <%==className=%>"><%==p.data.historydata[i]=%></span>
+                    </div>
+                    <%=}=%>
+            </li>
+            <%=}=%>
+    </ul>
+    <div class="loading_cont">
+        <dl>
+            <dt></dt>
+            <dd>正在努力，加载中</dd>
+        </dl>
+    </div>
+    <div class="failLoad hide">
+        <dl>
+            <dt></dt>
+            <dd>加载失败，请<a class="reset">重新加载</a></dd>
+        </dl>
+    </div>
+</div>

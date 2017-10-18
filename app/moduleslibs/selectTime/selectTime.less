@@ -1,0 +1,100 @@
+//选择地区下拉菜单
+.sleBG {
+  width: 130px;
+  height: 24px;
+  border: solid 1px #d7dce9;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  .sleHid {
+    display: block;
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+  }
+  select{
+    width: 100%;
+  }
+  .coverArrow {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 63px;
+    background: #ddd;
+    top: 0px;
+    z-index: 2;
+  }
+}
+.selectLevel{
+  width:70px;
+  margin: 10px 10px 0 0;
+  background-position:50px 7px;
+  position: relative;
+  .selectArrow{
+    background: url(/images/sassIcon.png) no-repeat;
+    background-position:-210px -13px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 3px;
+    top: 2px;
+  }
+}
+.cont .contTitle .selectLeve2 {
+  width:105px;
+  height: 24px;
+  position:relative;
+  border: solid 1px #d7dce9;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+  input{
+    width: 105px;
+  }
+  &>i{
+    position: absolute;
+    background: url(/images/sassIcon.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 3px;
+    top: 2px;
+  }
+  .rili{
+    background-position: -326px -50px;
+  }
+  .selectArrow{
+    background-position:-210px -13px;
+  }
+}
+.daterangepicker.opensright .left{
+  margin-right: 0px;
+}
+.cont .quarterYear {
+  i{
+    display: inline-block;
+    position: absolute;
+    top:-2px;
+    width: 20px;
+    height: 20px;
+    background: url(/images/iconDmp.png);
+  }
+  i.left{
+    background-position: -296px -17px;
+  }
+  i.right{
+    background-position: -315px -16px
+  }
+}
+.quarter {
+  .dis{
+    color:#ccc;
+  }
+}
+#month-picker-content{position: absolute;width: 250px;top:50px;display: none;}
+#days-picker-content{position: absolute;width: 250px;top:50px;right:50px;display: none;}
+#season-picker-content{position: absolute;width: 250px;top:50px;display: none;}
+// .quarter1{
+//   right: 319px;
+//   top: 50px;
+//   left: 0px;
+// }

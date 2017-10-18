@@ -1,0 +1,12 @@
+# modules#
+node_modules
+
+# IDE#
+.idea
+
+#module#
+dev/*.js
+dev/*.map
+.dev
+.htaccess
+httpd.conf

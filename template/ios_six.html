@@ -1,0 +1,66 @@
+﻿<p class="titleOne">6 自定义变量</p>
+
+<ul class="show">
+    <li>
+      <table border="1px" cellpadding="0" cellspacing="0">
+        <tr>
+          <th >描述</th>
+          <th colspan="5">自定义变量。目前只支持5个app级别变量(scope参数为visit)，索引从1-5</th>
+        </tr>
+        <tr>
+          <td >发布路径</td>
+          <td colspan="5" > - (BOOL)setCustomVariableForIndex:(NSUInteger)index<br> name:(NSString*)name value:(NSString*)value scope:( NSString*)scope;</td>
+        </tr>
+        <tr>
+          <td>调用说明</td>
+          <td colspan="5" >把一个name-value对放在app级别（随着app销毁而销毁），以至于把调用该函数<br>后的埋点数据归因到name-value对</td>
+        </tr>
+        <tr>
+          <td  rowspan="5">输入参数</td>
+          <td>参数变量</td>
+              <td>参数名称</td>
+              <td>类型</td>
+              <td>参数说明</td>
+              <td>必须</td>
+        </tr>
+        <tr>
+          
+          <td>索引</td>
+              <td>Index</td>
+              <td>NSUInteger</td>
+              <td>1-5</td>
+              <td>是</td>
+        </tr>
+        <tr>
+          
+          <td>字名</td>
+              <td>Name</td>
+              <td>String</td>
+              <td></td>
+              <td>是</td>
+        </tr>
+        <tr>
+          
+          <td>值</td>
+              <td>Value</td>
+              <td>String</td>
+              <td></td>
+              <td>否</td>
+        </tr>
+        <tr>
+          
+          <td>范围</td>
+              <td>Scope</td>
+              <td>String</td>
+              <td>当前值仅为visit</td>
+              <td>是</td>
+        </tr>
+      </table>
+    </li>
+    <li>
+      调用示例
+    </li>
+    <li><img src="/images/templ/ios_six.png"/>
+    </li>
+</ul>
+

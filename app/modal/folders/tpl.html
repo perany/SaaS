@@ -1,0 +1,51 @@
+<div class="modal modal-<%==p.class=%>">
+    <div class="modal-header">
+        <p class="modal-title">
+            <%==p.title=%>
+        </p>
+        <i class="modal-close"></i>
+    </div>
+    <div class="modal-body">
+        <%=
+    for(var i = 0, l = p.list.length; i < l; i++){
+        var stu = p.list[i];
+=%>
+            <div class="input-group required" name="<%==stu.parName=%>" datatype="<%=if(stu.type!='select'){=%>str<%=}else{=%>obj<%=}=%>" check="<%==stu.check=%>" length="10">
+                <span><i>*</i><%==stu.name=%></span>
+                <div class="input-c">
+                    <%=switch(stu.type){
+                    case "choose": =%>
+                        <input type="text" value="<%=if(stu.val){=%><%==stu.val=%><%=}=%>" readonly="readonly" placeholder="选择<%==stu.name=%>">
+                        <div class="folder-choose">...</div>
+                        <%= break;
+                    case "input":=%>
+                        <input type="text" value="<%=if(stu.val){=%><%==stu.val=%><%=}=%>" placeholder="输入<%==stu.name=%>">
+                        <%= break;
+                    case "text":=%>
+                        <input type="text" value="<%=if(stu.val){=%><%==stu.val=%><%=}=%>" placeholder="输入<%==stu.name=%>" readonly="readonly" >
+                        <%= break;
+                    case "select":=%>
+                        <input type="text" name="<%==stu.parName=%>" value="<%=if(stu.valName){=%><%==stu.valName=%><%=}=%>" readonly="readonly" placeholder="选择<%==stu.name=%>">
+                        <input type="hidden" name="<%==stu.parName=%>" value="<%=if(stu.val){=%><%==stu.val=%><%=}=%>" readonly="readonly" placeholder="选择<%==stu.name=%>">
+                        <select class="now-select">
+                            <%=
+                                for(var j = 0;j < stu.selectD.length; j++){
+                                var strO=JSON.stringify(stu.selectD[j]).replace(/"/g,"'");
+                        
+                                =%>
+                            <option value="<%==strO=%>" <%=if(stu.val==stu.selectD[j].value){=%>selected<%=}=%>><%==stu.selectD[j].name=%></option>
+                            <%=}=%>
+                        </select>
+                        <%= break;
+                        }=%>
+                </div>
+            </div>
+            <%=
+    }
+=%>
+    </div>
+    <div class="modal-footer">
+        <a class="btn btn-confirm">确定</a>
+        <a class="btn btn-cancel">取消</a>
+    </div>
+</div>

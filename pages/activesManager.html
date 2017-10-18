@@ -1,0 +1,154 @@
+<!--START Right_Content-->
+<div id="activesManager">
+    <div class="cont pt10">
+        <div class="contTitle1 ">
+            <a class="btn newshop hide"><i></i><span>新建活动</span></a>
+            <a class="btn deleteBtn hide">删除</a>
+            <span class="searcher fr"><input type="text" class="searchCont" placeholder="搜索活动主题"/><a></a><span class="onSearch"></span></span>
+        </div>
+        <div class="contList">
+            <div class="contTab hide">
+                <!--<table class="tableList" id="cusTableList">
+                    <thead>
+                        <tr>
+                            <th class="th1 pL10">
+                                <label class="labelOne"><span class="allCheck"><i></i></span><em>全选</em></label>
+                            </th>
+                            <th class="th2 ">活动开始日期<span class="sortBtn"></span></th>
+                            <th class="th2 ">活动结束日期<span class="sortBtn"></span></th>
+                            <th class="th1 ">开始时间段<span class="sortBtn"></span></th>
+                            <th class="th1">结束时间段 <span class="sortBtn"></span></th>
+                            <th class="th3 sort">活动主题</th>
+                            <th class="sort" id="caozuo">操作</th>
+                            <th class="th3">创建时间</th>
+                            <th class="th3">更新时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>-->
+                <!--START pager-->
+                <div id="pager" class="pager"></div>
+                <!--END pager-->
+            </div>
+            <div class="now hide">
+            </div>
+            <div class="loading_new loading_absolute">
+                <dl>
+                    <dt></dt>
+                    <dd>正在努力，加载中</dd>
+                </dl>
+            </div>
+            <div class="dataNone borLine hide dataNone1">
+                <dl><dt></dt>
+                    <dd>暂无数据，请重新输入</dd>
+                </dl>
+            </div>
+            <div class="failLoad borLine failLoad1 hide">
+                <dl><dt></dt>
+                    <dd>加载失败，请<a class='reset'>重新加载</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--END Right_Content-->
+
+    <div class="mask hide"></div>
+    <!--START product_Popup-->
+    <div class="Popups actPopup hide">
+        <div class="popupTitle"><span>新建活动</span>
+            <a class="cancleBtn"><img src="/images/closeIcon.png" /></a>
+        </div>
+        <div class="popupCont">
+            <p class="checks">
+                <label><i></i>&nbsp;&nbsp;&nbsp;活动类型</label>
+                <span class="checkType selected" name="1"><i></i><span>线上活动</span></span>
+                <span class="checkType" name="2"><i></i><span>线下活动</span></span>
+            </p>
+            <p class="clearfix timeInput">
+                <label><i>*</i>&nbsp;&nbsp;&nbsp;活动起止日期</label>
+                <span class="selectLeve2 timeView">
+                    <i class="rili"></i>
+                <input type="text" name="Timer" id="Timer" class="Timer" placeholder="请选择活动起日期"/>
+                </span>
+                <span class="selectLeve2">
+                    <i  class="rili"></i>
+                    <input type="text"  id="timeFlow" value="00:00-23:00" />
+                </span>
+                <span class="timeHour hide">
+                    <a class="timeBtn">确定</a>
+                    <em class="leftHour">
+                        <label>开始时间</label>
+                        <a class="selected">00:00</a><a class="">01:00</a>
+                        <a class="">02:00</a><a class="">03:00</a>
+                        <a class="">04:00</a><a class="">05:00</a>
+                        <a class="">06:00</a><a class="">07:00</a>
+                        <a class="">08:00</a><a class="">09:00</a>
+                        <a class="">10:00</a><a class="">11:00</a>
+                        <a class="">12:00</a><a class="">13:00</a>
+                        <a class="">14:00</a><a class="">15:00</a>
+                        <a class="">16:00</a><a class="">17:00</a>
+                        <a class="">18:00</a><a class="">19:00</a>
+                        <a class="">20:00</a><a class="">21:00</a>
+                        <a class="">22:00</a><a class="">23:00</a>
+                    </em>
+                     <em class="rightHour">
+                        <label>结束时间</label>
+                         <a class="">00:00</a><a class="">01:00</a>
+                        <a class="">02:00</a><a class="">03:00</a>
+                        <a class="">04:00</a><a class="">05:00</a>
+                        <a class="">06:00</a><a class="">07:00</a>
+                        <a class="">08:00</a><a class="">09:00</a>
+                        <a class="">10:00</a><a class="">11:00</a>
+                        <a class="">12:00</a><a class="">13:00</a>
+                        <a class="">14:00</a><a class="">15:00</a>
+                        <a class="">16:00</a><a class="">17:00</a>
+                        <a class="">18:00</a><a class="">19:00</a>
+                        <a class="">20:00</a><a class="">21:00</a>
+                        <a class="">22:00</a><a class="">23:00</a>
+                    </em>
+                </span>
+                <span class="errorTip errorTime hide"></span>
+            </p>
+            <p class="pr">
+                <label><i>*</i>&nbsp;&nbsp;&nbsp;活动主题</label>
+                <input type="text" class="activeName" placeholder="请输入活动主题" />
+                <span class="errorTip errorActives hide"></span>
+            </p>
+            <p class="pr">
+                <label><i>*</i>&nbsp;&nbsp;&nbsp;投入金额</label>
+                <input type="text" class="activeCost" placeholder="请输入投入金额" />
+                <span class="errorTip errornums hide"></span>
+            </p>
+            <p class="pr shops hide">
+                <label><i>*</i>&nbsp;&nbsp;&nbsp;参与店铺</label>
+                <span class="selectLeve2 shopSelect">
+                     <i class="selectArrow"></i>
+                    <span class="sleHid">
+                        <select class="shopSelList"></select>
+                     </span>
+                </span>
+                <span class="errorTip errorshop1 hide"></span>
+                <a class="adds"></a>
+            </p>
+            <div id='day-picker'></div>
+        </div>
+        <p class="btns">
+            <label>&nbsp;</label><a class="popupBtn saveManager">确定</a><a class="popupBtn cancleBtn cancle">取消</a></p>
+    </div>
+    <!--END product_Popup-->
+    <!--START Delete_Popup-->
+    <div class="Popups deletePopup hide">
+        <div class="popupTitle"><span>删除</span>
+            <a class="cancleBtn"></a>
+        </div>
+        <div class="p1">
+            <i class="tipIcon"><img src="/images/warn.png"></i>
+            <div class="delCont">
+                确定要删除所选的活动吗？
+                <br/> 删除后，所选活动数据将不可访问。
+            </div>
+        </div>
+        <p class="center"><a class="popupBtn deleteOk">确定</a><a class="popupBtn cancleBtn cancle">取消</a></p>
+    </div>
+</div>

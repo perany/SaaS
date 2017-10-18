@@ -1,0 +1,162 @@
+.list1 {
+    width: 100%;
+    position: relative;
+    cursor:default;
+    .list-header {
+        ul {
+            display: table;
+            font-size: 12px;
+            height: 50px;
+            line-height: 50px;
+            width: 100%;
+            background: #2ab8bb;
+            color: #fff;
+            li {
+                display: table-cell;
+                position: relative;
+                .check-box {
+                    width: 14px;
+                    border: 1px solid #d9e2e9;
+                    font-size: 12px;
+                    height: 14px;
+                    margin: 0 8px;
+                    position: relative;
+                    background: #fff;
+                    border-radius: 3px;
+                    top: 3px;
+                }
+                .check-box.choose:before {
+                    content: '✔';
+                    font-size: 12px;
+                    line-height: 10px;
+                    position: absolute;
+                    top: 2px;
+                    left: 2px;
+                    color: #528fcc;
+                }
+            }
+            li:first-child {
+                text-align: left;
+            }
+            li:last-child {
+                border: 0
+            }
+        }
+    }
+    .list-content {
+        div {
+            border-bottom: 1px solid #E2E6E8;
+            width: 100%;
+            color: #909090;
+            ul {
+                width: 100%;
+                display: flex;
+                display: -ms-flexbox;
+                -ms-flex-direction: row;
+                font-size: 12px;
+                height: 75px;
+                line-height: 75px;
+                background: #fff;
+                li {
+                    position: relative;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    .check-box {
+                        width: 14px;
+                        border: 1px solid #d9e2e9;
+                        font-size: 12px;
+                        margin:0 8px;
+                        height: 14px;
+                        position: relative;
+                        background: #fff;
+                        border-radius: 3px;
+                        top: 3px;
+                    }
+                    .radio-box {
+                        width: 14px;
+                        border: 1px solid #d9e2e9;
+                        font-size: 12px;
+                        margin:0 8px;
+                        height: 14px;
+                        position: relative;
+                        background: #fff;
+                        border-radius: 50%;
+                        top: 3px;
+                    }
+                    .radio-box.choose:before {
+                         content: ' ';
+                        width:10px;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        height: 10px;
+                        position: absolute;
+                        top: 2px;
+                        left: 2px;
+                        background: #528fcc;
+                    }
+                    .check-box.choose:before {
+                        content: '✔';
+                        font-size: 12px;
+                        line-height: 10px;
+                        position: absolute;
+                        top: 2px;
+                        left: 2px;
+                        color: #528fcc;
+                    }
+                //    .materialCheckList {
+                //     width: 120px;
+                //     text-overflow: ellipsis;
+                //     overflow: hidden;
+                //     display: block;
+                //     white-space: nowrap;
+                //     height: 30px;
+                // }
+                }
+            }
+            li:last-child {
+                border: 0
+            }
+            .tgl-btn {
+                background: #ddeaf1;
+                border-radius: 2em;
+                padding: 2px;
+                -webkit-transition: all .4s ease;
+                transition: all .4s ease;
+            }
+            .tgl-btn {
+                outline: 0;
+                display: block;
+                width: 40px;
+                height: 20px;
+                position: relative;
+                cursor: pointer;
+            }
+            .tgl-btn:after {
+                border-radius: 50%;
+                background: #fff;
+                -webkit-transition: all .2s ease;
+                transition: all .2s ease;
+            }
+            .tgl-btn:after {
+                left: 1px;
+            }
+            .tgl-btn:after {
+                position: relative;
+                display: block;
+                content: "";
+                width: 41%;
+                height: 92%;
+            }
+            .tgl-btn:after {
+                border-radius: 50%;
+                background: #fff;
+                -webkit-transition: all .2s ease;
+                transition: all .2s ease;
+            }
+            .check:after {
+                left: 58%;
+                background: #2ecfd3;
+            }
+        }
+    }
+}

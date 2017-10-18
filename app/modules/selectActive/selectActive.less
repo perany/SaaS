@@ -1,0 +1,75 @@
+//活动
+.activeMore {
+  border: solid 1px #e7ecf3;
+  background:#3962a0;
+  display: inline-block;
+  padding: 3px 5px;
+  color: #fff;
+  &:hover{
+    color:#fff;
+  }
+}
+.moreThen {
+  position: relative;
+}
+.activeDiv {
+  background: #fff;
+  position: absolute;
+  width: 350px;
+  border: solid 1px #e7ecf3;
+  z-index: 1;
+  text-align: left;
+  .titles {
+    background: #e7ecf3;
+    height: 24px;
+    line-height: 24px;
+    span{
+      padding-left: 10px;
+
+    }
+    .activeOk{
+      display: inline-block;
+      background: #3962a0;
+      color: #fff;
+      padding: 0px 8px;
+      float: right;
+    }
+  }
+
+  .activeDetail {
+    span{
+      display: inline-block;
+      background: #fff;
+      padding: 1px 7px;
+      cursor: pointer;
+    }
+    dt{
+      min-height:38px ;
+      span{
+        border: solid 1px #3962a0;
+        background-color: #fff;
+        margin: 5px 3px;
+      }
+    }
+    dd{
+      margin: 5px 10px;
+      padding: 5px 0;
+      border-top: solid 1px #e7ecf3;
+      height: 150px;
+      overflow-y: auto;
+      span{
+        border: solid 1px #e7ecf3;
+        background-color: #fff;
+        margin: 5px;
+
+      }
+      .selected{
+        border-color: #3962a0;
+      }
+    }
+  }
+}
+select{
+  height:28px;
+}
+

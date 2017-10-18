@@ -1,0 +1,1178 @@
+//sassDMP Frame css
+@tj: 49px;
+html,
+body,
+div,
+img {
+	margin: 0;
+	padding: 0
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	color: #798ba9;
+	a {
+		cursor: pointer;
+	}
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	width: 100%;
+	height: @tj;
+	z-index: 2;
+	position: relative
+}
+
+#content {
+	background-color: #f8fafc;
+	width: 100%;
+	display: flex;
+	min-height: 100%;
+	z-index: 0;
+	position: relative;
+	min-width:1289px;
+	//overflow: hidden;
+	#menu {
+		display: block;
+		margin-bottom:12px;
+		width: 206px;
+		background: #2a3542;
+		vertical-align: top;
+	}
+	#right-content {
+		min-width: 1090px;
+		background-color: #f8fafc;
+		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+#footer {
+	width: 100%;
+	clear: both;
+	height: @tj;
+	z-index: 3;
+	position: relative;
+	min-width:1289px;
+}
+
+.header,
+.bodyWrap {
+	min-width: 1285px;
+}
+
+.bodyWrap {
+	background: #f8fafc;
+	color: #798ba8;
+}
+
+
+.pager {
+	margin-right: 10px;
+}
+
+.cont .selectArrow,
+.headerCont .selectArrow {
+	background: url(/images/sassIcon.png) no-repeat;
+	background-position: -210px -13px;
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+}
+
+.selecti {
+	position: absolute;
+	right: 10px;
+	top: 3px;
+}
+
+.emblue {
+	color: #528ffc;
+}
+
+.bgcolor1 {
+	background: #85c2ff;
+}
+
+.bgcolor2 {
+	background: #528fcc;
+}
+
+.bgcolor3 {
+	background: #cdbedb;
+}
+
+.bgcolor4 {
+	background: #9980b9;
+}
+
+.bgcolor5 {
+	background: #44b6ae;
+}
+
+.borLine {
+	border: solid 1px #e7ecf3;
+	margin: 0 10px 10px;
+}
+
+.borTop {
+	border-top: solid 1px #e7ecf3;
+}
+
+
+/*
+**content css
+*/
+
+//下拉控件样式
+span {
+	display: inline-block;
+}
+
+select {
+	width: 100px;
+	height: 28px;
+	line-height:28px;
+	background: none;
+	border: none;
+	-webkit-appearance: none;
+	padding-left: 5px;
+	padding-right: 19px;
+	outline: 0;
+	color: #798ba9;
+}
+
+input {
+	color: #798ba9;
+}
+
+.cont {
+	i {
+		display: inline-block;
+		background: url(/images/sassIcon.png) no-repeat;
+	}
+	.export {
+		background: url(/images/sassIcon.png) no-repeat;
+		background-position: -356px -50px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		float: right;
+		margin: 13px 10px 0;
+		&:hover {
+			background-position: -356px -86px;
+		}
+	}
+	.contTitle {
+		height: 46px;
+		border: solid 1px #ebeef5;
+		background: #fff;
+		color: #798ba8;
+		// .activeLab {
+		// 	width: 60px;
+		// 	display: inline-block;
+		// 	margin-left: 10px;
+		// 	float: left;
+		// 	//color: #798ba9;
+		// 	line-height: 46px;
+		// }
+		.selectArea {
+			height: 24px;
+			border: solid 1px #d7dce9;
+			margin-top: 10px;
+			border-radius: 3px;
+			padding-right: 30px;
+			position: relative;
+			span {
+				line-height: 24px;
+				color: #798ba9;
+			}
+		}
+		.sleBG {
+			width: 130px;
+			height: 24px;
+			border: solid 1px #d7dce9;
+			border-radius: 3px;
+			display: block;
+			float: left;
+			.sleHid {
+				display: block;
+				width: 100%;
+				height: 24px;
+				overflow: hidden;
+			}
+			select {
+				width: 100%;
+				cursor: pointer;
+			}
+		}
+		.selectLevel {
+			width: 130px;
+			margin: 10px 10px 0 0;
+			background-position: 50px 7px;
+			position: relative;
+			cursor: pointer;
+			.selectArrow {
+				background: url(/images/sassIcon.png) no-repeat;
+				background-position: -210px -13px;
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				right: 3px;
+				top: 2px;
+			}
+		}
+		.bgSpan {
+			background: url(/images/dateIco.png) #fff no-repeat 120px 15px;
+			display: block;
+			float: left;
+		}
+		.timeView {
+			width: 178px;
+		}
+		.quarter {
+			position: relative;
+			.quarterInput {
+				position: relative;
+				i {
+					background-position: -44px -14px;
+					position: absolute;
+					right: 2px;
+					top: 0px;
+				}
+			}
+			dl {
+				position: absolute;
+				left: 0px;
+				top: 24px;
+				text-align: center;
+				border: solid 1px #d7dce9;
+				background: #fff;
+				padding: 4px 8px;
+				width: 90px;
+				z-index: 10;
+				dt {
+					border-bottom: solid 1px #d7dce9;
+					position: relative;
+					span {
+						display: inline-block;
+						height: 20px;
+						line-height: 20px;
+					}
+					i {
+						position: absolute;
+						top: -6px;
+					}
+					.left {
+						left: 0px;
+					}
+					.right {
+						right: 0px;
+					}
+				}
+				dd {
+					height: 24px;
+					line-height: 24px;
+					&:hover {
+						cursor: pointer;
+					}
+				}
+			}
+		}
+		.form-control,
+		.date_title,
+		.quarterInput {
+			display: inline-block;
+			height: 24px;
+			line-height: 24px;
+			padding-left: 10px;
+		}
+		.Timers {
+			width: 100%;
+			height: 24px;
+			padding-left: 10px;
+			background: none;
+			border: none;
+			cursor: pointer;
+		}
+		.selectFont {
+			padding-left: 10px;
+		}
+	}
+	.detailCont {
+		border: solid 1px #dee3ee;
+		background: #fff;
+		margin-top: 10px;
+		.detailTitle {
+			border-left: solid 3px #528fcc;
+			height: 14px;
+			margin: 14px 0 15px;
+			padding-left: 10px;
+			color: #17335a;
+			position: relative;
+			.detailLabe {
+				float: left;
+				font-size: 13px;
+			}
+			.info {
+				line-height: 20px;
+			}
+		}
+		.more,
+		.saves {
+			display: inline-block;
+			background: url(/images/sassIcon.png) no-repeat;
+			top: -2px;
+			position: absolute;
+			cursor: pointer;
+		}
+		.more {
+			background-position: -435px -50px;
+			width: 20px;
+			height: 20px;
+			right: 35px;
+			&:hover {
+				background-position: -435px -85px;
+			}
+		}
+		.saves {
+			background-position: -395px -50px;
+			width: 20px;
+			height: 20px;
+			right: 10px;
+			&:hover {
+				background-position: -395px -85px;
+			}
+		}
+		.info {
+			text-align: center;
+			height: 34px;
+			line-height: 34px;
+			.statusLabel {
+				position: relative;
+				cursor: pointer;
+				i {
+					width: 20px;
+					height: 20px;
+					background-position: -489px -54px;
+					position: absolute;
+					top: 0px;
+					left: 3px;
+				}
+				.labelCont {
+					margin-left: 20px;
+					margin-right: 60px;
+					em {
+						display: inline-block;
+						width: 6px;
+						height: 6px;
+						margin: 0 8px 0 10px;
+					}
+				}
+			}
+			.open {
+				i {
+					background-position: -489px -87px;
+				}
+			}
+		}
+	}
+	.smallCont {
+		width: 49.2%;
+		.speed {
+			width: 60%;
+			position: relative;
+			overflow: hidden;
+			display: inline-block;
+			height: 10px;
+			span {
+				display: inline-block;
+			}
+			.sp1 {
+				width: 100%;
+				height: 8px;
+				background: #cfd8dc;
+				float: left;
+			}
+			.sp2 {
+				left: 0;
+				top: 0px;
+				position: absolute;
+				height: 8px;
+			}
+		}
+		#sexView,
+		#MarriageView {
+			text-align: center;
+			padding: 23px 0 0;
+			height: 145px;
+		}
+		#sexView dl,
+		#MarriageView dl {
+			height: 80px;
+		}
+		#sexView dt,
+		#MarriageView dt {
+			margin: 0 10%;
+			position: relative;
+		}
+		#sexView .speed,
+		#MarriageView .speed {
+			width: 80%;
+		}
+		i {
+			margin-right: 10px;
+			width: 20px;
+			height: 20px;
+		}
+		.man {
+			background-position: -72px -136px;
+		}
+		.woman {
+			background-position: -22px -136px;
+		}
+		.marryY {
+			background-position: -117px -134px;
+		}
+		.marryN {
+			background-position: -163px -134px;
+			width: 40px;
+		}
+	}
+	.options {
+		width: 350px;
+		margin: 0 auto;
+		li {
+			float: left;
+			width: 50%;
+			text-align: center;
+			a {
+				display: inline-block;
+				height: 27px;
+				&.selected {
+					border-bottom: solid 3px #528fcc;
+				}
+			}
+		}
+	}
+	.optionArea {
+		li {
+			width: 33%;
+		}
+	}
+}
+
+.contList {
+	margin-top: 10px;
+	color: #5b646c;
+	border: none;
+	background: none;
+	padding: 0;
+	.contTab {
+		border: solid 1px #e1e4e8;
+		background: #fff;
+	}
+	table {
+		width: 100%;
+		margin: 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+}
+
+.tableList {
+	td,
+	th {
+		text-align: left;
+		padding: 15px 0;
+	}
+	td {
+		border-bottom: solid 1px #e7ebed;
+		color: #909090;
+	}
+	th {
+		background: #eef2f9;
+		height: 50px;
+		padding: 0;
+		color: #17335a;
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.edit,
+	.delete,
+	.view {
+		background: url("/images/sassIcon.png");
+		width: 23px;
+		height: 23px;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.edit {
+		background-position: -632px -56px;
+		margin-right: 15px;
+		&:hover {
+			background-position: -632px -82px;
+		}
+	}
+	.view {
+		background-position: -688px -56px;
+		margin-right: 15px;
+		&:hover {
+			background-position: -688px -83px;
+		}
+	}
+	.delete {
+		background-position: -662px -56px;
+		&:hover {
+			background-position: -662px -82px;
+		}
+	}
+	.labelOne {
+		position: relative;
+		margin-left: 37px;
+		.checkboxs,
+		.allCheck {
+			position: absolute;
+			left: -25px;
+			top: 0;
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			border: solid 1px #d9e2e9;
+			border-radius: 3px;
+			background: #fff;
+			float: left;
+		}
+	}
+	.checked {
+		i {
+			display: inline-block;
+			background: url("/images/sassIcon.png");
+			width: 12px;
+			height: 8px;
+			background-position: -523px -92px
+		}
+	}
+}
+
+//选择地区下拉列表
+.mask {
+	position: fixed;
+	z-index: 8999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	background: #000;
+}
+
+.Popups {
+	background: #fff;
+	z-index: 9000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #868686;
+	height: 500px;
+	margin-left: -309px;
+	margin-top: -250px;
+	.errorTip {
+		color: red;
+	}
+	.popupTitle {
+		border-bottom: solid 1px #e8e8e8;
+		height: 40px;
+		line-height: 40px;
+		color: #fff;
+		background: #3962a0;
+		overflow: hidden;
+		span {
+			padding-left: 20px;
+			font-size: 14px;
+		}
+		a {
+			display: inline-block;
+			background-image: url("/images/sassIcon.png");
+			width: 27px;
+			height: 27px;
+			background-position: -565px -15px;
+			float: right;
+			margin: 13px 1px;
+			cursor: pointer;
+		}
+	}
+	.btns {
+		margin-top: 10px;
+	}
+	.popupBtn {
+		width: 106px;
+		height: 26px;
+		display: inline-block;
+		text-align: center;
+		line-height: 26px;
+		color: #fff;
+		background: #b5bed2;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.saveManager {
+		background: #528fcc;
+		margin-right: 10px;
+	}
+	.popupCont {
+		height: 220px;
+		overflow-y: auto;
+		width: 100%;
+		background: #fff;
+	}
+	p {
+		margin: 20px 25px 0;
+		span {
+			display: inline-block;
+		}
+		.adds,
+		.deletShop {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			left: 405px;
+			top: 0;
+			background-image: url("/images/sassIcon.png");
+		}
+		.adds {
+			background-position: -556px -52px
+		}
+		.deletShop {
+			background-position: -588px -52px
+		}
+		label {
+			position: relative;
+			float: left;
+			line-height: 26px;
+			text-align: right;
+			width: 90px;
+			margin-right: 10px;
+			white-space: nowrap;
+			i {
+				display: inline-block;
+				position: absolute;
+				color: #ff6c60;
+				font-size: 15px;
+				line-height: 32px;
+				font-style: normal;
+			}
+		}
+		input,
+		select {
+			height: 24px;
+			width: 299px;
+			border: solid 1px #d7dce9;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+		.selectLeve2 {
+			padding-left: 5px;
+			margin-top: 0;
+			cursor: pointer;
+			margin-left: 0px;
+			input,
+			select {
+				width: 100%;
+				height: 33px;
+				line-height: 24px;
+				border: none;
+				cursor: pointer;
+			}
+		}
+		.shopSelect {
+			width: 295px;
+			select {
+				width: 295px;
+			}
+		}
+		textarea {
+			width: 315px;
+			height: 115px;
+			border: solid 1px #e7e7e7;
+			resize: none;
+			overflow: hidden;
+		}
+		.tips {
+			color: #868686;
+		}
+	}
+	p.pr {
+		position: relative;
+	}
+	p.remarks {
+		position: relative;
+		.tipFont {
+			position: absolute;
+			font-size: 12px;
+			color: #000;
+			right: 116px;
+			display: inline-block;
+			bottom: 7px;
+		}
+	}
+}
+
+.selectLeve2 {
+	width: 130px;
+	height: 33px;
+	position: relative;
+	border: solid 1px #d7dce9;
+	border-radius: 3px;
+	//margin-top: 10px;
+	line-height: 33px;
+	margin-left: 5px;
+	&>i {
+		position: absolute;
+		background: url(/images/sassIcon.png) no-repeat;
+		width: 20px;
+		height: 20px;
+		right: 3px;
+		top: 7px;
+	}
+	.rili {
+		background-position: -326px -50px;
+	}
+	.selectArrow {
+		background-position: -210px -13px;
+	}
+}
+
+.timeView {
+	width: 178px;
+}
+
+.dataNone {
+	dl {
+		text-align: center;
+		height: 100px;
+	}
+	dt {
+		background: url(/images/no_data.png) no-repeat;
+		width: 53px;
+		height: 53px;
+		margin: 0 auto;
+		margin-top: 23px;
+	}
+	dd {
+		font-size: 12px;
+		color: #aaa;
+		margin: 13px 0 23px;
+	}
+}
+.dataLoad {
+	dl {
+		text-align: center;
+		height: 100px;
+	}
+	dt {
+		background: url(/images/loading.gif) no-repeat;
+		width: 53px;
+		height: 53px;
+		margin: 0 auto;
+		margin-top: 23px;
+	}
+	dd {
+		font-size: 12px;
+		color: #aaa;
+		margin: 13px 0 23px;
+	}
+}
+
+.maxPadding {
+	padding: 23px 0;
+}
+
+.tip {
+	display: none;
+	position: absolute;
+	background-color: #60656d;
+	color: #dedfe0;
+	font-size: 12px;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+
+//框
+.actCont{
+	width: 100%;  //是否需要
+	background: #fff;
+	border: solid 1px #e5e5e5;
+	margin-bottom: 12px;
+	position: relative;
+}
+.firstActCont{
+	width: 100%;  //是否需要
+	background: #fff;
+	border: solid 1px #e5e5e5;
+	margin-bottom: 10px;
+	position: relative;
+	height: 46px;
+	line-height:46px;
+	font-size:13px;
+	color: #484848;
+	margin-top: 10px;
+}
+//框里面的title
+.ateTle {
+	line-height: 14px;
+	padding-left: 13px;
+	border-left: solid 4px #3f82d5;
+	margin: 12px 0;
+	color: #333;
+	//color:#000  //看看选择的颜色
+	//position: relative;
+}
+.ateTle em{
+	color: #aaaaaa;
+	margin-left: 5px;
+}
+.ateTle ul {
+	display:inline-block;
+	margin-left:30px;
+	li {
+		float: left;
+		padding-left: 25px;
+		i {
+			display: inline-block;
+			width: 12px;
+			height: 5px;
+			margin-right: 3px;
+			margin-bottom: 2px;
+		}
+	}
+}
+//每个标题前面的横杆
+.al li{
+	float: left;
+	width: 70px;
+	padding-left: 25px;
+}
+.al i{
+	display: inline-block;
+	width: 12px;
+	height: 5px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+}
+.al1{
+	background: #48A4F9;
+}
+.al2{
+	background: #B7A1E0;
+}
+//总计框
+.totalBox {
+	text-align: center;
+	div {
+		border-radius:3px;
+		display:inline-block;
+		position:relative;
+		margin:28px 7px;
+		i{
+			position: absolute;
+			left: 15%;
+			width: 80px;
+			height: 80px;
+			top: 30px;
+		 }
+		 dl{
+			padding-left: 46%;
+			text-align: left;
+			dt{
+				font-size: 23px;
+			}
+			dd{
+				font-size: 14px;
+			}
+		}
+	}
+}
+//total monitorFlow 
+// .totalBox1 {
+//     text-align: center;
+//     div {
+//         border-radius:3px;
+//         display:inline-block;
+//         position:relative;
+//         margin:28px 7px;
+//     }
+// }
+//面包屑
+.contBread {
+	margin-bottom:10px;
+}
+.breadTitle{
+	color: #5a5a5a;
+	line-height: 14px;
+	width: 100%;
+	border-left: solid 4px #3f82d5;
+	padding-left: 13px;
+}
+.breadTitle em{
+	color: #aaaaaa;
+	margin-left: 5px;
+}
+//每个页面的第一个框
+.firstCont {
+	height: 50px;
+	border: solid 1px #ddd;
+	background: #fff;
+	font-size: 13px;
+	color: #484848;
+	margin-bottom: 12px;
+	position: relative;
+}
+//title有下滑线的
+.cont1{
+	width: 100%;
+	overflow: hidden;
+	border: solid 1px #e5e5e5;
+	background: #fff;
+	margin-bottom: 12px;
+}
+.cont1itle{
+	line-height: 14px;
+	padding-left: 13px;
+	border-left: solid 4px #3f82d5;
+	color: #333;
+	margin: 12px 0;
+	position: relative;
+}
+.cont1List{
+	position: absolute;
+	left: 25%;
+	top: 0;
+}
+.cont1List li{
+	float: left;
+}
+.cont1List li a{
+	display: inline-block;
+	height: 22px;
+	margin: 0 20px;
+}
+.cont2List{
+	float: left;
+}
+.cont2List li{
+	float: left;
+}
+.cont2List li a{
+	display: inline-block;
+	height: 45px;
+	line-height: 48px;
+	margin: 0 20px;
+}
+//有下划线
+.hasUnderline {
+	border-bottom: solid 5px #3f82d5;
+	color: #3f82d5;
+}
+//按钮
+//颜色
+//按钮颜色  客流总数
+.btnColor {
+	background: #3f82d5
+}
+.saleColor {
+	background: #48a4f9
+}
+.flowColor {
+	background: #b7a1e0
+}
+//类型添加删除
+.Btn {
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 2px;
+	margin: 7px 0 8px 20px;
+	text-align: center;
+	position: relative;
+	width: 163px;
+	height: 33px;
+	line-height: 33px;
+	i{
+		display: inline-block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		top: 7px;
+		left: 38px;
+	}
+	span{
+		padding-left: 31px;
+	}
+}
+//时间选择
+// .selectCont {
+//     float: right;
+//     margin-right:10px;
+//     .selectTit {
+//         float: left;
+//         color: #000;
+//         line-height: 48px;
+//         margin-left: 15px;
+//         display: inline-block;
+//     }
+//     .timeChoose {
+//         float: left;
+//         line-height:48px;
+//     }
+//     .btn {
+//         display: inline-block;
+//         width: 40px;
+//         margin-top: 12px;
+//         text-align: center;
+//         line-height: 27px;
+//         border-radius: 3px;
+//         color: #fff;
+//         background: #3f82d5;
+//     }
+// }
+//时间选择器（日历）
+.chooseData {
+	position: relative;
+	float: right;
+}
+.chooseData a {
+	display: inline-block;
+	width: 40px;
+	margin-top: 12px;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 3px;
+	color: #fff;
+	background: #3f82d5;
+	margin-right:5px;
+	cursor: auto;
+}
+.showData {
+	margin-right:10px;
+}
+.showData i {
+	position:absolute;
+	background:url(/images/sassIcon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	//right: 17px;
+	//right:70px;
+	top: 13px;
+	background-position: -326px -50px;
+	&:hover{
+		background-position: -326px -86px;
+	}
+}
+.showData span {
+	border:1px solid #dfe5e8;
+	line-height:28px;
+	height:28px;
+	border-radius:3px;
+}
+#day-picker {
+	width: 450px;
+	//position: absolute;
+	//top: 50px;
+	right: 0px;
+}
+.Timers {
+	border: 0px;
+	width: 90%;
+	margin-left:3px;
+}
+.selectstyle {
+	border: 1px solid #dfe5e8;
+	background: #fff;
+	line-height: 24px;
+	border-radius: 3px;
+	width: 200px;
+}
+//select选择框
+.selectCont1 {
+	border: 1px solid #dfe5e8;
+	background: #fff;
+	border-radius: 3px;
+	margin-top: -2px;
+}
+//常用颜色
+.colorF1 {
+	background: #2d3741;
+}
+.select {
+	background:#3f82d5;
+	color: #fff;
+	a:hover{
+		color: #fff;
+	}
+	
+}
+
+//tips
+	.updowntips {
+		display: inline-block;
+		background: url(/images/iconDmp.png) -337px -15px;
+		width: 20px;
+		height: 20px;
+		top:10px;
+	}
+	.updown1 {
+		display: inline-block;
+		background: url(/images/iconDmp.png) -337px -39px;
+		width: 20px;
+		height: 20px;
+	}
+	.numTitle {
+		color: #85c2ff;
+		margin-top: 2px;
+	}
+	.numTitle2{
+	     color: #03c824;
+		 margin-top: 5px;
+	}
+	.percent {
+		color: #E6443E;
+		margin-top: 5px;
+	}
+	.borLine1 {
+	margin: 0 20px 10px;
+}
+.loading_new{
+  dl{
+    text-align: center;
+    height: 100px;
+    dt{
+      background: url("/images/loading.gif") no-repeat;
+      width: 53px;
+      height: 53px;
+      margin: 0 auto;
+      margin-top: 23px;
+    }
+    dd{
+      font-size: 12px;
+      color: #aaa;
+      margin: 13px 0 23px;
+    }
+  }
+}
+.title_cont{
+	width: 100%;
+	height: 46px;
+	border-bottom: 1px solid #e7ebed;
+}

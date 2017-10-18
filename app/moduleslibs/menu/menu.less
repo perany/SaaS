@@ -1,0 +1,161 @@
+
+/*
+** nav css
+*/
+.nav{
+  
+  .navOne{
+   width: 180px;
+   height:100%;
+  
+    a{
+      color:#fff;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      &:hover{
+        color:#528fcc;
+      }
+    }
+    &>li{
+      line-height: 45px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      font-size: 14px;
+      //display: none;
+      &>a{
+        border-left: solid 3px #273747;
+      }
+      i,em{
+        background: url(/images/sassIcon.png);
+        display: inline-block;
+        position: absolute;
+      }
+      em{
+        background-position: -174px -20px;
+        width: 15px;
+        height: 10px;
+        top: 20px;
+        right: 20px;
+      }
+      .open{
+        background-position: -192px -20px;
+      }
+      i{
+        width: 25px;
+        height: 20px;
+        left: 30px;
+        top: 13px;
+      }
+      &.seleted>a{
+        border-left-color: #528fcc;
+        color:#528fcc;
+      }
+    }
+  &>.openUl{
+    em{
+      background-position: -192px -20px;
+    }
+  }
+    .summary{
+      i{
+        background-position:  -21px -49px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -21px -86px;
+        }
+      }
+    }
+    .user-analysis{
+      i{
+        background-position:  -135px -49px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -135px -86px;
+        }
+      }
+    }
+    .behavior-analysis{
+      i{
+        background-position:  -59px -49px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -59px -87px;
+        }
+      }
+    }
+    .activity-analysis{
+      i{
+        background-position:  -97px -49px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -97px -87px;
+        }
+      }
+    }
+    .function-analysis{
+      i{
+        background-position: -204px -51px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position: -204px -87px;
+        }
+      }
+    }
+    .channel-analysis{
+      i{
+        background-position:  -173px -50px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -173px -86px;
+        }
+      }
+    }
+    .portrait-analysis{
+      i{
+        background: url(/images/portrait.png) no-repeat;
+      }
+      &.seleted a,a:hover{
+        i{
+          background: url(/images/portrait_1.png) no-repeat;
+        }
+      }
+    }
+    .active-manager{
+      i{
+        background-position: -236px -50px
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -236px -86px;
+        }
+      }
+    }
+    .authority-manager {
+      i{
+        background-position:  -274px -50px;
+      }
+      &.seleted a,a:hover{
+        i{
+          background-position:  -274px -86px;
+        }
+      }
+    }
+    .navSecond {
+      span{
+        padding-left: 10px;
+      }
+
+      .seleted>a{
+        color:#528fcc;
+      }
+    }
+  }
+}

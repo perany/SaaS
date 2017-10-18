@@ -1,0 +1,84 @@
+{
+  "目录一": [
+    {
+      "id": "CheckList",
+      "list": "Android_first.html"
+    }
+  ],
+  "目录二": [
+    {
+      "id": "集成SDK库",
+      "list": "Android_second.html"
+    }
+  ],
+  "目录三": [
+    {
+      "id": "编写自定义Application",
+      "list": "Android_third.html"
+    }
+  ],
+   "目录四": [
+    {
+      "id": "修改Manifest.xml",
+      "list": "Android_four.html"
+    }
+  ],
+    "目录五": [
+    {
+      "id": "开始埋点",
+      "list": "Android_five.html"
+    }
+  ],
+  "二级目录页面访问": [
+    {
+      "id": "页面访问",
+      "list": "Android_five1.html"
+    }
+  ],
+  "二级目录自定义事件": [
+    {
+      "id": "自定义事件",
+      "list": "Android_five2.html"
+    }
+  ]
+,
+  "二级目录注册": [
+    {
+      "id": "注册",
+      "list": "Android_five3.html"
+    }
+  ]
+,
+  "二级目录付费": [
+    {
+      "id": "付费",
+      "list": "Android_five4.html"
+    }
+  ]
+,
+  "二级目录自定义变量": [
+    {
+      "id": "自定义变量",
+      "list": "Android_five5.html"
+    }
+  ],
+
+  "二级目录广告系列监测": [
+    {
+      "id": "广告系列监测",
+      "list": "Android_five6.html"
+    }
+  ],
+  "三级目录安装来源监测": [
+    {
+      "id": "安装来源监测",
+      "list": "Android_five61.html"
+    }
+  ],
+   "三级目录其他来源监测": [
+    {
+      "id": "其他来源监测",
+      "list": "Android_five62.html"
+    }
+  ]
+}

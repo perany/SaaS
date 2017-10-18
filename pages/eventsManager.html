@@ -1,0 +1,77 @@
+<!--START Right_Content-->
+<div id="eventsManager">
+    <div class="cont pt10">
+        <div class="contTitle1 ">
+            <a class="btn newshop hide"><i></i><span>新建事件组</span></a>
+            <a class="btn deleteBtn hide">删除</a>
+            <span class="searcher fr"><input type="text" class="searchCont" placeholder="搜索事件组名称"/><a></a><span class="onSearch"></span></span>
+        </div>
+        <div class="contList">
+            <div class="contTab hide">
+                <!--START pager-->
+                <div id="pager" class="pager"></div>
+                <!--END pager-->
+            </div>
+            <div class="now hide">
+            </div>
+            <div class="loading_new loading_absolute">
+                <dl>
+                    <dt></dt>
+                    <dd>正在努力，加载中</dd>
+                </dl>
+            </div>
+            <div class="dataNone borLine hide dataNone1">
+                <dl><dt></dt>
+                    <dd>暂无数据，请重新输入</dd>
+
+                </dl>
+            </div>
+            <div class="failLoad borLine failLoad1 hide">
+                <dl><dt></dt>
+                    <dd>加载失败，请<a class='reset'>重新加载</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--END Right_Content-->
+
+    <div class="mask hide"></div>
+
+    <!--START product_Popup-->
+    <div class="Popups cusPopup hide">
+        <div class="popupTitle"><span>新建事件组</span><a class="cancleBtn"><!--<img src="/images/closeIcon.png" />--></a></div>
+        <div class="popupHeight">
+            <p class="pos">
+                <label><span>*</span>事件组名称</label>
+                <input type="text" class="quart" placeholder="请输入事件组名称">
+                <span class="errorTip errorEventsName hide"></span>
+                <i class="addIcon"></i>
+            </p>
+            <!-- <p class="idName">
+                <label><span>*</span>事件ID</label>
+                <input type="text" class="eventID" placeholder="输入事件ID">
+                <span class="errorTip errorEvent"></span>
+                <label><span>*</span>事件名称</label>
+                <input type="text" class="eventName" placeholder="输入事件名称">
+                <span class="errorTip errorEvent"></span>
+                <i class="deletIcon"></i>
+            </p> -->
+        </div>
+        <p><label>&nbsp;</label><a class="popupBtn saveManager newSave">确定</a><a class="popupBtn cancleBtn cancle">取消</a></p>
+    </div>
+
+    <!--END product_Popup-->
+
+    <!--START Delete_Popup-->
+    <div class="Popups deletePopup hide">
+
+        <div class="popupTitle"><span>删除事件组</span><a class="cancleBtn"><!-- <img src="/images/closeIcon.png" /> --></a></div>
+        <div class="p1">
+            <i class="tipIcon"><img src="/images/warn.png"></i>
+            <div class="delCont">
+                确定要删除所选的事件组吗？<br/> 删除后，所选事件组数据将不可访问。
+            </div>
+        </div>
+        <p class="center"><a class="popupBtn deleteOk">确定</a><a class="popupBtn cancleBtn cancle">取消</a></p>
+    </div>
+</div>
