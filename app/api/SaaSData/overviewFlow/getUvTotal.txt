@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "totalRegUv": 279,
+        "totalUv": 32416,
+        "totalPayUv": 11
+    }
+}

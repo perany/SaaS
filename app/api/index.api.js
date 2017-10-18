@@ -2,8 +2,15 @@ var api = {
     //获取用户类型
     valueList: function(value) {
         var deferred = $.Deferred()
+        var path;
+        if(value.type=="os"){
+            path=api.app.localDomain+'dictionary/valueList2-os.json';
+        }else{
+            path=api.app.domain + 'dictionary/valueList';
+        }
         $.ajax({
-            url: api.app.domain + 'dictionary/valueList',
+            // url: api.app.domain + 'dictionary/valueList',
+            url:path,
             type: "GET",
             dataType: "json",
             //headers: { "x-auth-token": api.app.local.get('session') },

@@ -1,0 +1,195 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "activeUserList": [],
+        "regUserList": [
+            {
+                "date": "2017-08-20",
+                "chainRatio": "0.00",
+                "uv": 9,
+                "dateFormat": "08/20"
+            },
+            {
+                "date": "2017-08-21",
+                "chainRatio": "0.00",
+                "uv": 9,
+                "dateFormat": "08/21"
+            },
+            {
+                "date": "2017-08-22",
+                "chainRatio": "-44.44",
+                "uv": 5,
+                "dateFormat": "08/22"
+            },
+            {
+                "date": "2017-08-23",
+                "chainRatio": "40.00",
+                "uv": 7,
+                "dateFormat": "08/23"
+            },
+            {
+                "date": "2017-08-24",
+                "chainRatio": "42.86",
+                "uv": 10,
+                "dateFormat": "08/24"
+            },
+            {
+                "date": "2017-08-25",
+                "chainRatio": "-10.00",
+                "uv": 9,
+                "dateFormat": "08/25"
+            },
+            {
+                "date": "2017-08-26",
+                "chainRatio": "77.78",
+                "uv": 16,
+                "dateFormat": "08/26"
+            },
+            {
+                "date": "2017-08-27",
+                "chainRatio": "-18.75",
+                "uv": 13,
+                "dateFormat": "08/27"
+            },
+            {
+                "date": "2017-08-28",
+                "chainRatio": "-53.85",
+                "uv": 6,
+                "dateFormat": "08/28"
+            },
+            {
+                "date": "2017-08-29",
+                "chainRatio": "50.00",
+                "uv": 9,
+                "dateFormat": "08/29"
+            },
+            {
+                "date": "2017-08-30",
+                "chainRatio": "0.00",
+                "uv": 9,
+                "dateFormat": "08/30"
+            },
+            {
+                "date": "2017-08-31",
+                "chainRatio": "-22.22",
+                "uv": 7,
+                "dateFormat": "08/31"
+            },
+            {
+                "date": "2017-09-01",
+                "chainRatio": "0.00",
+                "uv": 7,
+                "dateFormat": "09/01"
+            },
+            {
+                "date": "2017-09-02",
+                "chainRatio": "0.00",
+                "uv": 7,
+                "dateFormat": "09/02"
+            },
+            {
+                "date": "2017-09-03",
+                "chainRatio": "14.29",
+                "uv": 8,
+                "dateFormat": "09/03"
+            },
+            {
+                "date": "2017-09-04",
+                "chainRatio": "37.50",
+                "uv": 11,
+                "dateFormat": "09/04"
+            },
+            {
+                "date": "2017-09-05",
+                "chainRatio": "-81.82",
+                "uv": 2,
+                "dateFormat": "09/05"
+            },
+            {
+                "date": "2017-09-06",
+                "chainRatio": "-100.00",
+                "uv": 0,
+                "dateFormat": "09/06"
+            },
+            {
+                "date": "2017-09-07",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/07"
+            },
+            {
+                "date": "2017-09-08",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/08"
+            },
+            {
+                "date": "2017-09-09",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/09"
+            },
+            {
+                "date": "2017-09-10",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/10"
+            },
+            {
+                "date": "2017-09-11",
+                "chainRatio": "100.00",
+                "uv": 1,
+                "dateFormat": "09/11"
+            },
+            {
+                "date": "2017-09-12",
+                "chainRatio": "-100.00",
+                "uv": 0,
+                "dateFormat": "09/12"
+            },
+            {
+                "date": "2017-09-13",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/13"
+            },
+            {
+                "date": "2017-09-14",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/14"
+            },
+            {
+                "date": "2017-09-15",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/15"
+            },
+            {
+                "date": "2017-09-16",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/16"
+            },
+            {
+                "date": "2017-09-17",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/17"
+            },
+            {
+                "date": "2017-09-18",
+                "chainRatio": "0.00",
+                "uv": 0,
+                "dateFormat": "09/18"
+            }
+        ],
+        "campaignList": [],
+        "versionList": [],
+        "addUserList": [],
+        "payUserList": []
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": [
+        {
+            "hour": "0",
+            "date": "",
+            "hourFormat": "00:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "79.37",
+            "contentExp": ""
+        },
+        {
+            "hour": "1",
+            "date": "",
+            "hourFormat": "01:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "53.67",
+            "contentExp": ""
+        },
+        {
+            "hour": "2",
+            "date": "",
+            "hourFormat": "02:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "73.86",
+            "contentExp": ""
+        },
+        {
+            "hour": "3",
+            "date": "",
+            "hourFormat": "03:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "36.19",
+            "contentExp": ""
+        },
+        {
+            "hour": "4",
+            "date": "",
+            "hourFormat": "04:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "33.62",
+            "contentExp": ""
+        },
+        {
+            "hour": "5",
+            "date": "",
+            "hourFormat": "05:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "37.83",
+            "contentExp": ""
+        },
+        {
+            "hour": "6",
+            "date": "",
+            "hourFormat": "06:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "76.05",
+            "contentExp": ""
+        },
+        {
+            "hour": "7",
+            "date": "",
+            "hourFormat": "07:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "80.29",
+            "contentExp": ""
+        },
+        {
+            "hour": "8",
+            "date": "",
+            "hourFormat": "08:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "95.71",
+            "contentExp": ""
+        },
+        {
+            "hour": "9",
+            "date": "",
+            "hourFormat": "09:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "93.06",
+            "contentExp": ""
+        },
+        {
+            "hour": "10",
+            "date": "",
+            "hourFormat": "10:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "86.69",
+            "contentExp": ""
+        },
+        {
+            "hour": "11",
+            "date": "",
+            "hourFormat": "11:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "50.81",
+            "contentExp": ""
+        },
+        {
+            "hour": "12",
+            "date": "",
+            "hourFormat": "12:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "99.29",
+            "contentExp": ""
+        },
+        {
+            "hour": "13",
+            "date": "",
+            "hourFormat": "13:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "58.16",
+            "contentExp": ""
+        },
+        {
+            "hour": "14",
+            "date": "",
+            "hourFormat": "14:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "79.76",
+            "contentExp": ""
+        },
+        {
+            "hour": "15",
+            "date": "",
+            "hourFormat": "15:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "83.18",
+            "contentExp": ""
+        },
+        {
+            "hour": "16",
+            "date": "",
+            "hourFormat": "16:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "47.86",
+            "contentExp": ""
+        },
+        {
+            "hour": "17",
+            "date": "",
+            "hourFormat": "17:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "71.59",
+            "contentExp": ""
+        },
+        {
+            "hour": "18",
+            "date": "",
+            "hourFormat": "18:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "67.75",
+            "contentExp": ""
+        },
+        {
+            "hour": "19",
+            "date": "",
+            "hourFormat": "19:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "75.99",
+            "contentExp": ""
+        },
+        {
+            "hour": "20",
+            "date": "",
+            "hourFormat": "20:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "89.94",
+            "contentExp": ""
+        },
+        {
+            "hour": "21",
+            "date": "",
+            "hourFormat": "21:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "101.34",
+            "contentExp": ""
+        },
+        {
+            "hour": "22",
+            "date": "",
+            "hourFormat": "22:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "74.57",
+            "contentExp": ""
+        },
+        {
+            "hour": "23",
+            "date": "",
+            "hourFormat": "23:00",
+            "channelExp": "",
+            "activityExp": "",
+            "versionsExp": "85.13",
+            "contentExp": ""
+        }
+    ]
+}

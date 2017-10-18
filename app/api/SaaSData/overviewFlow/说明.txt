@@ -1,0 +1,3 @@
+过去30天数据
+
+getUserTypeDateUv1  1位type值，即表按钮种类

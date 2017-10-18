@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": [
+        {
+            "uv": "57",
+            "difRate": "-68.85",
+            "difName": "6.2.5.5",
+            "avgUv": "183"
+        },
+        {
+            "uv": "1",
+            "difRate": "-100",
+            "difName": "6.2.5.4",
+            "avgUv": "0"
+        },
+        {
+            "uv": "1",
+            "difRate": "-100",
+            "difName": "6.2.5.2",
+            "avgUv": "0"
+        },
+        {
+            "uv": "8",
+            "difRate": "-70.37",
+            "difName": "6.1.0",
+            "avgUv": "27"
+        }
+    ]
+}

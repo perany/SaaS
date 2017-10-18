@@ -1,0 +1,18 @@
+﻿{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": [
+        {
+            "typeName": "ios",
+            "typeValue": "ios",
+            "typeCode": 1
+        },
+        {
+            "typeName": "android",
+            "typeValue": "android",
+            "typeCode": 2
+        }
+    ]
+}

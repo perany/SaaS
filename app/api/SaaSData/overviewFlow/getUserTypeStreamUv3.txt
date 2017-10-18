@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "uv": 145,
+        "historyAvgUv": 9
+    }
+}

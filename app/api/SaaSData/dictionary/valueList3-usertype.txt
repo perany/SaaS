@@ -1,0 +1,28 @@
+﻿{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": [
+        {
+            "typeName": "新增用户",
+            "typeValue": "",
+            "typeCode": 1
+        },
+        {
+            "typeName": "活跃用户",
+            "typeValue": "",
+            "typeCode": 2
+        },
+        {
+            "typeName": "注册用户",
+            "typeValue": "",
+            "typeCode": 3
+        },
+        {
+            "typeName": "付费用户",
+            "typeValue": "",
+            "typeCode": 4
+        }
+    ]
+}

@@ -4,7 +4,7 @@ var api = {
             //deferred.resolve({aa:'aa'});
         $.ajax({
             //url:api.app.domain+'saas-dmp/login',
-            url: '/saas-dmp/login',
+            url: api.app.localDomain+'login.json',
             type: "POST",
             dataType: "json",
             data: value,
@@ -19,7 +19,7 @@ var api = {
             //deferred.resolve({aa:'aa'});
         $.ajax({
             //url:api.app.domain+'saas-dmp/login',
-            url: '/saas-dmp/logout',
+            url: api.app.localDomain+'logout.json',
             type: "GET",
             dataType: "json",
             success: function(response) {
@@ -34,7 +34,7 @@ var api = {
         //deferred.resolve({aa:'aa'});
         $.ajax({
             //url:api.app.domain+'saas-dmp/login',
-            url: '/saas-dmp/dictionary/valueList?type=os',
+            url: api.app.localDomain+'dictionary/valueList2-os.json',
             type: "GET",
             dataType: "json",
             async: false,

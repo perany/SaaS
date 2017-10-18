@@ -1,0 +1,281 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "contrastEndDate": "2017-09-17",
+        "oldAvglist": [
+            {
+                "uv": 123,
+                "hour": 0
+            },
+            {
+                "uv": 74,
+                "hour": 1
+            },
+            {
+                "uv": 44,
+                "hour": 2
+            },
+            {
+                "uv": 30,
+                "hour": 3
+            },
+            {
+                "uv": 29,
+                "hour": 4
+            },
+            {
+                "uv": 44,
+                "hour": 5
+            },
+            {
+                "uv": 76,
+                "hour": 6
+            },
+            {
+                "uv": 103,
+                "hour": 7
+            },
+            {
+                "uv": 120,
+                "hour": 8
+            },
+            {
+                "uv": 134,
+                "hour": 9
+            },
+            {
+                "uv": 162,
+                "hour": 10
+            },
+            {
+                "uv": 163,
+                "hour": 11
+            },
+            {
+                "uv": 243,
+                "hour": 12
+            },
+            {
+                "uv": 216,
+                "hour": 13
+            },
+            {
+                "uv": 192,
+                "hour": 14
+            },
+            {
+                "uv": 185,
+                "hour": 15
+            },
+            {
+                "uv": 180,
+                "hour": 16
+            },
+            {
+                "uv": 175,
+                "hour": 17
+            },
+            {
+                "uv": 212,
+                "hour": 18
+            },
+            {
+                "uv": 254,
+                "hour": 19
+            },
+            {
+                "uv": 351,
+                "hour": 20
+            },
+            {
+                "uv": 310,
+                "hour": 21
+            },
+            {
+                "uv": 277,
+                "hour": 22
+            },
+            {
+                "uv": 201,
+                "hour": 23
+            }
+        ],
+        "sumUv": 1180,
+        "campaignList": [],
+        "versionList": [],
+        "chooselist": [
+            {
+                "date": "2017/09/18",
+                "chainRatio": "0.00",
+                "uv": 46,
+                "hour": 0,
+                "hourFormat": "00:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-39.13",
+                "uv": 28,
+                "hour": 1,
+                "hourFormat": "01:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-21.43",
+                "uv": 22,
+                "hour": 2,
+                "hourFormat": "02:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-36.36",
+                "uv": 14,
+                "hour": 3,
+                "hourFormat": "03:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-42.86",
+                "uv": 8,
+                "hour": 4,
+                "hourFormat": "04:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "112.50",
+                "uv": 17,
+                "hour": 5,
+                "hourFormat": "05:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "52.94",
+                "uv": 26,
+                "hour": 6,
+                "hourFormat": "06:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "50.00",
+                "uv": 39,
+                "hour": 7,
+                "hourFormat": "07:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-12.82",
+                "uv": 34,
+                "hour": 8,
+                "hourFormat": "08:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "14.71",
+                "uv": 39,
+                "hour": 9,
+                "hourFormat": "09:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-12.82",
+                "uv": 34,
+                "hour": 10,
+                "hourFormat": "10:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "41.18",
+                "uv": 48,
+                "hour": 11,
+                "hourFormat": "11:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "16.67",
+                "uv": 56,
+                "hour": 12,
+                "hourFormat": "12:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "10.71",
+                "uv": 62,
+                "hour": 13,
+                "hourFormat": "13:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "1.61",
+                "uv": 63,
+                "hour": 14,
+                "hourFormat": "14:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-28.57",
+                "uv": 45,
+                "hour": 15,
+                "hourFormat": "15:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "31.11",
+                "uv": 59,
+                "hour": 16,
+                "hourFormat": "16:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-16.95",
+                "uv": 49,
+                "hour": 17,
+                "hourFormat": "17:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "0.00",
+                "uv": 49,
+                "hour": 18,
+                "hourFormat": "18:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "32.65",
+                "uv": 65,
+                "hour": 19,
+                "hourFormat": "19:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "47.69",
+                "uv": 96,
+                "hour": 20,
+                "hourFormat": "20:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "16.67",
+                "uv": 112,
+                "hour": 21,
+                "hourFormat": "21:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "5.36",
+                "uv": 118,
+                "hour": 22,
+                "hourFormat": "22:00"
+            },
+            {
+                "date": "2017/09/18",
+                "chainRatio": "-33.05",
+                "uv": 79,
+                "hour": 23,
+                "hourFormat": "23:00"
+            }
+        ],
+        "contrastStartDate": "2017-06-20"
+    }
+}

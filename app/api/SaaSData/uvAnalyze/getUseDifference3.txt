@@ -1,0 +1,56 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": [
+        {
+            "uv": "20956",
+            "difRate": "11.52",
+            "difName": "6.3.1",
+            "avgUv": "18792"
+        },
+        {
+            "uv": "1851",
+            "difRate": "-59.41",
+            "difName": "6.3.0",
+            "avgUv": "4560"
+        },
+        {
+            "uv": "2341",
+            "difRate": "2.27",
+            "difName": "6.2.5",
+            "avgUv": "2289"
+        },
+        {
+            "uv": "957",
+            "difRate": "-11.63",
+            "difName": "6.2.4",
+            "avgUv": "1083"
+        },
+        {
+            "uv": "109",
+            "difRate": "-44.95",
+            "difName": "6.2.3",
+            "avgUv": "198"
+        },
+        {
+            "uv": "407",
+            "difRate": "76.19",
+            "difName": "6.2.2",
+            "avgUv": "231"
+        },
+        {
+            "uv": "143",
+            "difRate": "21.19",
+            "difName": "6.2.1",
+            "avgUv": "118"
+        },
+        {
+            "uv": "151",
+            "difRate": "25.83",
+            "difName": "6.2.0",
+            "avgUv": "120"
+        }
+    ]
+}

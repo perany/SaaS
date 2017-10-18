@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "accountId": "10",
+        "groupId": "",
+        "name": "微影",
+        "mobile": "",
+        "parentUserId": "584",
+        "isAdminTeam": "false",
+        "groupUserList": "882",
+        "SESSION": "OVphRPpnhiYYu2/+fISQiWFQOiK5Y0+M5jWkdhEeaKX5H+eibfheCiRSGYM3JoWk87lW/I/MtFClq6csHwDUhbmBhjQS/LJhCBXvzHa/LSHbJZprfXY8KVyPRXZ6HaqLMIDKpb1T/KC7ppGYYe/8TpAToAMpoWLRQtBViL93TcE=",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFiiQcABG/HjRX7n7m4sAqv/few/3QhBzY1gUIuMKATwrmhqjk8WWOHYCR06Al8hxFN89U3Y6wJNNTwNNPmrwd5GwyacZcGXvmsxLYZU09GuhZ9p8NplnLUfozFOH+2CmYKV4tFeqy8CdNG0ZuYSmGN4426qQM9TVKQtr5ea8OiQIDAQAB",
+        "userName": "weiying@fosun.com",
+        "userId": "584",
+        "createdUser": "584"
+    }
+}

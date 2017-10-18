@@ -1,0 +1,492 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "list": [
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 96,
+                "moduleName": "用户分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.user-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 97,
+                "moduleName": "活动分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.activity-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 98,
+                "moduleName": "行为分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.behavior-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 99,
+                "moduleName": "渠道分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.channel-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 100,
+                "moduleName": "画像分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.portrait-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 101,
+                "moduleName": "自定义管理",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.active-manager",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1493000057000,
+                "lastChanged": 1493000057000,
+                "moduleId": 133,
+                "moduleName": "权限管理",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.authority-manager",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 102,
+                "moduleName": "漏斗分析",
+                "parentId": 98,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.behavior-analysis.funnel",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1493000355000,
+                "lastChanged": 1493000355000,
+                "moduleId": 134,
+                "moduleName": "用户管理",
+                "parentId": 133,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.authority-manager.user",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1493001856000,
+                        "lastChanged": 1493001856000,
+                        "actionId": 173,
+                        "actionName": "新建用户",
+                        "code": "online.saas.dmp.authority-manager.user.add",
+                        "actionUrl": "POST:/user/createUser",
+                        "moduleId": 134
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001856000,
+                        "lastChanged": 1493001856000,
+                        "actionId": 174,
+                        "actionName": "编辑用户",
+                        "code": "online.saas.authority-manager.user.edit",
+                        "actionUrl": "PUT:/user/",
+                        "moduleId": 134
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001856000,
+                        "lastChanged": 1493001856000,
+                        "actionId": 175,
+                        "actionName": "查看用户",
+                        "code": "online.saas.authority-manager.user.view",
+                        "actionUrl": "GET:/user/queryUserInfo",
+                        "moduleId": 134
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001856000,
+                        "lastChanged": 1493001856000,
+                        "actionId": 176,
+                        "actionName": "删除用户",
+                        "code": "online.saas.authority-manager.user.delete",
+                        "actionUrl": "DELETE:/user/",
+                        "moduleId": 134
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 103,
+                "moduleName": "使用分析",
+                "parentId": 98,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.behavior-analysis.use",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1493000355000,
+                "lastChanged": 1493000355000,
+                "moduleId": 135,
+                "moduleName": "角色管理",
+                "parentId": 133,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.authority-manager.role",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1493000831000,
+                        "lastChanged": 1493000831000,
+                        "actionId": 164,
+                        "actionName": "新建角色",
+                        "code": "online.saas.dmp.authority-manager.role.add",
+                        "actionUrl": "POST:/role/addRole",
+                        "moduleId": 135
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493000831000,
+                        "lastChanged": 1493000831000,
+                        "actionId": 165,
+                        "actionName": "编辑角色",
+                        "code": "online.saas.dmp.authority-manager.role.edit",
+                        "actionUrl": "POST:/role/editRole",
+                        "moduleId": 135
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493000831000,
+                        "lastChanged": 1493000831000,
+                        "actionId": 166,
+                        "actionName": "查看角色",
+                        "code": "online.saas.dmp.authority-manager.role.view",
+                        "actionUrl": "GET:/role/queryRoleInfo",
+                        "moduleId": 135
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493000831000,
+                        "lastChanged": 1493000831000,
+                        "actionId": 167,
+                        "actionName": "删除单个角色",
+                        "code": "online.saas.dmp.authority-manager.role.delete",
+                        "actionUrl": "DELETE:/role/",
+                        "moduleId": 135
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493000831000,
+                        "lastChanged": 1493000831000,
+                        "actionId": 168,
+                        "actionName": "批量删除角色",
+                        "code": "online.saas.dmp.authority-manager.role.batch-delete",
+                        "actionUrl": "DELETE:/role/batch/",
+                        "moduleId": 135
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 104,
+                "moduleName": "活动管理",
+                "parentId": 101,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.active-manager.campaign",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 120,
+                        "actionName": "新建活动",
+                        "code": "online.saas.dmp.active-manager.campaign.add",
+                        "actionUrl": "POST:/saas-dmp/onlineCampagin/create",
+                        "moduleId": 104
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 121,
+                        "actionName": "查看活动",
+                        "code": "online.saas.dmp.active-manager.campaign.view",
+                        "actionUrl": "GET:/saas-dmp/onlineCampagin/",
+                        "moduleId": 104
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 122,
+                        "actionName": "编辑活动",
+                        "code": "online.saas.dmp.active-manager.campaign.edit",
+                        "actionUrl": "POST:/saas-dmp/onlineCampagin/update",
+                        "moduleId": 104
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 123,
+                        "actionName": "删除活动",
+                        "code": "online.saas.dmp.active-manager.campaign.delete",
+                        "actionUrl": "DELETE:/saas-dmp/onlineCampagin/",
+                        "moduleId": 104
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1493000355000,
+                "lastChanged": 1493000355000,
+                "moduleId": 136,
+                "moduleName": "用户组管理",
+                "parentId": 133,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.authority-manager.usergroup",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1493001944000,
+                        "lastChanged": 1493001944000,
+                        "actionId": 177,
+                        "actionName": "新建用户组",
+                        "code": "online.saas.dmp.authority-manager.usergroup.add",
+                        "actionUrl": "POST:/group/addGroup",
+                        "moduleId": 136
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001944000,
+                        "lastChanged": 1493001944000,
+                        "actionId": 178,
+                        "actionName": "编辑用户组",
+                        "code": "online.saas.authority-manager.usergroup.edit",
+                        "actionUrl": "POST:/group/editGroup",
+                        "moduleId": 136
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001944000,
+                        "lastChanged": 1493001944000,
+                        "actionId": 179,
+                        "actionName": "查看用户组",
+                        "code": "online.saas.authority-manager.usergroup.view",
+                        "actionUrl": "GET:/group/queryGroupInfo",
+                        "moduleId": 136
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1493001944000,
+                        "lastChanged": 1493001944000,
+                        "actionId": 180,
+                        "actionName": "删除用户组",
+                        "code": "online.saas.authority-manager.usergroup.delete",
+                        "actionUrl": "DELETE:/group/",
+                        "moduleId": 136
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 137,
+                "moduleName": "功能分析",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.function-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 105,
+                "moduleName": "渠道管理",
+                "parentId": 101,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.active-manager.channel",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 116,
+                        "actionName": "新增渠道成本",
+                        "code": "online.saas.dmp.active-manager.channel.add",
+                        "actionUrl": "POST:/saas-dmp/onlineChannel/create",
+                        "moduleId": 105
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 117,
+                        "actionName": "查看渠道成本",
+                        "code": "online.saas.dmp.active-manager.channel.view",
+                        "actionUrl": "GET:/saas-dmp/onlineChannel/",
+                        "moduleId": 105
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 118,
+                        "actionName": "编辑渠道成本",
+                        "code": "online.saas.dmp.active-manager.channel.edit",
+                        "actionUrl": "POST:/saas-dmp/onlineChannel/update",
+                        "moduleId": 105
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 119,
+                        "actionName": "删除渠道成本",
+                        "code": "online.saas.dmp.active-manager.channel.delete",
+                        "actionUrl": "DELETE:/saas-dmp/onlineChannel/",
+                        "moduleId": 105
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1491038633000,
+                        "lastChanged": 1491038633000,
+                        "actionId": 127,
+                        "actionName": "创建渠道",
+                        "code": "online.saas.dmp.active-manager.channel.addchannel",
+                        "actionUrl": "POST:/saas-dmp/onlineChannel/createFlowChannel",
+                        "moduleId": 105
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1491038633000,
+                        "lastChanged": 1491038633000,
+                        "actionId": 128,
+                        "actionName": "查看渠道",
+                        "code": "online.saas.dmp.active-manager.channel.viewchannel",
+                        "actionUrl": "POST:/saas-dmp/onlineChannel/listFlowChannel",
+                        "moduleId": 105
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1503367815000,
+                "lastChanged": 1503367815000,
+                "moduleId": 138,
+                "moduleName": "版本分析",
+                "parentId": 137,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.version-analysis",
+                "moduleUrl": "",
+                "actionList": null
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684144000,
+                "lastChanged": 1490684144000,
+                "moduleId": 106,
+                "moduleName": "事件组管理",
+                "parentId": 101,
+                "isLeaf": 1,
+                "code": "online.saas.dmp.active-manager.event-group",
+                "moduleUrl": "",
+                "actionList": [
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 124,
+                        "actionName": "新建事件组",
+                        "code": "online.saas.dmp.active-manager.event-group.add",
+                        "actionUrl": "POST:/saas-dmp/eventGroup/create",
+                        "moduleId": 106
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 125,
+                        "actionName": "删除事件组",
+                        "code": "online.saas.dmp.active-manager.event-group.delete",
+                        "actionUrl": "DELETE:/saas-dmp/eventGroup/",
+                        "moduleId": 106
+                    },
+                    {
+                        "status": 1,
+                        "createdTime": 1490684144000,
+                        "lastChanged": 1490684144000,
+                        "actionId": 126,
+                        "actionName": "修改事件组",
+                        "code": "online.saas.dmp.active-manager.event-group.edit",
+                        "actionUrl": "POST:/saas-dmp/eventGroup/update",
+                        "moduleId": 106
+                    }
+                ]
+            },
+            {
+                "status": 1,
+                "createdTime": 1490684143000,
+                "lastChanged": 1490684143000,
+                "moduleId": 95,
+                "moduleName": "整体概览",
+                "parentId": 0,
+                "isLeaf": 0,
+                "code": "online.saas.dmp.summary",
+                "moduleUrl": "",
+                "actionList": null
+            }
+        ]
+    }
+}

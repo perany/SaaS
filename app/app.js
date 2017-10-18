@@ -61,6 +61,7 @@ menu.call(menuClass)
 var app = {
 
     domain: '/saas-dmp/',
+    localDomain:"/app/api/SaaSData/",
     _adapss: '4',
     _seen: 'dsdj',
     main: 'login', //无hash的时候跳转到的首页

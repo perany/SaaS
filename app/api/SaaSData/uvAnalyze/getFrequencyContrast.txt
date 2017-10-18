@@ -1,0 +1,254 @@
+{
+    "meta": {
+        "success": true,
+        "message": "ok"
+    },
+    "data": {
+        "contrastEndDate": "2017/09/17",
+        "oldAvglist": [
+            {
+                "hour": 0,
+                "frequency": 1687
+            },
+            {
+                "hour": 1,
+                "frequency": 900
+            },
+            {
+                "hour": 2,
+                "frequency": 512
+            },
+            {
+                "hour": 3,
+                "frequency": 351
+            },
+            {
+                "hour": 4,
+                "frequency": 330
+            },
+            {
+                "hour": 5,
+                "frequency": 405
+            },
+            {
+                "hour": 6,
+                "frequency": 911
+            },
+            {
+                "hour": 7,
+                "frequency": 1416
+            },
+            {
+                "hour": 8,
+                "frequency": 1915
+            },
+            {
+                "hour": 9,
+                "frequency": 2320
+            },
+            {
+                "hour": 10,
+                "frequency": 2383
+            },
+            {
+                "hour": 11,
+                "frequency": 2681
+            },
+            {
+                "hour": 12,
+                "frequency": 2894
+            },
+            {
+                "hour": 13,
+                "frequency": 2886
+            },
+            {
+                "hour": 14,
+                "frequency": 2638
+            },
+            {
+                "hour": 15,
+                "frequency": 2672
+            },
+            {
+                "hour": 16,
+                "frequency": 2765
+            },
+            {
+                "hour": 17,
+                "frequency": 2991
+            },
+            {
+                "hour": 18,
+                "frequency": 3425
+            },
+            {
+                "hour": 19,
+                "frequency": 3774
+            },
+            {
+                "hour": 20,
+                "frequency": 4098
+            },
+            {
+                "hour": 21,
+                "frequency": 4227
+            },
+            {
+                "hour": 22,
+                "frequency": 3838
+            },
+            {
+                "hour": 23,
+                "frequency": 2762
+            }
+        ],
+        "chooselist": [
+            {
+                "date": "2017/09/18",
+                "hour": 0,
+                "hourFormat": "00:00",
+                "frequency": 1788
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 1,
+                "hourFormat": "01:00",
+                "frequency": 866
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 2,
+                "hourFormat": "02:00",
+                "frequency": 556
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 3,
+                "hourFormat": "03:00",
+                "frequency": 298
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 4,
+                "hourFormat": "04:00",
+                "frequency": 252
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 5,
+                "hourFormat": "05:00",
+                "frequency": 406
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 6,
+                "hourFormat": "06:00",
+                "frequency": 932
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 7,
+                "hourFormat": "07:00",
+                "frequency": 1394
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 8,
+                "hourFormat": "08:00",
+                "frequency": 1800
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 9,
+                "hourFormat": "09:00",
+                "frequency": 2716
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 10,
+                "hourFormat": "10:00",
+                "frequency": 2804
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 11,
+                "hourFormat": "11:00",
+                "frequency": 2674
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 12,
+                "hourFormat": "12:00",
+                "frequency": 3150
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 13,
+                "hourFormat": "13:00",
+                "frequency": 2744
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 14,
+                "hourFormat": "14:00",
+                "frequency": 2528
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 15,
+                "hourFormat": "15:00",
+                "frequency": 2508
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 16,
+                "hourFormat": "16:00",
+                "frequency": 2144
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 17,
+                "hourFormat": "17:00",
+                "frequency": 2870
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 18,
+                "hourFormat": "18:00",
+                "frequency": 3204
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 19,
+                "hourFormat": "19:00",
+                "frequency": 3378
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 20,
+                "hourFormat": "20:00",
+                "frequency": 3900
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 21,
+                "hourFormat": "21:00",
+                "frequency": 4546
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 22,
+                "hourFormat": "22:00",
+                "frequency": 3798
+            },
+            {
+                "date": "2017/09/18",
+                "hour": 23,
+                "hourFormat": "23:00",
+                "frequency": 2574
+            }
+        ],
+        "contrastStartDate": "2017/09/11"
+    }
+}
