@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "activeUserList": [
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 0,
+        "hourFormat": "00:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 1,
+        "hourFormat": "01:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 2,
+        "hourFormat": "02:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 3,
+        "hourFormat": "03:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 4,
+        "hourFormat": "04:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 5,
+        "hourFormat": "05:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 6,
+        "hourFormat": "06:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 7,
+        "hourFormat": "07:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 8,
+        "hourFormat": "08:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 9,
+        "hourFormat": "09:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 10,
+        "hourFormat": "10:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 11,
+        "hourFormat": "11:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 12,
+        "hourFormat": "12:00"
+      },
+      {
+        "date": "2017-10-23",
+        "chainRatio": "0.00",
+        "uv": 0,
+        "hour": 13,
+        "hourFormat": "13:00"
+      }
+    ],
+    "regUserList": [],
+    "campaignList": [],
+    "versionList": [],
+    "addUserList": [],
+    "payUserList": []
+  }
+}

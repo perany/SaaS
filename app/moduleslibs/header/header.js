@@ -173,7 +173,7 @@ function header() {
             type: 'os'
         };
         $.ajax({
-            url: '/saas-dmp/dictionary/valueList',
+            url: _Object.app.localDomain+'dictionary/valueList2-os.json',
             type: "GET",
             dataType: 'json',
             data: _Object.app.format(dataPara),
