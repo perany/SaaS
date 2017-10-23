@@ -83,7 +83,7 @@ var api = {
                 break;
         }
         $.ajax({
-            url: api.app.domain + 'overviewFlow/getUserTypeUv',
+            url: path,
             type: "post",
             dataType: "json",
             //headers: { "x-auth-token": api.app.local.get('session') },
@@ -155,7 +155,7 @@ var api = {
                 break;
         }
         $.ajax({
-            url: api.app.domain + 'overviewFlow/getUserTypeDateUv',
+            url: path,
             type: "post",
             dataType: "json",
             //headers: { "x-auth-token": api.app.local.get('session') },
