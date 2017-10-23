@@ -1,56 +1,38 @@
 {
-    "meta": {
-        "success": true,
-        "message": "ok"
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "uv": "78",
+      "difRate": "-76.65",
+      "difName": "6.2.5.5",
+      "avgUv": "334"
     },
-    "data": [
-        {
-            "uv": "1016",
-            "difRate": "-2.87",
-            "difName": "6.3.1",
-            "avgUv": "1046"
-        },
-        {
-            "uv": "59",
-            "difRate": "-87.31",
-            "difName": "6.3.0",
-            "avgUv": "465"
-        },
-        {
-            "uv": "24",
-            "difRate": "-98.98",
-            "difName": "6.2.5",
-            "avgUv": "2358"
-        },
-        {
-            "uv": "76",
-            "difRate": "-93.31",
-            "difName": "6.2.4",
-            "avgUv": "1136"
-        },
-        {
-            "uv": "2",
-            "difRate": "-99.61",
-            "difName": "6.2.3",
-            "avgUv": "508"
-        },
-        {
-            "uv": "3",
-            "difRate": "-99.70",
-            "difName": "6.2.2",
-            "avgUv": "999"
-        },
-        {
-            "uv": "3",
-            "difRate": "-96.77",
-            "difName": "6.2.1",
-            "avgUv": "93"
-        },
-        {
-            "uv": "1",
-            "difRate": "-85.71",
-            "difName": "6.2.0",
-            "avgUv": "7"
-        }
-    ]
+    {
+      "uv": "1",
+      "difRate": "-50.00",
+      "difName": "6.2.5.4",
+      "avgUv": "2"
+    },
+    {
+      "uv": "1",
+      "difRate": "-50.00",
+      "difName": "6.2.5.2",
+      "avgUv": "2"
+    },
+    {
+      "uv": "1",
+      "difRate": "0.00",
+      "difName": "6.2.0.3",
+      "avgUv": "1"
+    },
+    {
+      "uv": "13",
+      "difRate": "-97.20",
+      "difName": "6.1.0",
+      "avgUv": "465"
+    }
+  ]
 }

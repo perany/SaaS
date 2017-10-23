@@ -30,9 +30,29 @@ api = {
     // 用户分析接口：获取用户对比接口
     getUvContrast: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.dateLength){
+            case "1":
+                path=api.app.localDomain+'uvAnalyze/getUvContrast1.json';
+                break;
+            case "MONTH":
+                path=api.app.localDomain+'uvAnalyze/getUvContrastMONTH.json';
+                break;
+            case "7":
+                path=api.app.localDomain+'uvAnalyze/getUvContrast7.json';
+                break;
+            case "30":
+                path=api.app.localDomain+'uvAnalyze/getUvContrast30.json';
+                break;
+            case "60":
+                path=api.app.localDomain+'uvAnalyze/getUvContrast60.json';
+                break;
+            default:
+                path=api.app.localDomain + 'uvAnalyze/getUvContrast1.json';
+                break;
+        }
         $.ajax({
-            url: api.app.localDomain + 'uvAnalyze/getUvContrast.json',
+            url: path,
             // url: '/app/api/jsons/userContrast.json',
             type: "POST",
             dataType: 'json',
@@ -45,8 +65,26 @@ api = {
     },
     getUvDistribution: function(value) {
         var deferred = $.Deferred()
+        var path;
+        switch (value.typeCode){
+            case "1":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution1.json';
+                break;
+            case "2":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution2.json';
+                break;
+            case "3":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution3.json';
+                break;
+            case "4":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution4.json';
+                break;
+            default:
+                path=api.app.localDomain + 'uvAnalyze/getUseDistribution1.json';
+                break;
+        }
         $.ajax({
-            url: api.app.localDomain + 'uvAnalyze/getUvDistribution.json',
+            url: path,
             type: "POST",
             dataType: 'json',
             data: api.app.format(value),
@@ -61,14 +99,14 @@ api = {
         var deferred = $.Deferred()
         var path;
         switch (value.disSource){
-            case "1":
-                path=api.app.localDomain+'uvAnalyze/getUvDifference1.json';
+            case 1:
+                path=api.app.localDomain+'/uvAnalyze/getUvDifference1.json';
                 break;
-            case "3":
-                path=api.app.localDomain+'uvAnalyze/getUvDifference3.json';
+            case 3:
+                path=api.app.localDomain+'/uvAnalyze/getUvDifference3.json';
                 break;
             default:
-                path=api.app.localDomain + 'uvAnalyze/getUvDifference1.json';
+                path=api.app.localDomain + '/uvAnalyze/getUvDifference1.json';
                 break;
         }
         $.ajax({

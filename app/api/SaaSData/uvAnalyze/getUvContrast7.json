@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "contrastEndDate": "2017-10-15",
+    "oldAvglist": [
+      {
+        "uv": 10
+      }
+    ],
+    "sumUv": null,
+    "campaignList": [],
+    "versionList": [],
+    "chooselist": [
+      {
+        "date": "2017/10/16",
+        "chainRatio": "0.00",
+        "uv": 90
+      },
+      {
+        "date": "2017/10/17",
+        "chainRatio": "0.00",
+        "uv": 6
+      },
+      {
+        "date": "2017/10/18",
+        "chainRatio": "0.00",
+        "uv": 66
+      },
+      {
+        "date": "2017/10/19",
+        "chainRatio": "0.00",
+        "uv": 0
+      },
+      {
+        "date": "2017/10/20",
+        "chainRatio": "0.00",
+        "uv": 0
+      },
+      {
+        "date": "2017/10/21",
+        "chainRatio": "0.00",
+        "uv": 3
+      },
+      {
+        "date": "2017/10/22",
+        "chainRatio": "0.00",
+        "uv": 0
+      }
+    ],
+    "contrastStartDate": "2017-10-09"
+  }
+}
