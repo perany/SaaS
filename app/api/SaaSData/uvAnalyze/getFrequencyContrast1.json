@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "contrastEndDate": "2017/11/04",
+    "contrastStartDate": "2017/10/29",
+    "chooselist": [
+      {
+        "hourFormat": "00:00",
+        "hour": 0,
+        "frequency": 2144,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "01:00",
+        "hour": 1,
+        "frequency": 1148,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "02:00",
+        "hour": 2,
+        "frequency": 652,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "03:00",
+        "hour": 3,
+        "frequency": 582,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "04:00",
+        "hour": 4,
+        "frequency": 430,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "05:00",
+        "hour": 5,
+        "frequency": 612,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "06:00",
+        "hour": 6,
+        "frequency": 1038,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "07:00",
+        "hour": 7,
+        "frequency": 1604,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "08:00",
+        "hour": 8,
+        "frequency": 2400,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "09:00",
+        "hour": 9,
+        "frequency": 3094,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "10:00",
+        "hour": 10,
+        "frequency": 3458,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "11:00",
+        "hour": 11,
+        "frequency": 3942,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "12:00",
+        "hour": 12,
+        "frequency": 4084,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "13:00",
+        "hour": 13,
+        "frequency": 3786,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "14:00",
+        "hour": 14,
+        "frequency": 3602,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "15:00",
+        "hour": 15,
+        "frequency": 3868,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "16:00",
+        "hour": 16,
+        "frequency": 4062,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "17:00",
+        "hour": 17,
+        "frequency": 4276,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "18:00",
+        "hour": 18,
+        "frequency": 4158,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "19:00",
+        "hour": 19,
+        "frequency": 4504,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "20:00",
+        "hour": 20,
+        "frequency": 4692,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "21:00",
+        "hour": 21,
+        "frequency": 4874,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "22:00",
+        "hour": 22,
+        "frequency": 4200,
+        "date": "2017/11/05"
+      },
+      {
+        "hourFormat": "23:00",
+        "hour": 23,
+        "frequency": 2816,
+        "date": "2017/11/05"
+      }
+    ],
+    "oldAvglist": [
+      {
+        "hour": 0,
+        "frequency": 2074
+      },
+      {
+        "hour": 1,
+        "frequency": 1051
+      },
+      {
+        "hour": 2,
+        "frequency": 652
+      },
+      {
+        "hour": 3,
+        "frequency": 521
+      },
+      {
+        "hour": 4,
+        "frequency": 432
+      },
+      {
+        "hour": 5,
+        "frequency": 582
+      },
+      {
+        "hour": 6,
+        "frequency": 1058
+      },
+      {
+        "hour": 7,
+        "frequency": 1915
+      },
+      {
+        "hour": 8,
+        "frequency": 2498
+      },
+      {
+        "hour": 9,
+        "frequency": 2966
+      },
+      {
+        "hour": 10,
+        "frequency": 3014
+      },
+      {
+        "hour": 11,
+        "frequency": 3297
+      },
+      {
+        "hour": 12,
+        "frequency": 3617
+      },
+      {
+        "hour": 13,
+        "frequency": 3415
+      },
+      {
+        "hour": 14,
+        "frequency": 3277
+      },
+      {
+        "hour": 15,
+        "frequency": 3368
+      },
+      {
+        "hour": 16,
+        "frequency": 3680
+      },
+      {
+        "hour": 17,
+        "frequency": 3744
+      },
+      {
+        "hour": 18,
+        "frequency": 4260
+      },
+      {
+        "hour": 19,
+        "frequency": 4749
+      },
+      {
+        "hour": 20,
+        "frequency": 5641
+      },
+      {
+        "hour": 21,
+        "frequency": 5916
+      },
+      {
+        "hour": 22,
+        "frequency": 5083
+      },
+      {
+        "hour": 23,
+        "frequency": 3692
+      }
+    ]
+  }
+}

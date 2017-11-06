@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "id": 80,
+      "startTime": "2017-07-16",
+      "channelName": "wsx",
+      "channelId": 86,
+      "endTime": "2017-07-18"
+    },
+    {
+      "id": 82,
+      "startTime": "2017-05-23",
+      "channelName": "qaz",
+      "channelId": 85,
+      "endTime": "2017-07-31"
+    }
+  ]
+}

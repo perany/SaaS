@@ -1,0 +1,18 @@
+﻿{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "typeName": "启用次数",
+      "typeCode": 11,
+      "typeValue": "startnum"
+    },
+    {
+      "typeName": "使用时长",
+      "typeCode": 12,
+      "typeValue": "usetime"
+    }
+  ]
+}

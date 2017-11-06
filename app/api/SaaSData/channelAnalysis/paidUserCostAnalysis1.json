@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "dateFormat": "07/16",
+      "date": "2017-07-16",
+      "cost": -1.0
+    },
+    {
+      "dateFormat": "07/17",
+      "date": "2017-07-17",
+      "cost": -1.0
+    },
+    {
+      "dateFormat": "07/18",
+      "date": "2017-07-18",
+      "cost": -1.0
+    }
+  ]
+}

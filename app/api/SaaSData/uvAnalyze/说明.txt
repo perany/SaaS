@@ -1,3 +1,28 @@
 过去90天数据
 
 getUvDifference 1 3  disSource
+
+用户分析：
+getUseDistribution1.json  影响差异度分布 typeCode:1新增用户  contrastDay:7
+getUseDistribution2.json  影响差异度分布 typeCode:2活跃用户  contrastDay:30
+
+
+行为分析-使用分析：usageAnalysis.api.js
+getFrequencyContrast1.json typeCode：11（启用次数）  contrastDay：7
+getFrequencyContrast2.json typeCode：12（使用时长）  contrastDay：7
+
+渠道分析：channelAnalysis.api.js
+渠道新增用户成本
+    cpgaAnalysis1.json  channelId:80
+    cpgaAnalysis2.json  channelId:82
+渠道活跃用户成本
+    activeUserCostAnalysis1.json  channelId:80
+    activeUserCostAnalysis2.json  channelId:82
+渠道留存用户成本
+    retainedUserCostAnalysis1.json  channelId:80
+    retainedUserCostAnalysis2.json  channelId:82
+渠道付费用户成本
+    paidUserCostAnalysis1.json  channelId:80
+    paidUserCostAnalysis2.json  channelId:82
+
+

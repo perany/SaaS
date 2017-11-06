@@ -75,12 +75,27 @@ api = {
         });
         return deferred
     },
-    valueList:function(){
+    valueList:function(value){
         var deferred=$.Deferred()
-        //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.type){
+            case "os":
+                path=api.app.localDomain+'dictionary/valueList2-os.json';
+                break;
+            case "eventgroup":
+            case "userevent":
+                path=api.app.localDomain+'dictionary/valueList4-userevent.json';
+                break;
+            case "usertype":
+                path=api.app.localDomain+'dictionary/valueList3-usertype.json';
+                break;
+            default:
+                path=api.app.localDomain + 'dictionary/valueList4-userevent.json';
+                break;
+        }
         $.ajax({
-            //url:api.app.domain+'saas-dmp/login',
-            url: '/saas-dmp/dictionary/valueList?type=os',
+            // url:api.app.domain+'saas-dmp/login',
+            url: path,
             type: "GET",
             dataType: "json",
             success: function(response) {

@@ -1,26 +1,6 @@
 var api;
 api = {
-    //用户类型
-    valueList: function(value, adds) {
-        var deferred = $.Deferred();
-        var urls = '';
-        if (adds) {
-            urls = 'dictionary/valueList?type=' + value + '&osId=' + adds;
-        } else {
-            urls = 'dictionary/valueList?type=' + value;
-        }
-        $.ajax({
-            url: api.app.domain + urls,
-            type: "get",
-            async: true,
-            dataType: 'json',
-            timeout: 60000,
-            success: function(response) {
-                deferred.resolve(response);
-            }
-        });
-        return deferred
-    },
+
     // 维度
     dimensionAnalysis: function() {
         var deferred = $.Deferred()
@@ -311,14 +291,50 @@ api = {
         });
         return deferred
     },
-    //获取事件组类型
-    valueList: function(value) {
+    // //获取事件组类型
+    // valueList: function(value) {
+    //     var deferred = $.Deferred();
+    //     $.ajax({
+    //         url: api.app.domain + 'dictionary/valueList',
+    //         type: "GET",
+    //         dataType: "json",
+    //         data: value,
+    //         success: function(response) {
+    //             deferred.resolve(response);
+    //         }
+    //     });
+    //     return deferred
+    // },
+    //用户类型
+    valueList: function(value, adds) {
         var deferred = $.Deferred();
+        var path;
+        switch (value){
+            case "os":
+                path=api.app.localDomain+'dictionary/valueList2-os.json';
+                break;
+            case "eventgroup":
+            case "userevent":
+                path=api.app.localDomain+'dictionary/valueList4-userevent.json';
+                break;
+            case "usertype":
+                path=api.app.localDomain+'dictionary/valueList3-usertype.json';
+                break;
+            default:
+                path=api.app.domain + 'dictionary/valueList4-userevent.json';
+                break;
+        }
+        if (adds) {
+            path += '?type=' + value + '&osId=' + adds;
+        } else {
+            path += '?type=' + value;
+        }
         $.ajax({
-            url: api.app.domain + 'dictionary/valueList',
-            type: "GET",
-            dataType: "json",
-            data: value,
+            url: path,
+            type: "get",
+            async: true,
+            dataType: 'json',
+            timeout: 60000,
             success: function(response) {
                 deferred.resolve(response);
             }
