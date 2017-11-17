@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "allConvert": 8.00,
+    "list": [
+      {
+        "event": "分享",
+        "uv": "225",
+        "loseUv": "",
+        "convertRate": "",
+        "eventid": "81"
+      },
+      {
+        "event": "收藏",
+        "uv": "341",
+        "loseUv": "-116",
+        "convertRate": "1.52",
+        "eventid": "82"
+      },
+      {
+        "event": "投频",
+        "uv": "581",
+        "loseUv": "-240",
+        "convertRate": "1.70",
+        "eventid": "83"
+      },
+      {
+        "event": "相关视频",
+        "uv": "1123",
+        "loseUv": "-542",
+        "convertRate": "1.93",
+        "eventid": "84"
+      },
+      {
+        "event": "猜你喜欢模块点击",
+        "uv": "1123",
+        "loseUv": "0",
+        "convertRate": "1.00",
+        "eventid": "85"
+      },
+      {
+        "event": "全屏按钮点击",
+        "uv": "3722",
+        "loseUv": "-2599",
+        "convertRate": "3.31",
+        "eventid": "86"
+      },
+      {
+        "event": "清晰度切换",
+        "uv": "706",
+        "loseUv": "3016",
+        "convertRate": "0.19",
+        "eventid": "87"
+      },
+      {
+        "event": "vip影片立即购买",
+        "uv": "20",
+        "loseUv": "686",
+        "convertRate": "0.03",
+        "eventid": "88"
+      },
+      {
+        "event": "使用观影券",
+        "uv": "18",
+        "loseUv": "2",
+        "convertRate": "0.90",
+        "eventid": "89"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "oldAvglist": [
+      {
+        "avgUv": 287,
+        "event": "分享"
+      },
+      {
+        "avgUv": 438,
+        "event": "收藏"
+      },
+      {
+        "avgUv": 868,
+        "event": "投频"
+      },
+      {
+        "avgUv": 1436,
+        "event": "相关视频"
+      },
+      {
+        "avgUv": 1433,
+        "event": "猜你喜欢模块点击"
+      },
+      {
+        "avgUv": 4863,
+        "event": "全屏按钮点击"
+      },
+      {
+        "avgUv": 1011,
+        "event": "清晰度切换"
+      },
+      {
+        "avgUv": 36,
+        "event": "vip影片立即购买"
+      },
+      {
+        "avgUv": 13,
+        "event": "使用观影券"
+      }
+    ],
+    "chooselist": [
+      {
+        "avgUv": 216,
+        "event": "分享"
+      },
+      {
+        "avgUv": 328,
+        "event": "收藏"
+      },
+      {
+        "avgUv": 556,
+        "event": "投频"
+      },
+      {
+        "avgUv": 1075,
+        "event": "相关视频"
+      },
+      {
+        "avgUv": 1075,
+        "event": "猜你喜欢模块点击"
+      },
+      {
+        "avgUv": 3778,
+        "event": "全屏按钮点击"
+      },
+      {
+        "avgUv": 735,
+        "event": "清晰度切换"
+      },
+      {
+        "avgUv": 22,
+        "event": "vip影片立即购买"
+      },
+      {
+        "avgUv": 18,
+        "event": "使用观影券"
+      }
+    ]
+  }
+}

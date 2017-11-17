@@ -2,9 +2,21 @@
 
 getUvDifference 1 3  disSource
 
-用户分析：
+用户分析：peopleAnalysis.api.js
 getUseDistribution1.json  影响差异度分布 typeCode:1新增用户  contrastDay:7
 getUseDistribution2.json  影响差异度分布 typeCode:2活跃用户  contrastDay:30
+
+
+行为分析：
+行为分析-漏斗分析：behaviorAnalysis.api.js
+getVisitUv80-7.json        typeCode:80  contrastDay:7
+getStepConvert80-7.json    typeCode:80  contrastDay:7
+getVisitUv80-30.json        typeCode:80  contrastDay:30
+getStepConvert80-30.json    typeCode:80  contrastDay:30
+getVisitUv80-60.json        typeCode:80  contrastDay:60
+getStepConvert80-60.json    typeCode:80  contrastDay:60
+getEvenUvDifference1.json  disSource:1
+getEvenUvDifference3.json  disSource:3
 
 
 行为分析-使用分析：usageAnalysis.api.js

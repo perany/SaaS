@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "oldAvglist": [],
+    "chooselist": [
+      {
+        "avgUv": 225,
+        "event": "分享"
+      },
+      {
+        "avgUv": 341,
+        "event": "收藏"
+      },
+      {
+        "avgUv": 581,
+        "event": "投频"
+      },
+      {
+        "avgUv": 1123,
+        "event": "相关视频"
+      },
+      {
+        "avgUv": 1123,
+        "event": "猜你喜欢模块点击"
+      },
+      {
+        "avgUv": 3722,
+        "event": "全屏按钮点击"
+      },
+      {
+        "avgUv": 706,
+        "event": "清晰度切换"
+      },
+      {
+        "avgUv": 20,
+        "event": "vip影片立即购买"
+      },
+      {
+        "avgUv": 18,
+        "event": "使用观影券"
+      }
+    ]
+  }
+}
