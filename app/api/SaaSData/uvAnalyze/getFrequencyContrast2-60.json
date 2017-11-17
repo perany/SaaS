@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "contrastEndDate": "2017/09/15",
+    "contrastStartDate": "2017/08/17",
+    "chooselist": [
+      {
+        "hour": "",
+        "frequency": 329,
+        "date": "2017/09/16"
+      },
+      {
+        "hour": "",
+        "frequency": 335,
+        "date": "2017/09/17"
+      },
+      {
+        "hour": "",
+        "frequency": 310,
+        "date": "2017/09/18"
+      },
+      {
+        "hour": "",
+        "frequency": 315,
+        "date": "2017/09/19"
+      },
+      {
+        "hour": "",
+        "frequency": 311,
+        "date": "2017/09/20"
+      },
+      {
+        "hour": "",
+        "frequency": 413,
+        "date": "2017/09/21"
+      },
+      {
+        "hour": "",
+        "frequency": 343,
+        "date": "2017/09/22"
+      },
+      {
+        "hour": "",
+        "frequency": 336,
+        "date": "2017/09/23"
+      },
+      {
+        "hour": "",
+        "frequency": 355,
+        "date": "2017/09/24"
+      },
+      {
+        "hour": "",
+        "frequency": 434,
+        "date": "2017/09/25"
+      },
+      {
+        "frequency": 0,
+        "date": "2017/09/26"
+      },
+      {
+        "frequency": 0,
+        "date": "2017/09/27"
+      },
+      {
+        "hour": "",
+        "frequency": 286,
+        "date": "2017/09/28"
+      },
+      {
+        "hour": "",
+        "frequency": 305,
+        "date": "2017/09/29"
+      },
+      {
+        "hour": "",
+        "frequency": 267,
+        "date": "2017/09/30"
+      },
+      {
+        "hour": "",
+        "frequency": 325,
+        "date": "2017/10/01"
+      },
+      {
+        "hour": "",
+        "frequency": 343,
+        "date": "2017/10/02"
+      },
+      {
+        "hour": "",
+        "frequency": 332,
+        "date": "2017/10/03"
+      },
+      {
+        "hour": "",
+        "frequency": 319,
+        "date": "2017/10/04"
+      },
+      {
+        "hour": "",
+        "frequency": 339,
+        "date": "2017/10/05"
+      },
+      {
+        "hour": "",
+        "frequency": 305,
+        "date": "2017/10/06"
+      },
+      {
+        "hour": "",
+        "frequency": 308,
+        "date": "2017/10/07"
+      },
+      {
+        "hour": "",
+        "frequency": 355,
+        "date": "2017/10/08"
+      },
+      {
+        "hour": "",
+        "frequency": 307,
+        "date": "2017/10/09"
+      },
+      {
+        "hour": "",
+        "frequency": 298,
+        "date": "2017/10/10"
+      },
+      {
+        "hour": "",
+        "frequency": 329,
+        "date": "2017/10/11"
+      },
+      {
+        "hour": "",
+        "frequency": 331,
+        "date": "2017/10/12"
+      },
+      {
+        "hour": "",
+        "frequency": 318,
+        "date": "2017/10/13"
+      },
+      {
+        "hour": "",
+        "frequency": 357,
+        "date": "2017/10/14"
+      },
+      {
+        "hour": "",
+        "frequency": 365,
+        "date": "2017/10/15"
+      },
+      {
+        "hour": "",
+        "frequency": 320,
+        "date": "2017/10/16"
+      },
+      {
+        "hour": "",
+        "frequency": 341,
+        "date": "2017/10/17"
+      },
+      {
+        "frequency": 0,
+        "date": "2017/10/18"
+      },
+      {
+        "hour": "",
+        "frequency": 313,
+        "date": "2017/10/19"
+      },
+      {
+        "hour": "",
+        "frequency": 260,
+        "date": "2017/10/20"
+      },
+      {
+        "hour": "",
+        "frequency": 262,
+        "date": "2017/10/21"
+      },
+      {
+        "hour": "",
+        "frequency": 283,
+        "date": "2017/10/22"
+      },
+      {
+        "hour": "",
+        "frequency": 306,
+        "date": "2017/10/23"
+      },
+      {
+        "hour": "",
+        "frequency": 307,
+        "date": "2017/10/24"
+      },
+      {
+        "hour": "",
+        "frequency": 316,
+        "date": "2017/10/25"
+      },
+      {
+        "hour": "",
+        "frequency": 319,
+        "date": "2017/10/26"
+      },
+      {
+        "hour": "",
+        "frequency": 314,
+        "date": "2017/10/27"
+      },
+      {
+        "hour": "",
+        "frequency": 340,
+        "date": "2017/10/28"
+      },
+      {
+        "hour": "",
+        "frequency": 343,
+        "date": "2017/10/29"
+      },
+      {
+        "hour": "",
+        "frequency": 347,
+        "date": "2017/10/30"
+      },
+      {
+        "hour": "",
+        "frequency": 315,
+        "date": "2017/10/31"
+      },
+      {
+        "hour": "",
+        "frequency": 280,
+        "date": "2017/11/01"
+      },
+      {
+        "hour": "",
+        "frequency": 302,
+        "date": "2017/11/02"
+      },
+      {
+        "hour": "",
+        "frequency": 312,
+        "date": "2017/11/03"
+      },
+      {
+        "hour": "",
+        "frequency": 334,
+        "date": "2017/11/04"
+      },
+      {
+        "hour": "",
+        "frequency": 351,
+        "date": "2017/11/05"
+      },
+      {
+        "hour": "",
+        "frequency": 299,
+        "date": "2017/11/06"
+      },
+      {
+        "hour": "",
+        "frequency": 302,
+        "date": "2017/11/07"
+      },
+      {
+        "hour": "",
+        "frequency": 295,
+        "date": "2017/11/08"
+      },
+      {
+        "hour": "",
+        "frequency": 283,
+        "date": "2017/11/09"
+      },
+      {
+        "hour": "",
+        "frequency": 299,
+        "date": "2017/11/10"
+      },
+      {
+        "hour": "",
+        "frequency": 271,
+        "date": "2017/11/11"
+      },
+      {
+        "hour": "",
+        "frequency": 290,
+        "date": "2017/11/12"
+      },
+      {
+        "hour": "",
+        "frequency": 264,
+        "date": "2017/11/13"
+      },
+      {
+        "hour": "",
+        "frequency": 285,
+        "date": "2017/11/14"
+      },
+      {
+        "hour": "",
+        "frequency": 306,
+        "date": "2017/11/15"
+      },
+      {
+        "hour": "",
+        "frequency": 281,
+        "date": "2017/11/16"
+      }
+    ],
+    "oldAvglist": [
+      {
+        "frequency": 328
+      }
+    ]
+  }
+}

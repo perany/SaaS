@@ -35,12 +35,25 @@ api = {
     getFrequencyContrast: function(value) {
         var deferred = $.Deferred()
         var path;
-        switch (value.typeCode){
-            case "11":
-                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast1.json';
+        console.log(value);
+        switch (value.typeCode+value.contrastDay){
+            case 18:
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast1-7.json'; //11-7
                 break;
-            case "12":
-                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast2.json';
+            case 41:
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast1-30.json';//11-30
+                break;
+            case 71:
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast1-60.json';//11-60
+                break;
+            case "127":
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast2-7.json';//12-7
+                break;
+            case "1230":
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast2-30.json';//12-30
+                break;
+            case "1260":
+                path=api.app.localDomain+'uvAnalyze/getFrequencyContrast2-60.json';//12-60
                 break;
         }
         $.ajax({
@@ -59,12 +72,24 @@ api = {
     getUseDistribution: function(value) {
         var deferred = $.Deferred()
         var path;
-        switch (value.typeCode){
-            case "11":
-                path=api.app.localDomain+'uvAnalyze/getUseDistribution11.json';
+        switch (value.typeCode+value.contrastDay){
+            case 18:
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution11-7.json'; //11-7
                 break;
-            case "12":
-                path=api.app.localDomain+'uvAnalyze/getUseDistribution12.json';
+            case 41:
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution11-30.json';//11-30
+                break;
+            case 71:
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution11-60.json';//11-60
+                break;
+            case "127":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution12-7.json';//12-7
+                break;
+            case "1230":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution12-30.json';//12-30
+                break;
+            case "1260":
+                path=api.app.localDomain+'uvAnalyze/getUseDistribution12-60.json';//12-60
                 break;
         }
         $.ajax({

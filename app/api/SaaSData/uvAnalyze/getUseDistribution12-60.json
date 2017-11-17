@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "hour": "",
+      "date": "2017/09/16",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "47.40",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/17",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "48.13",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/18",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "50.22",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/19",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "50.76",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/20",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "51.70",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/21",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "53.68",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/22",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "51.92",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/23",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "52.23",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/24",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "51.80",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/25",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "48.75",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/28",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.77",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/29",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "20.57",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/09/30",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "21.51",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/01",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "21.65",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/02",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "22.51",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/03",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "23.16",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/04",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "24.50",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/05",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "24.99",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/06",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "25.10",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/07",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "25.00",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/08",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "24.97",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/09",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.22",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/10",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.62",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/11",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "25.27",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/12",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.16",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/13",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.27",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/14",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.32",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/15",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.79",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/16",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "26.46",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/17",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "27.01",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/19",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "27.90",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/20",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.37",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/21",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.01",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/22",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.53",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/23",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.09",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/24",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.74",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/25",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.01",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/26",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.11",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/27",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.79",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/28",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.18",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/29",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.23",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/30",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.76",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/10/31",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.29",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/01",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.10",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/02",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.08",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/03",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.02",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/04",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.11",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/05",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.40",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/06",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.41",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/07",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.78",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/08",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.16",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/09",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.75",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/10",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.62",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/11",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.73",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/12",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "29.08",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/13",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.67",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/14",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.55",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/15",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.20",
+      "contentExp": ""
+    },
+    {
+      "hour": "",
+      "date": "2017/11/16",
+      "hourFormat": "",
+      "channelExp": "",
+      "activityExp": "",
+      "versionsExp": "28.39",
+      "contentExp": ""
+    }
+  ]
+}

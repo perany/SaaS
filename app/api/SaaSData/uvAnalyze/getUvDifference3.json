@@ -5,34 +5,64 @@
   },
   "data": [
     {
-      "uv": "78",
-      "difRate": "-76.65",
-      "difName": "6.2.5.5",
-      "avgUv": "334"
+      "difName": "6.3.3",
+      "avgUv": "280",
+      "difRate": "-2.14",
+      "uv": "274"
     },
     {
-      "uv": "1",
-      "difRate": "-50.00",
-      "difName": "6.2.5.4",
-      "avgUv": "2"
+      "difName": "6.3.2",
+      "avgUv": "320",
+      "difRate": "-10.31",
+      "uv": "287"
     },
     {
-      "uv": "1",
-      "difRate": "-50.00",
-      "difName": "6.2.5.2",
-      "avgUv": "2"
+      "difName": "6.3.1",
+      "avgUv": "324",
+      "difRate": "-27.78",
+      "uv": "234"
     },
     {
-      "uv": "1",
-      "difRate": "0.00",
-      "difName": "6.2.0.3",
-      "avgUv": "1"
+      "difName": "6.3.0",
+      "avgUv": "464",
+      "difRate": "8.41",
+      "uv": "503"
     },
     {
-      "uv": "13",
-      "difRate": "-97.20",
-      "difName": "6.1.0",
-      "avgUv": "465"
+      "difName": "6.2.5",
+      "avgUv": "218",
+      "difRate": "206.42",
+      "uv": "668"
+    },
+    {
+      "difName": "6.2.4",
+      "avgUv": "337",
+      "difRate": "66.17",
+      "uv": "560"
+    },
+    {
+      "difName": "6.2.3",
+      "avgUv": "241",
+      "difRate": "33.20",
+      "uv": "321"
+    },
+    {
+      "difName": "6.2.2",
+      "avgUv": "214",
+      "difRate": "-57.01",
+      "uv": "92"
+    },
+    {
+      "difName": "6.2.1",
+      "avgUv": "453",
+      "difRate": "7.73",
+      "uv": "488"
+    },
+    {
+      "difName": "6.2.0",
+      "avgUv": "438",
+      "difRate": "-14.38",
+      "uv": "375"
     }
   ]
 }
