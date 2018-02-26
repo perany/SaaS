@@ -14,7 +14,7 @@ function menu() {
     this.getQuan = function(a) {
         var userId = that.app.local.get('userId')
         $.ajax({
-            url: that.app.localDomain+'/module/queryUserModuleList.json',
+            url: that.app.localDomain+'module/queryUserModuleList.json',
             type: "GET",
             dataType: 'json',
             data: that.app.format({ appId: that.app._adapss, 'userId': userId }),

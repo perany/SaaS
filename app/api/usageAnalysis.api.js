@@ -35,7 +35,6 @@ api = {
     getFrequencyContrast: function(value) {
         var deferred = $.Deferred()
         var path;
-        console.log(value);
         switch (value.typeCode+value.contrastDay){
             case 18:
                 path=api.app.localDomain+'uvAnalyze/getFrequencyContrast1-7.json'; //11-7

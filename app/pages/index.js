@@ -3,10 +3,7 @@ var resolve = $.Deferred()
 var resolve1 = $.Deferred()
 var resolve2 = $.Deferred()
 var resolve3 = $.Deferred()
-var top
-var banner
-var circle
-var line
+var top,banner,circle,line;
 require.ensure(['../moduleslibs/topCont/topCont.js'], function(e) {
     top = require('../moduleslibs/topCont/topCont.js')
     resolve.resolve()
@@ -397,6 +394,7 @@ function index() {
         obj['typeCode'] = parseInt(typeCode);
         obj['width'] = that.dom.find('.index3').width();
         obj['id'] = 'index3';
+        console.log(obj)   //perany-todo///全部选项首次加载报错
         lineCont.setData(obj)
     }
 }
