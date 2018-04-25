@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "startTime": "2018-05-03",
+      "campaignName": "活动一",
+      "campaignId": "01",
+      "endTime": "2018-05-03"
+    },
+    {
+      "startTime": "2018-05-05",
+      "campaignName": "活动二",
+      "campaignId": "02",
+      "endTime": "2018-05-05"
+    },
+    {
+      "startTime": "2018-05-11",
+      "campaignName": "活动三",
+      "campaignId": "03",
+      "endTime": "2018-05-11"
+    },
+    {
+      "startTime": "2018-05-03",
+      "campaignName": "活动四",
+      "campaignId": "04",
+      "endTime": "2018-05-11"
+    }
+  ]
+}

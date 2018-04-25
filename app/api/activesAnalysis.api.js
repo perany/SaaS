@@ -5,7 +5,7 @@ api = {
         var deferred = $.Deferred()
         //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:  api.app.domain +'campaignAnalysis/campaignList',
+            url:  api.app.localDomain +'activesAnalysis/channelList.json',
             type: "GET",
             dataType: "json",
             data:value,
@@ -17,30 +17,52 @@ api = {
     },
         // 活动新增用户成本
     cpgaAnalysis:function (value) {
-            var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
-            $.ajax({
-                url:  api.app.domain +'campaignAnalysis/cpgaAnalysis',
-                type: "GET",
-                dataType: "json",
-                data:value,
-                success: function (response) {
-                    deferred.resolve(response);
-                }
-            });
-            return deferred
-        },
+        var deferred = $.Deferred();
+        var path;
+        switch (value.campaignId){
+            case "01":
+            case "03":
+                path=api.app.localDomain+'activesAnalysis/cpgaAnalysis1.json';
+                break;
+            case "02":
+            case "04":
+                path=api.app.localDomain+'activesAnalysis/cpgaAnalysis2.json';
+                break;
+        }
+        $.ajax({
+            // url: api.app.domain + 'activesAnalysis/cpgaAnalysis',
+            url:path,
+            type: "post",
+            dataType: 'json',
+            data: api.app.format(value),
+            success: function (response) {
+                api.app.goBack(response, deferred)
+            }
+        });
+        return deferred
+    },
     // 活动活跃用户成本
     activeUserCostAnalysis:function (value) {
         var deferred = $.Deferred()
-        //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.campaignId){
+            case "01":
+            case "03":
+                path=api.app.localDomain+'activesAnalysis/activeUserCostAnalysis1.json';
+                break;
+            case "02":
+            case "04":
+                path=api.app.localDomain+'activesAnalysis/activeUserCostAnalysis2.json';
+                break;
+        }
         $.ajax({
-            url:  api.app.domain +'campaignAnalysis/activeUserCostAnalysis',
-            type: "GET",
+            // url: api.app.domain + 'activesAnalysis/activeUserCostAnalysis',
+            url:path,
+            type: "post",
             dataType: "json",
-            data:value,
+            data: api.app.format(value),
             success: function (response) {
-                deferred.resolve(response);
+                api.app.goBack(response, deferred)
             }
         });
         return deferred
@@ -48,14 +70,25 @@ api = {
     //活动留存用户成本
     retainedUserCostAnalysis:function (value) {
         var deferred = $.Deferred()
-        //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.campaignId){
+            case "01":
+            case "03":
+                path=api.app.localDomain+'activesAnalysis/retainedUserCostAnalysis1.json';
+                break;
+            case "02":
+            case "04":
+                path=api.app.localDomain+'activesAnalysis/retainedUserCostAnalysis2.json';
+                break;
+        }
         $.ajax({
-            url:  api.app.domain +'campaignAnalysis/retainedUserCostAnalysis',
-            type: "GET",
+            // url: api.app.domain + 'activesAnalysis/retainedUserCostAnalysis',
+            url:path,
+            type: "post",
             dataType: "json",
-            data:value,
+            data: api.app.format(value),
             success: function (response) {
-                deferred.resolve(response);
+                api.app.goBack(response, deferred)
             }
         });
         return deferred
@@ -63,14 +96,25 @@ api = {
     //活动付费用户成本
     paidUserCostAnalysis:function (value) {
         var deferred = $.Deferred()
-        //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.campaignId){
+            case "01":
+            case "03":
+                path=api.app.localDomain+'activesAnalysis/paidUserCostAnalysis1.json';
+                break;
+            case "02":
+            case "04":
+                path=api.app.localDomain+'activesAnalysis/paidUserCostAnalysis2.json';
+                break;
+        }
         $.ajax({
-            url:  api.app.domain +'campaignAnalysis/paidUserCostAnalysis',
-            type: "GET",
+            // url: api.app.domain +'activesAnalysis/paidUserCostAnalysis',
+            url:path,
+            type: "post",
             dataType: "json",
-            data:value,
+            data: api.app.format(value),
             success: function (response) {
-                deferred.resolve(response);
+                api.app.goBack(response, deferred)
             }
         });
         return deferred
@@ -94,7 +138,7 @@ api = {
                 break;
         }
         $.ajax({
-            // url:api.app.domain+'saas-dmp/login',
+            // url:api.app.localDomain+'saas-dmp/login',
             url: path,
             type: "GET",
             dataType: "json",

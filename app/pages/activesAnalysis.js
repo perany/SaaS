@@ -20,7 +20,6 @@ require.ensure(['../modules/activesChannel/bubble/bubble.js'], function(e) {
 function activesAnalysis() {
     var that = this;
     var topCont = null;
-    var lineCont = null;
     var bubbleCont = null;
     var lineCont1 = null;
     var lineCont2 = null;

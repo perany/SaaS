@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "hourFormat": "00:00",
+      "hour": 0,
+      "date": "2017-08-01",
+      "cost": 1.0
+    },
+    {
+      "hourFormat": "01:00",
+      "hour": 1,
+      "date": "2017-08-01",
+      "cost": 1.1
+    },
+    {
+      "hourFormat": "02:00",
+      "hour": 2,
+      "date": "2017-08-01",
+      "cost": 0.5
+    },
+    {
+      "hourFormat": "03:00",
+      "hour": 3,
+      "date": "2017-08-01",
+      "cost": -1.0
+    },
+    {
+      "hourFormat": "04:00",
+      "hour": 4,
+      "date": "2017-08-01",
+      "cost": 0.4
+    },
+    {
+      "hourFormat": "05:00",
+      "hour": 5,
+      "date": "2017-08-01",
+      "cost": 0.8
+    },
+    {
+      "hourFormat": "06:00",
+      "hour": 6,
+      "date": "2017-08-01",
+      "cost": 1.1
+    },
+    {
+      "hourFormat": "07:00",
+      "hour": 7,
+      "date": "2017-08-01",
+      "cost": 1.4
+    },
+    {
+      "hourFormat": "08:00",
+      "hour": 8,
+      "date": "2017-08-01",
+      "cost": 2.0
+    },
+    {
+      "hourFormat": "09:00",
+      "hour": 9,
+      "date": "2017-08-01",
+      "cost": 1.9
+    },
+    {
+      "hourFormat": "10:00",
+      "hour": 10,
+      "date": "2017-08-01",
+      "cost": 2.1
+    },
+    {
+      "hourFormat": "11:00",
+      "hour": 11,
+      "date": "2017-08-01",
+      "cost": 2.3
+    },
+    {
+      "hourFormat": "12:00",
+      "hour": 12,
+      "date": "2017-08-01",
+      "cost": 2.8
+    },
+    {
+      "hourFormat": "13:00",
+      "hour": 13,
+      "date": "2017-08-01",
+      "cost": 3.5
+    },
+    {
+      "hourFormat": "14:00",
+      "hour": 14,
+      "date": "2017-08-01",
+      "cost": 3.0
+    },
+    {
+      "hourFormat": "15:00",
+      "hour": 15,
+      "date": "2017-08-01",
+      "cost": 1.7
+    },
+    {
+      "hourFormat": "16:00",
+      "hour": 16,
+      "date": "2017-08-01",
+      "cost": 1.4
+    },
+    {
+      "hourFormat": "17:00",
+      "hour": 17,
+      "date": "2017-08-01",
+      "cost": 0.9
+    },
+    {
+      "hourFormat": "18:00",
+      "hour": 18,
+      "date": "2017-08-01",
+      "cost": 2.4
+    },
+    {
+      "hourFormat": "19:00",
+      "hour": 19,
+      "date": "2017-08-01",
+      "cost": 2.9
+    },
+    {
+      "hourFormat": "20:00",
+      "hour": 20,
+      "date": "2017-08-01",
+      "cost": 3.2
+    },
+    {
+      "hourFormat": "21:00",
+      "hour": 21,
+      "date": "2017-08-01",
+      "cost": 3.3
+    },
+    {
+      "hourFormat": "22:00",
+      "hour": 22,
+      "date": "2017-08-01",
+      "cost": 3.5
+    },
+    {
+      "hourFormat": "23:00",
+      "hour": 23,
+      "date": "2017-08-01",
+      "cost": 2.3
+    }
+  ]
+}

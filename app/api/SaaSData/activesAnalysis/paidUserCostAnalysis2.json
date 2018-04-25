@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "dateFormat": "05/01",
+      "date": "2018-05-01",
+      "cost": 10.3
+    },
+    {
+      "dateFormat": "05/02",
+      "date": "2018-05-02",
+      "cost": 10.8
+    },
+    {
+      "dateFormat": "05/03",
+      "date": "2018-05-03",
+      "cost": 10.1
+    },
+    {
+      "dateFormat": "05/04",
+      "date": "2018-05-04",
+      "cost": 6.2
+    },
+    {
+      "dateFormat": "05/05",
+      "date": "2018-05-05",
+      "cost": 6.3
+    },
+    {
+      "dateFormat": "05/06",
+      "date": "2018-05-05",
+      "cost": 6.8
+    },
+    {
+      "dateFormat": "05/07",
+      "date": "2018-05-05",
+      "cost": 7.0
+    },
+    {
+      "dateFormat": "05/08",
+      "date": "2018-05-08",
+      "cost": 8.5
+    },
+    {
+      "dateFormat": "05/09",
+      "date": "2018-05-09",
+      "cost": 8.8
+    },
+    {
+      "dateFormat": "05/10",
+      "date": "2018-05-10",
+      "cost": 6.1
+    },
+    {
+      "dateFormat": "05/11",
+      "date": "2018-05-11",
+      "cost": 6.8
+    },
+    {
+      "dateFormat": "05/12",
+      "date": "2018-05-12",
+      "cost": 6.5
+    },
+    {
+      "dateFormat": "05/13",
+      "date": "2018-05-13",
+      "cost": 6.3
+    },
+    {
+      "dateFormat": "05/14",
+      "date": "2018-05-14",
+      "cost": 6.2
+    },
+    {
+      "dateFormat": "05/15",
+      "date": "2018-05-15",
+      "cost": 8.4
+    },
+    {
+      "dateFormat": "05/16",
+      "date": "2018-05-16",
+      "cost": 8.7
+    },
+    {
+      "dateFormat": "05/17",
+      "date": "2018-05-17",
+      "cost": 6.1
+    },
+    {
+      "dateFormat": "05/18",
+      "date": "2018-05-18",
+      "cost": 6.4
+    },
+    {
+      "dateFormat": "05/19",
+      "date": "2018-05-19",
+      "cost": 6.6
+    },
+    {
+      "dateFormat": "05/20",
+      "date": "2018-05-20",
+      "cost": 7.3
+    },
+    {
+      "dateFormat": "05/21",
+      "date": "2018-05-21",
+      "cost": 6.5
+    },
+    {
+      "dateFormat": "05/22",
+      "date": "2018-05-22",
+      "cost": 8.4
+    },
+    {
+      "dateFormat": "05/23",
+      "date": "2018-05-23",
+      "cost": 8.8
+    },
+    {
+      "dateFormat": "05/24",
+      "date": "2018-05-24",
+      "cost": 7.1
+    },
+    {
+      "dateFormat": "05/25",
+      "date": "2018-05-25",
+      "cost": 6.1
+    },
+    {
+      "dateFormat": "05/26",
+      "date": "2018-05-26",
+      "cost": 5.1
+    },
+    {
+      "dateFormat": "05/27",
+      "date": "2018-05-27",
+      "cost": 6.5
+    },
+    {
+      "dateFormat": "05/28",
+      "date": "2018-05-28",
+      "cost": 6.2
+    },
+    {
+      "dateFormat": "05/29",
+      "date": "2018-05-29",
+      "cost": 6.4
+    },
+    {
+      "dateFormat": "05/30",
+      "date": "2018-05-30",
+      "cost": 9.0
+    }
+  ]
+}

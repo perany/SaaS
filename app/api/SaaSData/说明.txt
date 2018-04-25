@@ -48,3 +48,18 @@ getUvDifference3.json disSource:3
     paidUserCostAnalysis2.json  channelId:82
 
 
+--------------------活动分析：activesAnalysis.api.js
+活动新增用户成本
+    cpgaAnalysis1.json  channelId:80   单选wsx
+    cpgaAnalysis2.json  channelId:82   单选qaz
+活动活跃用户成本
+    activeUserCostAnalysis1.json  channelId:80
+    activeUserCostAnalysis2.json  channelId:82
+活动留存用户成本
+    retainedUserCostAnalysis1.json  channelId:80
+    retainedUserCostAnalysis2.json  channelId:82
+活动付费用户成本
+    paidUserCostAnalysis1.json  channelId:80
+    paidUserCostAnalysis2.json  channelId:82
+
+
