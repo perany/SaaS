@@ -3,20 +3,20 @@ var resolve = $.Deferred()
 var resolve1 = $.Deferred()
 var resolve2 = $.Deferred()
 var resolve3 = $.Deferred()
-var top,banner,circle,line;
-require.ensure(['../moduleslibs/topCont/topCont.js'], function(e) {
+var top, banner, circle, line;
+require.ensure(['../moduleslibs/topCont/topCont.js'], function (e) {
     top = require('../moduleslibs/topCont/topCont.js')
     resolve.resolve()
 });
-require.ensure(['../modules/overView/banner/banner.js'], function(e) {
+require.ensure(['../modules/overView/banner/banner.js'], function (e) {
     banner = require('../modules/overView/banner/banner.js')
     resolve1.resolve()
 });
-require.ensure(['../modules/overView/cirlce/cirlce.js'], function(e) {
+require.ensure(['../modules/overView/cirlce/cirlce.js'], function (e) {
     circle = require('../modules/overView/cirlce/cirlce.js')
     resolve2.resolve()
 });
-require.ensure(['../modules/line/cont.js'], function(e) {
+require.ensure(['../modules/line/cont.js'], function (e) {
     line = require('../modules/line/cont.js')
     resolve3.resolve()
 });
@@ -29,7 +29,6 @@ function index() {
     var lineCont = null;
     var userTypeName;
     var userTypeCode;
-    var radioCont = null;
     var matchTable = ['startTime', 'endTime'];
     var startDate = Tool.GetDateStr(0);
     var endDate = Tool.GetDateStr(0);
@@ -38,10 +37,10 @@ function index() {
     var uv = [];
     var historyAvgUv = [];
     var count = 0;
-    this.complete = function() {
+    this.complete = function () {
         //console.log('ijisidsjic', that.app.model.get('iosId'));
         osId = that.app.model.get('iosId') ? that.app.model.get('iosId') : '1';
-        that.app.header.setData = function(val) {
+        that.app.header.setData = function (val) {
             console.log('123451226', that.app.model.get('iosId'));
             osId = val.osId;
             typeCode = -1
@@ -49,7 +48,7 @@ function index() {
             that.valueListDb();
             that.getUserTypeDateStreamUvDb();
         }
-        this.app.returnRequier([resolve, resolve1, resolve2, resolve3]).done(function() {
+        this.app.returnRequier([resolve, resolve1, resolve2, resolve3]).done(function () {
             topCont = that.app.loadModule(top, that.dom.find('.firstActCont'), {
                 data: {
                     type: ['timeBox'],
@@ -59,7 +58,7 @@ function index() {
                     matchTable: matchTable
                 }
             })
-            topCont.event._addEvent('topCont.data', function(val) {
+            topCont.event._addEvent('topCont.data', function (val) {
                 typeCode = -1
                 startDate = val.startTime;
                 endDate = val.endTime;
@@ -104,22 +103,29 @@ function index() {
                     iconTips: ['标记与上一时期上下超出50%', '<p>活动标记：标记时间以自定义中活动周期的起始日开始</p><p>版本标记：标记时间以自定义中创建渠道起始日开始</p>'],
                 }
             })
-            lineCont.event._addEvent('line.radio', function(val) {
+            lineCont.event._addEvent('line.radio', function (val) {
                 typeCode = val.id;
                 that.getUserTypeDateStreamUvDb();
-            })
+            });
             that.getUserTypeDateStreamUvDb();
-        })
+            setTimeout("(function check(){\n" +
+                "        console.log(\"1\",$(\".fl .radios:first-child i\"));\n" +
+                "        if($(\".fl .radios:first-child i\").length==1){\n" +
+                "            $(\".fl .radios:first-child i\").click();\n" +
+                "        }\n" +
+                "    })()",1000);
+
+        });
     }
 
-    this.getUvTotalDb = function() {
+    this.getUvTotalDb = function () {
         bannerCont.showLoading();
         var json = {
             startDate: startDate,
             endDate: endDate,
             osId: osId
         }
-        that.api.getUvTotal(json).then(function(res) {
+        that.api.getUvTotal(json).then(function (res) {
             bannerCont.hideLoading();
             if (res.meta.success == true) {
                 bannerCont.hideRefresh();
@@ -133,7 +139,7 @@ function index() {
 
         })
     }
-    this.valueListDb = function() {
+    this.valueListDb = function () {
         count = 0;
         uv = [];
         historyAvgUv = [];
@@ -141,16 +147,16 @@ function index() {
         var dataPara = {
             type: "usertype"
         };
-        that.api.valueList(dataPara).then(function(res) {
+        that.api.valueList(dataPara).then(function (res) {
             cirlceCont.hideLoading();
             if (res.meta.success == true) {
                 cirlceCont.hideRefresh();
                 userTypeName = [];
                 userTypeCode = [];
-                var radioData = [{ name: '全部', id: '-1' }];
+                var radioData = [{name: '全部', id: '-1'}];
                 for (var i = 0; i < res.data.length; i++) {
                     userTypeName.push(res.data[i].typeName);
-                    radioData.push({ name: res.data[i].typeName, id: res.data[i].typeCode })
+                    radioData.push({name: res.data[i].typeName, id: res.data[i].typeCode})
                     that.getUserTypeStreamUvDb(res.data[i].typeCode, i);
                 }
                 cirlceCont.setTitle(userTypeName);
@@ -161,7 +167,7 @@ function index() {
             }
         })
     }
-    this.getUserTypeStreamUvDb = function(code, idx) {
+    this.getUserTypeStreamUvDb = function (code, idx) {
         cirlceCont.showLoading();
         var api;
         var json = {
@@ -175,7 +181,7 @@ function index() {
         } else {
             api = that.api.getUserTypeUv
         }
-        api(json).then(function(res) {
+        api(json).then(function (res) {
             cirlceCont.hideLoading();
             if (res.meta.success == true) {
                 cirlceCont.hideRefresh();
@@ -189,7 +195,7 @@ function index() {
                     avg: res.data.historyAvgUv ? res.data.historyAvgUv : '0'
                 });
                 if (count == 4) {
-                    cirlceCont.setData({ uv: uv, historyAvgUv: historyAvgUv });
+                    cirlceCont.setData({uv: uv, historyAvgUv: historyAvgUv});
                 }
             } else {
                 cirlceCont.showRefresh();
@@ -197,7 +203,14 @@ function index() {
             }
         })
     }
-    this.getUserTypeDateStreamUvDb = function() {
+    this.getUserTypeDateStreamUvDb = function () {
+        // console.log(lineCont.dom.find(".fl .radios:first-child i"));
+        // if(lineCont.dom.find(".fl .radios:first-child i").length==1){
+        //     // lineCont.dom.find(".fl .radios:first-child i").click();
+        //     // return false;
+        // }else{
+        //     console.log("111");
+        // }
         lineCont.showLoading();
         lineCont.hideDataNull();
         lineCont.hideData();
@@ -213,7 +226,7 @@ function index() {
         } else {
             api = that.api.getUserTypeDateUv
         }
-        api(json).then(function(res) {
+        api(json).then(function (res) {
             lineCont.hideLoading();
             if (res.meta.success == true) {
                 if (res.data.activeUserList.length > 0 || res.data.addUserList.length > 0 || res.data.payUserList.length > 0 || res.data.regUserList.length > 0) {
@@ -228,9 +241,10 @@ function index() {
                 lineCont.showRefresh();
                 that.app.login(res.meta);
             }
-        })
+        });
     };
-    this.dealData = function(val, startDate, endDate) {
+    this.dealData = function (val, startDate, endDate) {
+        console.log(val, startDate, endDate);
         var obj = {};
         var arrX = [];
         var arrX1 = [];
@@ -249,10 +263,10 @@ function index() {
         // var arr4 = [];
         var ratioArr = [];
         var tempArr = [];
-        var tipsArr = [{ name: '新增用户', color: '#50bbb3' },
-            { name: '活跃用户', color: '#77c9fd' },
-            { name: '注册用户', color: '#4f98e1' },
-            { name: '付费用户', color: '#9980b9' }
+        var tipsArr = [{name: '新增用户', color: '#50bbb3'},
+            {name: '活跃用户', color: '#77c9fd'},
+            {name: '注册用户', color: '#4f98e1'},
+            {name: '付费用户', color: '#9980b9'}
         ]
         var tipsArr1 = [];
         var listArr1 = [val.data.addUserList, val.data.activeUserList, val.data.regUserList, val.data.payUserList]
@@ -269,7 +283,7 @@ function index() {
                     tempArr = listArr1[0]
                 }
             }
-            $.each(tempArr, function(idx, value) {
+            $.each(tempArr, function (idx, value) {
                 if (startDate == endDate) {
                     if (value.hourFormat != undefined || value.hourFormat != null) {
                         arrX.push(value.hourFormat)
@@ -285,10 +299,10 @@ function index() {
                 }
             });
         }
-        $.each(listArr1, function(iii, vvv) {
+        $.each(listArr1, function (iii, vvv) {
             var arr = [];
             if (vvv.length > 0) {
-                $.each(vvv, function(idx, value) {
+                $.each(vvv, function (idx, value) {
                     arr.push(value.uv)
                     if (parseInt(typeCode) != -1) {
                         if (startDate == endDate) {
@@ -320,7 +334,7 @@ function index() {
                 tipsArr1.push(tipsArr[iii]);
             } else {
                 if (parseInt(typeCode) == -1) {
-                    $.each(tempArr, function(idx, value) {
+                    $.each(tempArr, function (idx, value) {
                         arr.push(0)
                     })
                     arrColor.push('' + arrColor1[iii]);
@@ -331,7 +345,7 @@ function index() {
         var dateForImg = [];
         if (val.data.campaignList) {
             var actDateArr = [];
-            $.each(val.data.campaignList, function() {
+            $.each(val.data.campaignList, function () {
                 var stDate = new Date(this.startDate.replace(/-/g, '/') + ' ' + this.startTime + ':00').getTime()
                 var etDate = new Date(this.endDate.replace(/-/g, '/') + ' ' + this.endTime + ':00').getTime()
                 this.sms = stDate
@@ -342,14 +356,14 @@ function index() {
         if (val.data.versionList.length > 0) {
             var verDateArr = [];
             var arr = [];
-            $.each(val.data.versionList, function() {
+            $.each(val.data.versionList, function () {
                 var stDate = new Date(this.startDate.replace(/-/g, '/') + ' 00:00:00').getTime()
                 this.sms = stDate;
                 arr.push(stDate);
                 verDateArr.push(this)
             })
         }
-        $.each(arrX, function(i, val) {
+        $.each(arrX, function (i, val) {
             if (startDate == endDate) {
                 dateForImg[i] = new Date(startDate + ' ' + arrX[i] + ':00').getTime();
             } else {
@@ -359,11 +373,11 @@ function index() {
         var actList = [];
         var verList = [];
         var activeImg = [];
-        $.each(dateForImg, function(i) {
+        $.each(dateForImg, function (i) {
             var index = i;
             if (actDateArr) {
                 var arr = [];
-                $.each(actDateArr, function(i, val) {
+                $.each(actDateArr, function (i, val) {
                     if (this.sms - dateForImg[index] < 86398 * 1000 && this.sms - dateForImg[index] >= 0) {
                         arr.push(this);
                         activeImg[index] = '/images/u4433.png'
@@ -372,7 +386,7 @@ function index() {
                 actList.push(arr);
             }
             if (verDateArr) {
-                $.each(verDateArr, function(i) {
+                $.each(verDateArr, function (i) {
                     if (this.sms == dateForImg[index]) {
                         verList[index] = this
                         activeImg[index] = '/images/u4433.png'
@@ -394,9 +408,12 @@ function index() {
         obj['typeCode'] = parseInt(typeCode);
         obj['width'] = that.dom.find('.index3').width();
         obj['id'] = 'index3';
-        console.log(obj)   //perany-todo///全部选项首次加载报错
-        lineCont.setData(obj)
+        console.log(obj,lineCont)   //perany-todo///全部选项首次加载报错
+        // t=setTimeout("lineCont.setData(obj)",3000);
+        // clearTimeout(t);
+        lineCont.setData(obj);
     }
 }
+
 //原型链一定要有的
 module.exports = index;
