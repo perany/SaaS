@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1039,
+      "demension": "学生",
+      "uv": 8,
+      "percentage": 31
+    },{
+      "accountId": 0,
+      "demensionId": 1039,
+      "demension": "在职",
+      "uv": 8,
+      "percentage": 38
+    },{
+      "accountId": 0,
+      "demensionId": 1039,
+      "demension": "退休",
+      "uv": 8,
+      "percentage": 10
+    },{
+      "accountId": 0,
+      "demensionId": 1039,
+      "demension": "自由职业",
+      "uv": 8,
+      "percentage": 16
+    }
+  ]
+}

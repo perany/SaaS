@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 1,
+      "demensionId": 1,
+      "demension": "iOS",
+      "uv": 61,
+      "percentage": 39
+    },{
+      "accountId": 2,
+      "demensionId": 2,
+      "demension": "android",
+      "uv": 61,
+      "percentage": 42
+    },{
+      "accountId": 3,
+      "demensionId": 3,
+      "demension": "windows",
+      "uv": 61,
+      "percentage": 19
+    }
+  ]
+}

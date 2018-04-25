@@ -5,8 +5,8 @@ api = {
     dimensionAnalysis: function() {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/dimensionAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/dimensionAnalysis',
+            type: "POST",
             dataType: "json",
             success: function(response) {
                 deferred.resolve(response);
@@ -18,8 +18,8 @@ api = {
     costList: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'onlineChannel/costList',
-            type: "GET",
+            url: api.app.localDomain + 'onlineChannel/costList',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -33,7 +33,7 @@ api = {
     list: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'onlineChannel/list',
+            url: api.app.localDomain + 'onlineChannel/list',
             type: "post",
             dataType: "json",
             data: api.app.format(value),
@@ -47,8 +47,8 @@ api = {
     event: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/event',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/event',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -62,8 +62,8 @@ api = {
     events: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'eventGroup/events',
-            type: "GET",
+            url: api.app.localDomain + 'eventGroup/events',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -76,8 +76,8 @@ api = {
     deviceTypeAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/deviceTypeAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/deviceTypeAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -90,8 +90,8 @@ api = {
     operatingSystemAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/operatingSystemAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/operatingSystemAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -105,8 +105,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/screenResolutionAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/screenResolutionAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -120,8 +120,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/networkModeAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/networkModeAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -134,8 +134,8 @@ api = {
     carrieroperatorAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/carrieroperatorAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/carrieroperatorAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -148,8 +148,8 @@ api = {
     ageAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/ageAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/ageAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -163,8 +163,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/genderAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/genderAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -178,8 +178,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/marriageAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/marriageAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -193,8 +193,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/educationAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/educationAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -208,8 +208,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/sourceCityAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/sourceCityAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -222,8 +222,8 @@ api = {
     sourceProvinceAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/sourceProvinceAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/sourceProvinceAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -237,8 +237,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/occupationAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/occupationAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -252,8 +252,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/consumptionIncomeRatioAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/consumptionIncomeRatioAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -267,8 +267,8 @@ api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/interestPreferenceAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/interestPreferenceAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -281,8 +281,8 @@ api = {
     appPreferenceAnalysis: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: api.app.domain + 'portraitAnalysis/appPreferenceAnalysis',
-            type: "GET",
+            url: api.app.localDomain + 'portraitAnalysis/appPreferenceAnalysis.json',
+            type: "POST",
             dataType: "json",
             data: value,
             success: function(response) {
@@ -291,47 +291,38 @@ api = {
         });
         return deferred
     },
-    // //获取事件组类型
-    // valueList: function(value) {
-    //     var deferred = $.Deferred();
-    //     $.ajax({
-    //         url: api.app.domain + 'dictionary/valueList',
-    //         type: "GET",
-    //         dataType: "json",
-    //         data: value,
-    //         success: function(response) {
-    //             deferred.resolve(response);
-    //         }
-    //     });
-    //     return deferred
-    // },
     //用户类型
-    valueList: function(value, adds) {
+    valueList: function(value) {
         var deferred = $.Deferred();
         var path;
-        switch (value){
+        switch (value.type){
             case "os":
                 path=api.app.localDomain+'dictionary/valueList2-os.json';
                 break;
             case "eventgroup":
+                path=api.app.localDomain+'dictionary/valueList6-eventgroup.json';
+                break;
             case "userevent":
                 path=api.app.localDomain+'dictionary/valueList4-userevent.json';
                 break;
             case "usertype":
                 path=api.app.localDomain+'dictionary/valueList3-usertype.json';
                 break;
+            case "dimensionality":
+                path=api.app.localDomain+'dictionary/valueList5-dimensionality.json';
+                break;
             default:
-                path=api.app.domain + 'dictionary/valueList4-userevent.json';
+                path=api.app.localDomain + 'dictionary/valueList2-os.json';
                 break;
         }
-        if (adds) {
-            path += '?type=' + value + '&osId=' + adds;
+        if (value.osID) {
+            path += '?type=' + value.type + '&osId=' + value.osID;
         } else {
-            path += '?type=' + value;
+            path += '?type=' + value.type;
         }
         $.ajax({
             url: path,
-            type: "get",
+            type: "POST",
             async: true,
             dataType: 'json',
             timeout: 60000,

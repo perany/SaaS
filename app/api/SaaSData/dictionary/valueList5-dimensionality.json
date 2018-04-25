@@ -1,0 +1,18 @@
+﻿{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "typeName": "渠道",
+      "typeCode": 28,
+      "typeValue": "channel"
+    },
+    {
+      "typeName": "活动",
+      "typeCode": 29,
+      "typeValue": "campaign"
+    }
+  ]
+}

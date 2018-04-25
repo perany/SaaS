@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1068,
+      "demension": "中国移动",
+      "uv": 8,
+      "percentage": 46
+    },{
+      "accountId": 0,
+      "demensionId": 1068,
+      "demension": "中国电信",
+      "uv": 8,
+      "percentage": 33
+    },{
+      "accountId": 0,
+      "demensionId": 1068,
+      "demension": "中国联通",
+      "uv": 8,
+      "percentage": 21
+    }
+  ]
+}

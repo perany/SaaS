@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 10,
+      "demensionId": 810101104,
+      "demension": "驴友",
+      "uv": 61,
+      "percentage": 13
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101106,
+      "demension": "理财专家",
+      "uv": 61,
+      "percentage": 15
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "书虫",
+      "uv": 61,
+      "percentage": 7
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "吃货",
+      "uv": 61,
+      "percentage": 21
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "剁手党",
+      "uv": 61,
+      "percentage": 13
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "颜控",
+      "uv": 61,
+      "percentage": 18
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "学霸",
+      "uv": 61,
+      "percentage": 5
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "二次元",
+      "uv": 61,
+      "percentage": 19
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "麦霸",
+      "uv": 61,
+      "percentage": 8
+    },
+    {
+      "accountId": 10,
+      "demensionId": 810101102,
+      "demension": "段子手",
+      "uv": 61,
+      "percentage": 6
+    }
+  ]
+}

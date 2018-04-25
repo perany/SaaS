@@ -24,10 +24,10 @@ function index() {
     };
     this.setData = function(val) {
         that.dom.find('#' + val.id).empty();
-        var html = '';
+        var html_ = '';
         for (var i = 0; i <val.name.length; i++) {
             var icons = val.icon == undefined ? '' : val.icon[i];
-            html += '<dl>' +
+            html_ += '<dl>' +
                 '<dt class="clearfix">' +
                 '<span class="fl"><i class="' + icons + '"></i></span>' +
                 '<span style="margin-top: 7px;">' + val.name[i] + '</span>'+
@@ -38,7 +38,8 @@ function index() {
                 '</dd>' +
                 '</dl>';
         }
-        that.dom.find('#' + val.id).append(html);
+        console.log("00000000000000000000000000",val,that.dom.find("#" + val.id),html_,);
+        that.dom.find(".body_cont").append(html_);
     }
 }
 module.exports = index;

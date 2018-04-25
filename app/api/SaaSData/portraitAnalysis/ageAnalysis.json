@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1050,
+      "demension": "19岁及以下",
+      "uv": 1,
+      "percentage": 21
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1051,
+      "demension": "20-29岁",
+      "uv": 1,
+      "percentage": 41
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1052,
+      "demension": "30-39岁",
+      "uv": 1,
+      "percentage": 22
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1053,
+      "demension": "40-49岁",
+      "uv": 1,
+      "percentage": 12
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1055,
+      "demension": "60岁及以上",
+      "uv": 4,
+      "percentage": 4
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 10,
+      "demensionId": 11029,
+      "demension": "微博",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10075,
+      "demension": "网易云音乐",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10509,
+      "demension": "淘宝",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10273,
+      "demension": "哔哩哔哩",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10554,
+      "demension": "微信",
+      "uv": 8,
+      "percentage": 100.0
+    },{
+      "accountId": 10,
+      "demensionId": 11029,
+      "demension": "蚂蚁财富",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10075,
+      "demension": "凤凰新闻",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10509,
+      "demension": "携程",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10273,
+      "demension": "美图秀秀",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10554,
+      "demension": "知乎",
+      "uv": 8,
+      "percentage": 100.0
+    },
+    {
+      "accountId": 10,
+      "demensionId": 10554,
+      "demension": "抖音",
+      "uv": 8,
+      "percentage": 100.0
+    }
+  ]
+}

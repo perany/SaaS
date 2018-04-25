@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1056,
+      "demension": "高中及以下",
+      "uv": 6,
+      "percentage": 18
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1058,
+      "demension": "本科",
+      "uv": 2,
+      "percentage": 67
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1058,
+      "demension": "研究生及以上",
+      "uv": 2,
+      "percentage": 15
+    }
+  ]
+}

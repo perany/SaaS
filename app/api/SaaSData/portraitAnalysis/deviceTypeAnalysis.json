@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 1,
+      "demensionId": 1,
+      "demension": "iphone",
+      "uv": 61,
+      "percentage": 31
+    },{
+      "accountId": 2,
+      "demensionId": 2,
+      "demension": "vivo",
+      "uv": 61,
+      "percentage": 14
+    },{
+      "accountId": 3,
+      "demensionId": 3,
+      "demension": "OPPO",
+      "uv": 61,
+      "percentage": 11
+    },{
+      "accountId": 4,
+      "demensionId": 4,
+      "demension": "华为P系列",
+      "uv": 61,
+      "percentage": 12
+    },{
+      "accountId": 5,
+      "demensionId": 5,
+      "demension": "荣耀系列",
+      "uv": 61,
+      "percentage": 14
+    },{
+      "accountId": 6,
+      "demensionId": 6,
+      "demension": "小米",
+      "uv": 61,
+      "percentage": 15
+    },{
+      "accountId": 7,
+      "demensionId": 7,
+      "demension": "美图",
+      "uv": 61,
+      "percentage": 3
+    }
+  ]
+}

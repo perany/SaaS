@@ -31,7 +31,7 @@ function index() {
         $(value.name).each(function(i, val) {
             htmls += '<span class="interst' + i + '">' + val + '</span>';
         })
-        that.dom.find('#' + value.id).html(htmls);
+        that.dom.find('.body_cont').html(htmls);
     }
 };
 module.exports = index;

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1070,
+      "demension": "Wifi",
+      "uv": 6,
+      "percentage": 51
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1073,
+      "demension": "4G",
+      "uv": 2,
+      "percentage": 39
+    },
+    {
+      "accountId": 0,
+      "demensionId": 3,
+      "demension": "3G",
+      "uv": 2,
+      "percentage": 6
+    },
+    {
+      "accountId": 0,
+      "demensionId": 4,
+      "demension": "2G",
+      "uv": 2,
+      "percentage": 4
+    }
+  ]
+}

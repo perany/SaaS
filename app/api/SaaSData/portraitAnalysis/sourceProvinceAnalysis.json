@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "北京",
+      "uv": 61,
+      "percentage": 15
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "上海",
+      "uv": 61,
+      "percentage": 16
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "深圳",
+      "uv": 61,
+      "percentage": 13
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "江苏省",
+      "uv": 61,
+      "percentage": 10
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "广东省",
+      "uv": 61,
+      "percentage": 11
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "浙江省",
+      "uv": 61,
+      "percentage": 9
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "福建省",
+      "uv": 61,
+      "percentage": 7
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "安徽省",
+      "uv": 61,
+      "percentage": 4
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "湖南省",
+      "uv": 61,
+      "percentage": 5
+    },{
+      "accountId": 10,
+      "demensionId": 340000,
+      "demension": "其它",
+      "uv": 61,
+      "percentage": 10
+    }
+  ]
+}

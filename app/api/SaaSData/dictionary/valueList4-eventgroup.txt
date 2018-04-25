@@ -1,1 +1,0 @@
-﻿{"meta":{"success":true,"message":"ok"},"data":[{"typeName":"click","typeCode":80}]}

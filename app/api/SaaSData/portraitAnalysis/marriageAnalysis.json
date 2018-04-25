@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "accountId": 0,
+      "demensionId": 1033,
+      "demension": "未婚",
+      "uv": 8,
+      "percentage": 68
+    },{
+      "accountId": 0,
+      "demensionId": 1033,
+      "demension": "已婚",
+      "uv": 8,
+      "percentage": 32
+    }
+  ]
+}
