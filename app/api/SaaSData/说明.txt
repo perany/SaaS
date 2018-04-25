@@ -35,8 +35,8 @@ getUvDifference3.json disSource:3
 
 --------------------渠道分析：channelAnalysis.api.js
 渠道新增用户成本
-    cpgaAnalysis1.json  channelId:80
-    cpgaAnalysis2.json  channelId:82
+    cpgaAnalysis1.json  channelId:80   单选wsx
+    cpgaAnalysis2.json  channelId:82   单选qaz
 渠道活跃用户成本
     activeUserCostAnalysis1.json  channelId:80
     activeUserCostAnalysis2.json  channelId:82

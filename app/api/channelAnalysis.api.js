@@ -66,9 +66,11 @@ api = {
         var deferred = $.Deferred();
         var path;
         switch (value.channelId){
-            case "80":
+            case 80:
+            case '80':
                 path=api.app.localDomain+'channelAnalysis/cpgaAnalysis1.json';
                 break;
+            case 82:
             case "82":
                 path=api.app.localDomain+'channelAnalysis/cpgaAnalysis2.json';
                 break;
@@ -90,9 +92,11 @@ api = {
         var deferred = $.Deferred()
         var path;
         switch (value.channelId){
+            case 80:
             case "80":
                 path=api.app.localDomain+'channelAnalysis/activeUserCostAnalysis1.json';
                 break;
+            case 82:
             case "82":
                 path=api.app.localDomain+'channelAnalysis/activeUserCostAnalysis2.json';
                 break;
@@ -114,9 +118,11 @@ api = {
         var deferred = $.Deferred()
         var path;
         switch (value.channelId){
+            case 80:
             case "80":
                 path=api.app.localDomain+'channelAnalysis/retainedUserCostAnalysis1.json';
                 break;
+            case 82:
             case "82":
                 path=api.app.localDomain+'channelAnalysis/retainedUserCostAnalysis2.json';
                 break;
@@ -138,9 +144,11 @@ api = {
         var deferred = $.Deferred()
         var path;
         switch (value.channelId){
+            case 80:
             case "80":
                 path=api.app.localDomain+'channelAnalysis/paidUserCostAnalysis1.json';
                 break;
+            case 82:
             case "82":
                 path=api.app.localDomain+'channelAnalysis/paidUserCostAnalysis2.json';
                 break;

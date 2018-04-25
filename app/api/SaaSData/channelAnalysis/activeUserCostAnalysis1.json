@@ -5,19 +5,148 @@
   },
   "data": [
     {
-      "dateFormat": "07/16",
-      "date": "2017-07-16",
-      "cost": -1.0
+      "hourFormat": "00:00",
+      "hour": 0,
+      "date": "2017-08-01",
+      "cost": 9.8
     },
     {
-      "dateFormat": "07/17",
-      "date": "2017-07-17",
-      "cost": -1.0
+      "hourFormat": "01:00",
+      "hour": 1,
+      "date": "2017-08-01",
+      "cost": 10.3
     },
     {
-      "dateFormat": "07/18",
-      "date": "2017-07-18",
-      "cost": -1.0
+      "hourFormat": "02:00",
+      "hour": 2,
+      "date": "2017-08-01",
+      "cost": 13
+    },
+    {
+      "hourFormat": "03:00",
+      "hour": 3,
+      "date": "2017-08-01",
+      "cost": 15.7
+    },
+    {
+      "hourFormat": "04:00",
+      "hour": 4,
+      "date": "2017-08-01",
+      "cost": 15.9
+    },
+    {
+      "hourFormat": "05:00",
+      "hour": 5,
+      "date": "2017-08-01",
+      "cost": 14.5
+    },
+    {
+      "hourFormat": "06:00",
+      "hour": 6,
+      "date": "2017-08-01",
+      "cost": 13.2
+    },
+    {
+      "hourFormat": "07:00",
+      "hour": 7,
+      "date": "2017-08-01",
+      "cost": 10.9
+    },
+    {
+      "hourFormat": "08:00",
+      "hour": 8,
+      "date": "2017-08-01",
+      "cost": 8.8
+    },
+    {
+      "hourFormat": "09:00",
+      "hour": 9,
+      "date": "2017-08-01",
+      "cost": 6.6
+    },
+    {
+      "hourFormat": "10:00",
+      "hour": 10,
+      "date": "2017-08-01",
+      "cost": 7.3
+    },
+    {
+      "hourFormat": "11:00",
+      "hour": 11,
+      "date": "2017-08-01",
+      "cost": 6.9
+    },
+    {
+      "hourFormat": "12:00",
+      "hour": 12,
+      "date": "2017-08-01",
+      "cost": 6.5
+    },
+    {
+      "hourFormat": "13:00",
+      "hour": 13,
+      "date": "2017-08-01",
+      "cost": 7.1
+    },
+    {
+      "hourFormat": "14:00",
+      "hour": 14,
+      "date": "2017-08-01",
+      "cost": 8.7
+    },
+    {
+      "hourFormat": "15:00",
+      "hour": 15,
+      "date": "2017-08-01",
+      "cost": 9.6
+    },
+    {
+      "hourFormat": "16:00",
+      "hour": 16,
+      "date": "2017-08-01",
+      "cost": 9.1
+    },
+    {
+      "hourFormat": "17:00",
+      "hour": 17,
+      "date": "2017-08-01",
+      "cost": 8.7
+    },
+    {
+      "hourFormat": "18:00",
+      "hour": 18,
+      "date": "2017-08-01",
+      "cost": 7.8
+    },
+    {
+      "hourFormat": "19:00",
+      "hour": 19,
+      "date": "2017-08-01",
+      "cost": 7.2
+    },
+    {
+      "hourFormat": "20:00",
+      "hour": 20,
+      "date": "2017-08-01",
+      "cost": 6.9
+    },
+    {
+      "hourFormat": "21:00",
+      "hour": 21,
+      "date": "2017-08-01",
+      "cost": 6.5
+    },
+    {
+      "hourFormat": "22:00",
+      "hour": 22,
+      "date": "2017-08-01",
+      "cost": 6.6
+    },
+    {
+      "hourFormat": "23:00",
+      "hour": 23,
+      "date": "2017-08-01",
+      "cost": 8.1
     }
   ]
 }

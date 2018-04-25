@@ -39,10 +39,7 @@ function channelAnalysis() {
     var endDate = Tool.backTime(myDate);
     var channelId = '';
     var channelName = '';
-    var timeChange_1 = '0';
-    var timeChange_2 = '0';
     var diff = 0;
-    var choosenEventid = null;
     var matchTable = ['startTime', 'endTime'];
     var sameTitle = ['渠道新增用户成本', '渠道活跃用户成本', '渠道留存用户成本', '渠道付费用户成本']
     var sameId = ['channelAnalysis3', 'channelAnalysis4', 'channelAnalysis5', 'channelAnalysis6']
@@ -111,7 +108,7 @@ function channelAnalysis() {
                     that.analysisListDb()
                 }
                 sameDom[idx].event._addEvent('line.radio', function(val) {
-                    //console.log('------', val);
+                    // console.log('------', val);
                     channelName = val.name;
                     channelId = val.id;
                     timeType = 1;
@@ -288,7 +285,7 @@ function channelAnalysis() {
         }
     }
     this.timeDiff = function(type) {
-        console.log('diff', diff);
+        // console.log('diff', diff);
         if (type == 0) {
             sameDom[2].timeDiff(diff, type);
             sameDom[3].timeDiff1(diff, type);
