@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "startTime": "2018-05-03",
+      "name": "活动a",
+      "id": "01",
+      "endTime": "2018-05-03"
+    },
+    {
+      "startTime": "2018-05-05",
+      "name": "活动b",
+      "id": "02",
+      "endTime": "2018-05-05"
+    },
+    {
+      "startTime": "2018-05-11",
+      "name": "活动c",
+      "id": "03",
+      "endTime": "2018-05-11"
+    },
+    {
+      "startTime": "2018-05-03",
+      "name": "活动d",
+      "id": "04",
+      "endTime": "2018-05-11"
+    }
+  ]
+}

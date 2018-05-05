@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "versionTotalUsersList":[{
+      "versionName":"1.1.0",
+      "totalUsers":6473
+    },{
+      "versionName":"1.4.0",
+      "totalUsers":7394
+    }],
+    "versionDetailList":[
+      [{
+        "hourFormat": "00:00",
+        "date": "2018-05-14",
+        "uv": 42
+      },
+        {
+          "hourFormat": "01:00",
+          "date": "2018-05-15",
+          "uv": 35
+        },
+        {
+          "hourFormat": "02:00",
+          "date": "2018-05-16",
+          "uv": 43
+        },
+        {
+          "hourFormat": "03:00",
+          "date": "2018-05-17",
+          "uv": 47
+        },
+        {
+          "hourFormat": "04:00",
+          "date": "2018-05-18",
+          "uv": 37
+        },
+        {
+          "hourFormat": "05:00",
+          "date": "2018-05-19",
+          "uv": 74
+        },
+        {
+          "hourFormat": "06:00",
+          "date": "2018-05-20",
+          "uv": 64
+        }],[{
+        "hourFormat": "00:00",
+        "date": "2018-05-14",
+        "uv": 51
+      },
+        {
+          "hourFormat": "01:00",
+          "date": "2018-05-15",
+          "uv": 45
+        },
+        {
+          "hourFormat": "02:00",
+          "date": "2018-05-16",
+          "uv": 46
+        },
+        {
+          "hourFormat": "03:00",
+          "date": "2018-05-17",
+          "uv": 38
+        },
+        {
+          "hourFormat": "04:00",
+          "date": "2018-05-18",
+          "uv": 51
+        },
+        {
+          "hourFormat": "05:00",
+          "date": "2018-05-19",
+          "uv": 63
+        },
+        {
+          "hourFormat": "06:00",
+          "date": "2018-05-20",
+          "uv": 67
+        }]
+    ]
+  }
+}
