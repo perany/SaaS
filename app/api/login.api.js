@@ -19,7 +19,8 @@ var api = {
             //deferred.resolve({aa:'aa'});
         $.ajax({
             //url:api.app.domain+'saas-dmp/login',
-            url: api.app.localDomain+'logout.json',
+            // url: api.app.localDomain+'logout.json',
+            url:'/app/api/SaaSData/logout.json',
             type: "GET",
             dataType: "json",
             success: function(response) {
