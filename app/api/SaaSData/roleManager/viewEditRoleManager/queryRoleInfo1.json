@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "remark": "role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述……",
+    "associatedUserList": [
+      {
+        "userId": 493,
+        "userName": "user02"
+      }
+    ],
+    "roleName": "role02"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "remark": "角色描述角色描述角色描述角色描述角色描述角色描述角色描述角色描述角色描述角色描述……",
+    "associatedUserList": [],
+    "roleName": "role01"
+  }
+}

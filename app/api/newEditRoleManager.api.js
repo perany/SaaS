@@ -3,7 +3,7 @@ var api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/role/list',
+            url:api.app.localDomain + 'roleManager/newEditRoleManager/list.json',
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -16,9 +16,8 @@ var api = {
     },
     queryModuleList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/module/queryModuleList',
+            url:api.app.localDomain + 'roleManager/newEditRoleManager/queryModuleList.json',
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -34,26 +33,8 @@ var api = {
     },
     appList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: '/fas/module/appList',
-            type: "GET",
-            dataType: "json",
-            headers: { "x-auth-token": api.app.local.get('session') },
-            data: api.app.format(value),
-            success: function(response) {
-                deferred.resolve(response);
-            }
-        });
-        return deferred
-    },
-    
-    queryRoleInfo: function(value) {
-        console.log('调用了顶顶顶顶顶顶')
-        var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
-        $.ajax({
-            url:'/fas/module/queryRoleInfo',
+            url: api.app.localDomain + 'roleManager/newEditRoleManager/appList.json',
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -67,13 +48,12 @@ var api = {
     //检查名称
     checkRoleName: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/role/checkRoleName',
+            url:api.app.localDomain + 'roleManager/newEditRoleManager/checkRoleName.json',
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
-            data: api.app.format(value),
+            data: api.app.format({value:value}),
             success: function(response) {
                 deferred.resolve(response);
             }
@@ -83,9 +63,12 @@ var api = {
     //添加用户
     queryUserList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path = api.app.localDomain + 'roleManager/newEditRoleManager/queryUserList.json';
+        if(value.search=="01"){
+            path = api.app.localDomain + 'roleManager/newEditRoleManager/queryUserList01.json';
+        }
         $.ajax({
-            url:'/fas/role/queryUserList',
+            url:path,
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -99,9 +82,8 @@ var api = {
     //新建角色
     addRole: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/role/addRole',
+            url:api.app.localDomain + 'roleManager/newEditRoleManager/addRole.json',
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -113,10 +95,15 @@ var api = {
         return deferred
     },
     queryRoleInfo: function(value) {
-        var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var deferred = $.Deferred();
+        var path;
+        if(value.roleId=="493"){
+            path = api.app.localDomain + 'roleManager/newEditRoleManager/queryRoleInfo1.json';
+        }else{
+            path = api.app.localDomain + 'roleManager/newEditRoleManager/queryRoleInfo.json';
+        }
         $.ajax({
-            url:'/fas/role/queryRoleInfo',
+            url:path,
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -129,9 +116,14 @@ var api = {
     },
     queryAssociatedModuleList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path;
+        if(value.roleId=="493"){
+            path = api.app.localDomain + 'roleManager/newEditRoleManager/queryAssociatedModuleList1.json';
+        }else{
+            path = api.app.localDomain + 'roleManager/newEditRoleManager/queryAssociatedModuleList.json';
+        }
         $.ajax({
-            url:'/fas/module/queryAssociatedModuleList',
+            url:path,
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -145,9 +137,8 @@ var api = {
     //编辑角色
     editRole: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/role/editRole',
+            url:api.app.localDomain + 'roleManager/newEditRoleManager/editRole.json',
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },

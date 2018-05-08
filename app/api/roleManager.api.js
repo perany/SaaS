@@ -2,9 +2,14 @@ var api = {
     //表格
     pageList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path = api.app.localDomain + 'roleManager/list.json';
+        switch (value.search){
+            case "01":
+                path=api.app.localDomain+'roleManager/list01.json';
+                break;
+        }
         $.ajax({
-            url: '/fas/role/pageList',
+            url: path,
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -20,7 +25,7 @@ var api = {
         var deferred = $.Deferred()
             //deferred.resolve({aa:'aa'});
         $.ajax({
-            url:'/fas/module/queryActionList',
+            url:api.app.localDomain + 'roleManager/queryActionList.json',
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -33,12 +38,16 @@ var api = {
     },
     //删除角色
     deleteRole: function(id){
-        var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
-        console.log('lllll',id)
+        var deferred = $.Deferred();
+        var path = api.app.localDomain + 'roleManager/delete.json';
+        switch (id){
+            case "493":
+                path=api.app.localDomain+'roleManager/deleteerror.json';
+                break;
+        }
         $.ajax({
-            url:'/fas/role/batch/'+id,
-            type: "delete",
+            url:path,
+            type: "get",
             dataType: "json",
             contentType:"application/json",
             headers: { "x-auth-token": api.app.local.get('session') },

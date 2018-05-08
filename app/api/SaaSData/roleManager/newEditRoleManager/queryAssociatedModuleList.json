@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "roleName": "mineng",
+    "associatedModuleList": [
+      {
+        "moduleId": 137,
+        "moduleName": "功能分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 102,
+        "moduleName": "使用分析",
+        "parentId": 97,
+        "isLeaf": 1,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 103,
+        "moduleName": "活动管理",
+        "parentId": 100,
+        "isLeaf": 1,
+        "actionList": [
+          {
+            "actionId": 120,
+            "actionName": "新建活动",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 121,
+            "actionName": "查看活动详情",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 122,
+            "actionName": "编辑活动",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 123,
+            "actionName": "删除活动",
+            "hasAssociated": 1
+          }
+        ],
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 139,
+        "moduleName": "标签管理",
+        "parentId": 100,
+        "isLeaf": 1,
+        "actionList": [
+          {
+            "actionId": 189,
+            "actionName": "查询标签数据",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 190,
+            "actionName": "查询所有设备品牌",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 191,
+            "actionName": "查询品牌下所有设备型号列表",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 192,
+            "actionName": "批量解除匹配",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 193,
+            "actionName": "批量匹配",
+            "hasAssociated": 1
+          }
+        ],
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 100,
+        "moduleName": "自定义管理",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 138,
+        "moduleName": "版本分析",
+        "parentId": 137,
+        "isLeaf": 1,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 101,
+        "moduleName": "漏斗分析",
+        "parentId": 97,
+        "isLeaf": 1,
+        "actionList": null,
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 98,
+        "moduleName": "渠道分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 99,
+        "moduleName": "画像分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 96,
+        "moduleName": "活动分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 97,
+        "moduleName": "行为分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 104,
+        "moduleName": "渠道管理",
+        "parentId": 100,
+        "isLeaf": 1,
+        "actionList": [
+          {
+            "actionId": 116,
+            "actionName": "新增渠道成本",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 117,
+            "actionName": "查看渠道成本",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 118,
+            "actionName": "编辑渠道成本",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 119,
+            "actionName": "删除渠道成本",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 127,
+            "actionName": "创建渠道",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 128,
+            "actionName": "查看渠道",
+            "hasAssociated": 1
+          }
+        ],
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 105,
+        "moduleName": "事件组管理",
+        "parentId": 100,
+        "isLeaf": 1,
+        "actionList": [
+          {
+            "actionId": 124,
+            "actionName": "新建事件组",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 125,
+            "actionName": "删除事件组",
+            "hasAssociated": 1
+          },
+          {
+            "actionId": 126,
+            "actionName": "修改事件组",
+            "hasAssociated": 1
+          }
+        ],
+        "hasAssociated": 0
+      },
+      {
+        "moduleId": 95,
+        "moduleName": "用户分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 1
+      },
+      {
+        "moduleId": 94,
+        "moduleName": "整体概览",
+        "parentId": 0,
+        "isLeaf": 0,
+        "actionList": null,
+        "hasAssociated": 1
+      }
+    ]
+  }
+}

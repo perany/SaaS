@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 6,
+    "pageNumber": 1,
+    "totalCount": 6,
+    "totalPage": 1,
+    "list": [
+      {
+        "userId": 498,
+        "loginName": "",
+        "userName": "用户01",
+        "roleNames": "用户01",
+        "hasAssociated": 1,
+        "createdTime": 1517240186000,
+        "lastChanged": 1517240186000,
+        "createdUser": null,
+        "groupNames": null
+      }
+    ]
+  }
+}

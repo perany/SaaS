@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1491554315000,
+        "lastChanged": 1491554315000,
+        "moduleId": 103,
+        "moduleName": "活动管理",
+        "parentId": 100,
+        "isLeaf": 1,
+        "code": "online.saas.dmp.active-manager.campaign",
+        "moduleUrl": "",
+        "actionList": [
+          {
+            "status": 1,
+            "createdTime": 1491555658000,
+            "lastChanged": 1491555658000,
+            "actionId": 120,
+            "actionName": "新建活动",
+            "code": "online.saas.dmp.active-manager.campaign.add",
+            "actionUrl": "POST:/saas-dmp/onlineCampagin/create",
+            "moduleId": 103
+          }
+        ]
+      },
+      {
+        "status": 1,
+        "createdTime": 1491554053000,
+        "lastChanged": 1491554053000,
+        "moduleId": 100,
+        "moduleName": "自定义管理",
+        "parentId": 0,
+        "isLeaf": 0,
+        "code": "online.saas.dmp.active-manager",
+        "moduleUrl": "",
+        "actionList": null
+      },
+      {
+        "status": 1,
+        "createdTime": 1491554053000,
+        "lastChanged": 1495796061000,
+        "moduleId": 98,
+        "moduleName": "渠道分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "code": "online.saas.dmp.channel-analysis",
+        "moduleUrl": "",
+        "actionList": null
+      },
+      {
+        "status": 1,
+        "createdTime": 1491554053000,
+        "lastChanged": 1491554053000,
+        "moduleId": 96,
+        "moduleName": "活动分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "code": "online.saas.dmp.activity-analysis",
+        "moduleUrl": "",
+        "actionList": null
+      },
+      {
+        "status": 1,
+        "createdTime": 1491554053000,
+        "lastChanged": 1491554053000,
+        "moduleId": 95,
+        "moduleName": "用户分析",
+        "parentId": 0,
+        "isLeaf": 0,
+        "code": "online.saas.dmp.user-analysis",
+        "moduleUrl": "",
+        "actionList": null
+      }
+    ]
+  }
+}

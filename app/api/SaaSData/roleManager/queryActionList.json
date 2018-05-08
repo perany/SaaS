@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1493000831000,
+        "lastChanged": 1493000831000,
+        "actionId": 129,
+        "actionName": "新建角色",
+        "code": "online.saas.dmp.authority-manager.role.add",
+        "actionUrl": "POST:/role/addRole",
+        "moduleId": 135
+      },
+      {
+        "status": 1,
+        "createdTime": 1493000831000,
+        "lastChanged": 1493000831000,
+        "actionId": 130,
+        "actionName": "编辑角色",
+        "code": "online.saas.dmp.authority-manager.role.edit",
+        "actionUrl": "POST:/role/editRole",
+        "moduleId": 135
+      },
+      {
+        "status": 1,
+        "createdTime": 1493000831000,
+        "lastChanged": 1493000831000,
+        "actionId": 131,
+        "actionName": "查看角色",
+        "code": "online.saas.dmp.authority-manager.role.view",
+        "actionUrl": "GET:/role/queryRoleInfo",
+        "moduleId": 135
+      },
+      {
+        "status": 1,
+        "createdTime": 1493000831000,
+        "lastChanged": 1493000831000,
+        "actionId": 132,
+        "actionName": "删除单个角色",
+        "code": "online.saas.dmp.authority-manager.role.delete",
+        "actionUrl": "DELETE:/role/",
+        "moduleId": 135
+      },
+      {
+        "status": 1,
+        "createdTime": 1493000831000,
+        "lastChanged": 1493000831000,
+        "actionId": 133,
+        "actionName": "批量删除角色",
+        "code": "online.saas.dmp.authority-manager.role.batch-delete",
+        "actionUrl": "DELETE:/role/batch/",
+        "moduleId": 135
+      }
+    ]
+  }
+}

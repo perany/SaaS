@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 1,
+    "pageNumber": 1,
+    "totalCount": 1,
+    "totalPage": 1,
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1517240166000,
+        "lastChanged": 1517240166000,
+        "roleId": 497,
+        "roleName": "role01",
+        "hasAssociated": 0
+      }
+    ]
+  }
+}

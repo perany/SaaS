@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "list": [
+      {
+        "appId": 4,
+        "appName": "SaaS"
+      }
+    ]
+  }
+}

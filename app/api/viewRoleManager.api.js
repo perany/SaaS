@@ -1,9 +1,14 @@
 var api = {
     queryRoleInfo: function(value) {
-        var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var deferred = $.Deferred();
+        var path = api.app.localDomain + 'roleManager/viewEditRoleManager/queryRoleInfo.json';
+        switch (value.roleId){
+            case "493":
+                path=api.app.localDomain+'roleManager/viewEditRoleManager/queryRoleInfo1.json';
+                break;
+        }
         $.ajax({
-            url: 'fas/role/queryRoleInfo',
+            url:path,
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -16,9 +21,8 @@ var api = {
     },
     appList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
         $.ajax({
-            url: 'fas/module/appList',
+            url: api.app.localDomain + 'roleManager/viewEditRoleManager/appList.json',
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -31,9 +35,17 @@ var api = {
     },
     queryModuleList: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path;
+        if(value.roleId=="493"){
+            path = api.app.localDomain + 'roleManager/viewEditRoleManager/queryModuleList2.json';
+        }else{
+            path = api.app.localDomain + 'roleManager/viewEditRoleManager/queryModuleList1.json';
+        }
+        if(!value.appId){
+            path = api.app.localDomain + 'roleManager/viewEditRoleManager/queryModuleList.json';
+        }
         $.ajax({
-            url:'fas/module/queryModuleList',
+            url:path,
             type: "GET",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
