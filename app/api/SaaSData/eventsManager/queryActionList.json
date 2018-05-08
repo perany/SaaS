@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 124,
+        "actionName": "新建事件组",
+        "code": "online.saas.dmp.active-manager.event-group.add",
+        "actionUrl": "POST:/saas-dmp/eventGroup/create",
+        "moduleId": 105
+      },
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 125,
+        "actionName": "删除事件组",
+        "code": "online.saas.dmp.active-manager.event-group.delete",
+        "actionUrl": "DELETE:/saas-dmp/eventGroup/",
+        "moduleId": 105
+      },
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 126,
+        "actionName": "修改事件组",
+        "code": "online.saas.dmp.active-manager.event-group.edit",
+        "actionUrl": "POST:/saas-dmp/eventGroup/update",
+        "moduleId": 105
+      }
+    ]
+  }
+}

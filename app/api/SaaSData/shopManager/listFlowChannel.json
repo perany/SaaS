@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 100,
+    "pageNumber": 1,
+    "totalCount": 12,
+    "totalPage": 1,
+    "list": [
+      {
+        "id": 34,
+        "type": 1,
+        "osId": null,
+        "name": "channel-a",
+        "code": "channel-a",
+        "createdTime": "2017-08-30 21:46:12",
+        "url":"http://www.saas.com/channel-a"
+      },
+      {
+        "id": 29,
+        "type": 2,
+        "osId": null,
+        "name": "channel-b",
+        "code": "channel-b",
+        "createdTime": "2017-10-01 00:00:00"
+        ,"url":"http://www.saas.com/channel-b"
+      },
+      {
+        "id": 31,
+        "type": 1,
+        "osId": null,
+        "name": "channel-c",
+        "code": "channel-c",
+        "createdTime": "2017-11-11 00:00:00"
+      ,"url":"http://www.saas.com/channel-c"
+      },
+      {
+        "id": 30,
+        "type": 1,
+        "osId": null,
+        "name": "channel-d",
+        "code": "channel-d",
+        "createdTime": "2017-12-23 18:05:04"
+      ,"url":"http://www.saas.com/channel-d"
+      },
+      {
+        "id": 35,
+        "type": 2,
+        "osId": null,
+        "name": "channel-e",
+        "code": "channel-e",
+        "createdTime": "2017-12-31 18:05:04"
+      ,"url":"http://www.saas.com/channel-e"
+      },
+      {
+        "id": 32,
+        "type": 2,
+        "osId": null,
+        "name": "channel-f",
+        "code": "channel-f",
+        "createdTime": "2018-02-13 12:00:44"
+      ,"url":"http://www.saas.com/channel-f"
+      },
+      {
+        "id": 33,
+        "type": 2,
+        "osId": null,
+        "name": "channel-g",
+        "code": "channel-g",
+        "createdTime": "2018-03-02 00:00:00"
+      ,"url":"http://www.saas.com/channel-g"
+      },
+      {
+        "id": 36,
+        "type": 1,
+        "osId": null,
+        "name": "channel-h",
+        "code": "channel-h",
+        "createdTime": "2018-04-05 00:00:00"
+      ,"url":"http://www.saas.com/channel-h"
+      },
+      {
+        "id": 29,
+        "type": 1,
+        "osId": null,
+        "name": "channel-i",
+        "code": "channel-i",
+        "createdTime": "2018-05-01 00:00:00"
+      ,"url":"http://www.saas.com/channel-i"
+      },
+      {
+        "id": 31,
+        "type": 1,
+        "osId": null,
+        "name": "channel-j",
+        "code": "channel-j",
+        "createdTime": "2018-05-11 00:00:00"
+      ,"url":"http://www.saas.com/channel-j"
+      },
+      {
+        "id": 30,
+        "type": 2,
+        "osId": null,
+        "name": "channel-k",
+        "code": "channel-k",
+        "createdTime": "2018-05-26 08:00:00"
+      ,"url":"http://www.saas.com/channel-k"
+      },
+      {
+        "id": 35,
+        "type": 2,
+        "osId": null,
+        "name": "channel-l",
+        "code": "channel-l",
+        "createdTime": "2018-05-27 00:00:00"
+      ,"url":"http://www.saas.com/channel-l"
+      }
+    ]
+  }
+}

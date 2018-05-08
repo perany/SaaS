@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 8,
+    "pageNumber": 2,
+    "totalCount": 12,
+    "totalPage": 2,
+    "list": [
+      {
+        "id": 34,
+        "type": 1,
+        "osId": null,
+        "name": "activeTheme-a",
+        "cost": "34546.00",
+        "startTime": "2017-07-03",
+        "endTime": "2017-07-11",
+        "startHour": "00:00",
+        "endHour": "23:00",
+        "delTag": null,
+        "accountId": null,
+        "storeIds": null,
+        "createdTime": "2017-08-30 21:46:12",
+        "lastChanged": "2017-08-30 21:46:12"
+      }
+    ]
+  }
+}

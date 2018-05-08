@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 120,
+        "actionName": "新建活动",
+        "code": "online.saas.dmp.active-manager.campaign.add",
+        "actionUrl": "POST:/saas-dmp/onlineCampagin/create",
+        "moduleId": 103
+      },
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 121,
+        "actionName": "查看活动详情",
+        "code": "online.saas.dmp.active-manager.campaign.view",
+        "actionUrl": "GET:/saas-dmp/onlineCampagin/",
+        "moduleId": 103
+      },
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 122,
+        "actionName": "编辑活动",
+        "code": "online.saas.dmp.active-manager.campaign.edit",
+        "actionUrl": "POST:/saas-dmp/onlineCampagin/update",
+        "moduleId": 103
+      },
+      {
+        "status": 1,
+        "createdTime": 1491555658000,
+        "lastChanged": 1491555658000,
+        "actionId": 123,
+        "actionName": "删除活动",
+        "code": "online.saas.dmp.active-manager.campaign.delete",
+        "actionUrl": "DELETE:/saas-dmp/onlineCampagin/",
+        "moduleId": 103
+      }
+    ]
+  }
+}

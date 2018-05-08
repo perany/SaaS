@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "id": 35,
+    "type": 1,
+    "osId": 1,
+    "channelName": "channel-update",
+    "cost": "8000.00",
+    "startTime": "2018-05-26",
+    "endTime": "2018-05-26",
+    "startHour": "00:00",
+    "endHour": "23:00",
+    "delTag": null,
+    "accountId": null,
+    "storeIds": "",
+    "createdTime": null,
+    "lastChanged": null
+  }
+}

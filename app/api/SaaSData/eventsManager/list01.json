@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 1,
+    "pageNumber": 1,
+    "totalCount": 1,
+    "totalPage": 1,
+    "list": [
+      {
+        "id": 68,
+        "name": "事件组01",
+        "eventList": [
+          {
+            "id": 69,
+            "code": "1001",
+            "name": "分享",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 70,
+            "code": "1002",
+            "name": "收藏",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 71,
+            "code": "1003",
+            "name": "投频",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 72,
+            "code": "1004",
+            "name": "相关视频",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 73,
+            "code": "1005",
+            "name": "猜你喜欢模块点击",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 74,
+            "code": "1006",
+            "name": "全屏按钮点击",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 75,
+            "code": "1007",
+            "name": "清晰度切换",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 76,
+            "code": "1008",
+            "name": "vip影片立即购买",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          },
+          {
+            "id": 77,
+            "code": "1009",
+            "name": "使用观影券",
+            "queryOrder": null,
+            "parentId": null,
+            "accountId": null,
+            "osId": null
+          }
+        ],
+        "createdTime": "2018-05-11 14:23:44",
+        "modifiedTime": "2018-05-11 12:24:53"
+      }
+    ]
+  }
+}

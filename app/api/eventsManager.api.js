@@ -2,9 +2,14 @@ var api= {
     //事件组列表
     list: function (value) {
         var deferred = $.Deferred();
+        var path = api.app.localDomain + 'eventsManager/list.json';
+        switch (value.name){
+            case "01":
+                path=api.app.localDomain+'eventsManager/list01.json';
+                break;
+        }
         $.ajax({
-            url: api.app.domain + 'eventGroup/list',
-            //url: '/app/api/jsons/eventList.json',
+            url: path,
             type: "post",
             dataType: "json",
             data: api.app.format(value),
@@ -18,7 +23,7 @@ var api= {
     create: function (value) {
         var deferred = $.Deferred();
         $.ajax({
-            url: api.app.domain + 'eventGroup/create',
+            url: api.app.localDomain + 'eventsManager/create.json',
             type: "post",
             dataType: "json",
             data: api.app.format(value),
@@ -31,7 +36,7 @@ var api= {
     getEventNameByCode: function (value) {
         var deferred = $.Deferred();
         $.ajax({
-            url: api.app.domain + 'eventGroup/getEventNameByCode',
+            url: api.app.localDomain + 'eventsManager/getEventNameByCode.json',
             type: "post",
             dataType: "json",
             data: api.app.format(value),
@@ -45,8 +50,8 @@ var api= {
     deleteEvent: function (value) {
         var deferred = $.Deferred();
         $.ajax({
-            url: api.app.domain + 'eventGroup/' + value,
-            type: "delete",
+            url: api.app.localDomain + 'eventsManager/delete.json',
+            type: "get",
             dataType: "json",
             success: function (response) {
                 deferred.resolve(response);
@@ -58,7 +63,7 @@ var api= {
     update: function (value) {
         var deferred = $.Deferred();
         $.ajax({
-            url: api.app.domain + 'eventGroup/update',
+            url: api.app.localDomain + 'eventsManager/update.json',
             type: "post",
             async: true,
             data:api.app.format(value),
@@ -72,12 +77,38 @@ var api= {
     },
     valueList:function(){
         var deferred=$.Deferred()
-        //deferred.resolve({aa:'aa'});
+        var path;
+        switch (value.type){
+            case "os":
+                path=api.app.localDomain+'dictionary/valueList2-os.json';
+                break;
+            case "eventsManager":
+                path=api.app.localDomain+'dictionary/valueList6-eventsManager.json';
+                break;
+            case "userevent":
+                path=api.app.localDomain+'dictionary/valueList4-userevent.json';
+                break;
+            case "usertype":
+                path=api.app.localDomain+'dictionary/valueList3-usertype.json';
+                break;
+            case "dimensionality":
+                path=api.app.localDomain+'dictionary/valueList5-dimensionality.json';
+                break;
+            default:
+                path=api.app.localDomain + 'dictionary/valueList2-os.json';
+                break;
+        }
+        if (value.osID) {
+            path += '?type=' + value.type + '&osId=' + value.osID;
+        } else {
+            path += '?type=' + value.type;
+        }
         $.ajax({
-            //url:api.app.domain+'saas-dmp/login',
-            url: '/saas-dmp/dictionary/valueList?type=os',
-            type: "GET",
-            dataType: "json",
+            url: path,
+            type: "POST",
+            async: true,
+            dataType: 'json',
+            timeout: 60000,
             success: function(response) {
                 deferred.resolve(response);
             }
@@ -87,7 +118,7 @@ var api= {
     queryActionList: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: '/fas/module/queryActionList',
+            url: api.app.localDomain + 'eventsManager/queryActionList.json',
             type: "get",
             dataType: "json",
             data: api.app.format(value),
