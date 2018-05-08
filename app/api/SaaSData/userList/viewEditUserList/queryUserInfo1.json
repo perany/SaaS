@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "status": 1,
+    "createdTime": 1525779977000,
+    "lastChanged": 1525779977000,
+    "id": 494,
+    "name": "user02",
+    "loginName": "user02@saas.com",
+    "mobile": "13600000000",
+    "accountId": 10,
+    "roleNames": null,
+    "teamNames": null,
+    "groupNames": null,
+    "createdUser": null,
+    "roleList": [
+      {
+        "status": 0,
+        "roleId": 493,
+        "roleName": "role02",
+        "hasAssociated": 0
+      }
+    ],
+    "publicKey": null,
+    "privateTeamId": null,
+    "privateTeamName": null,
+    "teamList": [],
+    "groupList": []
+  }
+}

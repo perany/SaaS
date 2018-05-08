@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "status": 1,
+    "createdTime": 1525779977000,
+    "lastChanged": 1525779977000,
+    "id": 498,
+    "name": "user01",
+    "loginName": "user01@saas.com",
+    "mobile": "13500000000",
+    "accountId": 10,
+    "roleNames": null,
+    "teamNames": null,
+    "groupNames": null,
+    "createdUser": null,
+    "roleList": [],
+    "publicKey": null,
+    "privateTeamId": null,
+    "privateTeamName": null,
+    "teamList": [],
+    "groupList": []
+  }
+}

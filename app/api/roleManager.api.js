@@ -49,6 +49,7 @@ var api = {
             url:path,
             type: "get",
             dataType: "json",
+            data: api.app.format({value:value}),
             contentType:"application/json",
             headers: { "x-auth-token": api.app.local.get('session') },
             success: function(response) {

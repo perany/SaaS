@@ -1,9 +1,13 @@
 var api = {
     //查看
     queryUserInfo: function(value) {
-        var deferred = $.Deferred()
+        var deferred = $.Deferred();
+        var path = api.app.localDomain + 'userList/viewEditUserList/queryUserInfo.json';
+        if(value.id=="494"){
+            path = api.app.localDomain + 'userList/viewEditUserList/queryUserInfo1.json';
+        }
         $.ajax({
-            url: '/fas/user/queryUserInfo',
+            url: path,
             type: "get",
             dataType: "json",
             data: value,

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "pageSize": 6,
+    "pageNumber": 1,
+    "totalCount": 6,
+    "totalPage": 1,
+    "list": [
+      {
+        "status": 1,
+        "createdTime": 1517240166000,
+        "lastChanged": 1517240166000,
+        "roleId": 497,
+        "roleName": "role01",
+        "hasAssociated": 0,
+        "userCount": 0
+      },
+      {
+        "status": 1,
+        "createdTime": 1517240051000,
+        "lastChanged": 1517240051000,
+        "roleId": 493,
+        "roleName": "role02",
+        "hasAssociated": 0,
+        "userCount": 1
+      },
+      {
+        "status": 1,
+        "createdTime": 1517239966000,
+        "lastChanged": 1517239966000,
+        "roleId": 492,
+        "roleName": "role03",
+        "hasAssociated": 0,
+        "userCount": 0
+      },
+      {
+        "status": 1,
+        "createdTime": 1517239692000,
+        "lastChanged": 1517239850000,
+        "roleId": 488,
+        "roleName": "role04",
+        "hasAssociated": 0,
+        "userCount": 0
+      },
+      {
+        "status": 1,
+        "createdTime": 1503036849000,
+        "lastChanged": 1515752774000,
+        "roleId": 377,
+        "roleName": "role05",
+        "hasAssociated": 0,
+        "userCount": 0
+      },
+      {
+        "status": 1,
+        "createdTime": 1506566274000,
+        "lastChanged": 1506566274000,
+        "roleId": 435,
+        "roleName": "role06",
+        "hasAssociated": 0,
+        "userCount": 0
+      }
+    ]
+  }
+}

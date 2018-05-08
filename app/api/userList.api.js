@@ -2,9 +2,14 @@ var api = {
     //表格
     listUser: function(value) {
         var deferred = $.Deferred()
-            //deferred.resolve({aa:'aa'});
+        var path = api.app.localDomain + 'userList/list.json';
+        switch (value.search){
+            case "01":
+                path=api.app.localDomain+'userList/list01.json';
+                break;
+        }
         $.ajax({
-            url:  '/fas/user/listUser',
+            url: path,
             type: "POST",
             dataType: "json",
             headers: { "x-auth-token": api.app.local.get('session') },
@@ -15,44 +20,13 @@ var api = {
         });
         return deferred
     },
-    //删除用户
-    // deleteUser: function(id) {
-    //     var deferred = $.Deferred()
-    //         //deferred.resolve({aa:'aa'});
-    //     console.log('lllll', id)
-    //     $.ajax({
-    //         url: api.app.domain + 'fas/user/batch/' + id,
-    //         type: "delete",
-    //         dataType: "json",
-    //         contentType: "application/json",
-    //         headers: { "x-auth-token": api.app.local.get('session') },
-    //         success: function(response) {
-    //             deferred.resolve(response);
-    //         }
-    //     });
-    //     return deferred
-    // },
-    //活动list
-    // departMentList: function(value) {
-    //     api.app.format()
-    //     var deferred = $.Deferred()
-    //     $.ajax({
-    //         url: '/fas/group/pageList',
-    //         type: "post",
-    //         dataType: "json",
-    //         data: value,
-    //         success: function(response) {
-    //             api.app.goBack(response, deferred)
-    //         }
-    //     });
-    //     return deferred
-    // },
     //删除活动
     deleteList: function(value) {
         var deferred = $.Deferred();
         $.ajax({
-            url: '/fas/user/' + value,
-            type: "delete",
+            url: api.app.localDomain + 'userList/delete.json',
+            type: "get",
+            data: api.app.format({value:value}),
             dataType: "json",
             success: function(response) {
                 deferred.resolve(response);
@@ -64,7 +38,7 @@ var api = {
     queryActionList: function(value) {
         var deferred = $.Deferred()
         $.ajax({
-            url: '/fas/module/queryActionList',
+            url:  api.app.localDomain + 'userList/queryActionList.json',
             type: "get",
             dataType: "json",
             data: api.app.format(value),
