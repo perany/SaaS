@@ -1,195 +1,57 @@
 {
-    "meta": {
-        "success": true,
-        "message": "ok"
-    },
-    "data": {
-        "activeUserList": [],
-        "regUserList": [],
-        "campaignList": [],
-        "versionList": [],
-        "addUserList": [],
-        "payUserList": [
-            {
-                "date": "2017-08-20",
-                "chainRatio": "0.00",
-                "uv": 1,
-                "dateFormat": "08/20"
-            },
-            {
-                "date": "2017-08-21",
-                "chainRatio": "0.00",
-                "uv": 1,
-                "dateFormat": "08/21"
-            },
-            {
-                "date": "2017-08-22",
-                "chainRatio": "-100.00",
-                "uv": 0,
-                "dateFormat": "08/22"
-            },
-            {
-                "date": "2017-08-23",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "08/23"
-            },
-            {
-                "date": "2017-08-24",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "08/24"
-            },
-            {
-                "date": "2017-08-25",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "08/25"
-            },
-            {
-                "date": "2017-08-26",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "08/26"
-            },
-            {
-                "date": "2017-08-27",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "08/27"
-            },
-            {
-                "date": "2017-08-28",
-                "chainRatio": "100.00",
-                "uv": 1,
-                "dateFormat": "08/28"
-            },
-            {
-                "date": "2017-08-29",
-                "chainRatio": "-100.00",
-                "uv": 0,
-                "dateFormat": "08/29"
-            },
-            {
-                "date": "2017-08-30",
-                "chainRatio": "100.00",
-                "uv": 1,
-                "dateFormat": "08/30"
-            },
-            {
-                "date": "2017-08-31",
-                "chainRatio": "-100.00",
-                "uv": 0,
-                "dateFormat": "08/31"
-            },
-            {
-                "date": "2017-09-01",
-                "chainRatio": "100.00",
-                "uv": 1,
-                "dateFormat": "09/01"
-            },
-            {
-                "date": "2017-09-02",
-                "chainRatio": "-100.00",
-                "uv": 0,
-                "dateFormat": "09/02"
-            },
-            {
-                "date": "2017-09-03",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/03"
-            },
-            {
-                "date": "2017-09-04",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/04"
-            },
-            {
-                "date": "2017-09-05",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/05"
-            },
-            {
-                "date": "2017-09-06",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/06"
-            },
-            {
-                "date": "2017-09-07",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/07"
-            },
-            {
-                "date": "2017-09-08",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/08"
-            },
-            {
-                "date": "2017-09-09",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/09"
-            },
-            {
-                "date": "2017-09-10",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/10"
-            },
-            {
-                "date": "2017-09-11",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/11"
-            },
-            {
-                "date": "2017-09-12",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/12"
-            },
-            {
-                "date": "2017-09-13",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/13"
-            },
-            {
-                "date": "2017-09-14",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/14"
-            },
-            {
-                "date": "2017-09-15",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/15"
-            },
-            {
-                "date": "2017-09-16",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/16"
-            },
-            {
-                "date": "2017-09-17",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/17"
-            },
-            {
-                "date": "2017-09-18",
-                "chainRatio": "0.00",
-                "uv": 0,
-                "dateFormat": "09/18"
-            }
-        ]
-    }
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": {
+    "activeUserList": [],
+    "regUserList": [],
+    "campaignList": [],
+    "versionList": [],
+    "addUserList": [],
+    "payUserList": [
+      {
+        "date": "2018-05-20",
+        "chainRatio": "50.54",
+        "uv": 131,
+        "dateFormat": "05/20"
+      },
+      {
+        "date": "2018-05-21",
+        "chainRatio": "0.00",
+        "uv": 87,
+        "dateFormat": "05/21"
+      },
+      {
+        "date": "2018-05-22",
+        "chainRatio": "0.00",
+        "uv": 92,
+        "dateFormat": "05/22"
+      },
+      {
+        "date": "2018-05-23",
+        "chainRatio": "-5.33",
+        "uv": 105,
+        "dateFormat": "05/23"
+      },
+      {
+        "date": "2018-05-24",
+        "chainRatio": "0.00",
+        "uv": 91,
+        "dateFormat": "05/24"
+      },
+      {
+        "date": "2018-05-25",
+        "chainRatio": "6.21",
+        "uv": 121,
+        "dateFormat": "05/25"
+      },
+      {
+        "date": "2018-05-26",
+        "chainRatio": "27.39",
+        "uv": 147,
+        "dateFormat": "05/26"
+      }
+    ]
+  }
 }
