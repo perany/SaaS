@@ -5,7 +5,7 @@ function radio() {
     this.html = html
     var that = this;
     this.complete = function() {
-        console.log('0909090090', that.nowParam);
+        // console.log('0909090090', that.nowParam);
         var more = that.nowParam.data.more;
         if (more) {
             that.dom.find('.radio-more').removeClass('hide');
@@ -88,7 +88,7 @@ function radio() {
             name: dom.text(),
             type: dom.parent().parent().parent().attr('type')
         }
-        console.log('lllll', json);
+        // console.log('lllll', json);
         that.event._dispatch('radio.data', json);
     }
     this.setData = function(val) {

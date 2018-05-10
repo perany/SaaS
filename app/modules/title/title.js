@@ -81,7 +81,7 @@ function index() {
                     that.app.returnRequier([resolve]).done(function() {
                         underlineCont = that.app.loadModule(underline, that.dom.find('.underline'), { data: underlineData, type: underlineType1 });
                         underlineCont.event._addEvent('underline.type', function(val) {
-                            console.log('_____', val);
+                            // console.log('_____', val);
                             that.event._dispatch('title.underline', val);
                         });
                     })

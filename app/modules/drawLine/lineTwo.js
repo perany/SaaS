@@ -204,7 +204,7 @@ function index() {
         } else {
             fill = [false, false]
         }
-        console.log('ppp', circleShow2)
+        // console.log('ppp', circleShow2)
         svg1.drawXk({
             ftype: 'normal',
             ctype: 'more',

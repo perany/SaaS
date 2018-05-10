@@ -4,6 +4,7 @@
         "message": "ok"
     },
     "data": {
-        "uv": 7588
+        "uv": 7588,
+        "historyAvgUv": 6984
     }
 }

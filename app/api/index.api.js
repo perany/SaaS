@@ -33,16 +33,16 @@ var api = {
         var deferred = $.Deferred()
         var path;
         switch (value.typeCode){
-            case "1":
+            case 1:
                 path=api.app.localDomain+'overviewFlow/getUserTypeStreamUv.json';
                 break;
-            case "2":
+            case 2:
                 path=api.app.localDomain+'overviewFlow/getUserTypeStreamUv2.json';
                 break;
-            case "3":
+            case 3:
                 path=api.app.localDomain+'overviewFlow/getUserTypeStreamUv3.json';
                 break;
-            case "4":
+            case 4:
                 path=api.app.localDomain+'overviewFlow/getUserTypeStreamUv4.json';
                 break;
             default:

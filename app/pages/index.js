@@ -41,7 +41,7 @@ function index() {
         //console.log('ijisidsjic', that.app.model.get('iosId'));
         osId = that.app.model.get('iosId') ? that.app.model.get('iosId') : '1';
         that.app.header.setData = function (val) {
-            console.log('123451226', that.app.model.get('iosId'));
+            // console.log('123451226', that.app.model.get('iosId'));
             osId = val.osId;
             typeCode = -1
             that.getUvTotalDb();
@@ -79,9 +79,9 @@ function index() {
             cirlceCont = that.app.loadModule(circle, that.dom.find('.index2'), {
                 data: {
                     img: ['user1.png', 'user2.png', 'user3.png', 'user4.png'],
-                    data: ['0人', '0人', '0人', '0人'],
+                    data: ['3人', '4人', '5人', '6人'],
                     color: ['#85c2ff', '#528fcc', '#3962a0', '#717ccb'],
-                    historydata: ['0人', '', '0人', '0人'],
+                    historydata: ['7人', '8人', '9人', '10人'],
                     tips: ['所选周期范围内，<p>安装应用后首次启用应用的用户</p>',
                         '所选周期范围内（去重），<p>至少启动过一次的用户</p>',
                         '所选周期范围内，<p>有注册成功行为的用户</p>',
@@ -109,7 +109,7 @@ function index() {
             });
             that.getUserTypeDateStreamUvDb();
             setTimeout("(function check(){\n" +
-                "        console.log(\"1\",$(\".fl .radios:first-child i\"));\n" +
+                // "        console.log(\"1\",$(\".fl .radios:first-child i\"));\n" +
                 "        if($(\".fl .radios:first-child i\").length==1){\n" +
                 "            $(\".fl .radios:first-child i\").click();\n" +
                 "        }\n" +
@@ -194,6 +194,7 @@ function index() {
                     code: code,
                     avg: res.data.historyAvgUv ? res.data.historyAvgUv : '0'
                 });
+                // console.log(count,uv,historyAvgUv,"===========");
                 if (count == 4) {
                     cirlceCont.setData({uv: uv, historyAvgUv: historyAvgUv});
                 }
@@ -244,7 +245,7 @@ function index() {
         });
     };
     this.dealData = function (val, startDate, endDate) {
-        console.log(val, startDate, endDate);
+        // console.log(val, startDate, endDate);
         var obj = {};
         var arrX = [];
         var arrX1 = [];
@@ -408,7 +409,7 @@ function index() {
         obj['typeCode'] = parseInt(typeCode);
         obj['width'] = that.dom.find('.index3').width();
         obj['id'] = 'index3';
-        console.log(obj,lineCont)   //perany-todo///全部选项首次加载报错
+        // console.log(obj,lineCont)   //perany-todo///全部选项首次加载报错
         // t=setTimeout("lineCont.setData(obj)",3000);
         // clearTimeout(t);
         lineCont.setData(obj);
