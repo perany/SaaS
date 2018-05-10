@@ -35,6 +35,9 @@ function index() {
         if (val.tips[value.index] != '') {
             html += '<p style="margin-bottom:5px"><span class="circle_people" style="background:' + val.color[value.index][0] + '"></span>版本：<span style="color:' + val.color[value.index][0] + '">' + val.tips[value.index] + '</span></p>'
         }
+        if (val.tips1[value.index] != '') {
+            html += '<p style="margin-bottom:5px"><span class="circle_people" style="background:' + val.color[value.index][1] + '"></span>渠道：<span style="color:' + val.color[value.index][1] + '">' + val.tips1[value.index] + '</span></p>'
+        }
         return html
     }
     this.versionAnalysis = function(val, value) {
@@ -140,7 +143,7 @@ function index() {
         }
     };
     this.drawOne = function(val) {
-        console.log('hhh11111hh', val)
+        // console.log('hhh11111hh', val)
         var svg1 = new this.app.svgLib({
             width: val.width - 60,
             height: 286,
@@ -202,7 +205,7 @@ function index() {
         }
     };
     this.draw = function(val) {
-        console.log('hhhhh', val)
+        // console.log('hhhhh', val)
         var svg1 = new this.app.svgLib({
             width: val.width - 60,
             height: 286,

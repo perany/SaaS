@@ -33,7 +33,7 @@ function index() {
 
     }
     this.setData = function(val) {
-        console.log('矩形数据', val);
+        // console.log('矩形数据', val);
         this.app.returnRequier([resolve]).done(function() {
             rectangleCont = that.app.loadModule(rectangle, that.dom.find('.body_cont'), {
                 data: val

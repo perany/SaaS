@@ -57,7 +57,7 @@
     },
     //饼图
     drawCicle: function(nowOption) {
-        console.log('22222222222222',nowOption);
+        // console.log('22222222222222',nowOption);
         var lr = nowOption.width > nowOption.height ? (nowOption.height - 80) / 2 : (nowOption.width - 80) / 2
         var nr = lr * 0.85
         var yuanxin = { x: nowOption.width / 2, y: nowOption.height / 2 }
@@ -188,7 +188,7 @@
             nowOption.paper.circle(yuanxin.x, yuanxin.y, nr).attr({ fill: '#fff', 'stroke-width': 0 })
         }
         textS.toFront()
-        console.log('////////////',textS);
+        // console.log('////////////',textS);
     },
     //气泡图
     drawBubble: function(nowOption) {
