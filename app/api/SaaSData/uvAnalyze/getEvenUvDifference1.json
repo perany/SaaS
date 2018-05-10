@@ -1,1 +1,38 @@
-{"meta":{"success":true,"message":"ok"},"data":[]}
+{
+  "meta": {
+    "success": true,
+    "message": "ok"
+  },
+  "data": [
+    {
+      "difName": "AppStore",
+      "avgUv": "280",
+      "difRate": "-2.14",
+      "uv": "274"
+    },
+    {
+      "difName": "微信朋友圈",
+      "avgUv": "320",
+      "difRate": "-10.31",
+      "uv": "287"
+    },
+    {
+      "difName": "地推二维码",
+      "avgUv": "324",
+      "difRate": "-27.78",
+      "uv": "234"
+    },
+    {
+      "difName": "QQ空间",
+      "avgUv": "464",
+      "difRate": "8.41",
+      "uv": "503"
+    },
+    {
+      "difName": "新浪微博",
+      "avgUv": "218",
+      "difRate": "206.42",
+      "uv": "668"
+    }
+  ]
+}

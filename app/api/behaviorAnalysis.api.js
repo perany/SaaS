@@ -99,9 +99,21 @@ api = {
     getEvenUvDifference: function (value) {
         // console.log('用于获得差异率的参数：', value);
         var deferred = $.Deferred();
+        var path;
+        switch (value.disSource){
+            case 1:
+                path=api.app.localDomain+'uvAnalyze/getEvenUvDifference1.json';
+                break;
+            case 3:
+                path=api.app.localDomain+'uvAnalyze/getEvenUvDifference3.json';
+                break;
+            default:
+                path=api.app.localDomain + 'uvAnalyze/getEvenUvDifference1.json';
+                break;
+        }
         $.ajax({
             // url: api.app.domain + 'uvAnalyze/getEvenUvDifference',
-            url: api.app.localDomain+'uvAnalyze/getEvenUvDifference1.json',
+            url: path,
             type: "POST",
             dataType: "json",
             data: value,
