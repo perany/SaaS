@@ -371,12 +371,13 @@ function channelAnalysis() {
                         if (!val.paidUserRatio) {
                             val.paidUserRatio = 0
                         }
-                        arrY.push([val.newUserRatio, val.activeUserRatio, val.registeredUserRatio, val.paidUserRatio])
+                        arrY.push([val.newUserRatio, val.activeUserRatio, val.registeredUserRatio, val.paidUserRatio,0])
                         color.push(["#85c2ff", "#528fcc", "#717ccb", "#9980b9"])
                     })
                     obj['arrX'] = arrX;
                     obj['arrY'] = arrY;
                     obj['color'] = color;
+                    obj['range'] = [0.2, 0.15];
                     obj['width'] = that.dom.find('.channelAnalysis1').width() + 20;
                     obj['id'] = 'channelAnalysis1';
                     obj['startDa'] = startDate;

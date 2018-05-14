@@ -211,6 +211,7 @@ function index() {
             xytext: { x: 'middle', y: 'bottom' },
             fillColor: fillColor,
             lineColor: val.arrColor,
+            backLineColor:"#f3f3f3",
             xyshow: { linenum: 2, close: true },
             ruleshow: { x: true, y: true },
             range: [0.07, 0.07],

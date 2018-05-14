@@ -3,5 +3,35 @@
     "success": true,
     "message": "ok"
   },
-  "data": []
+  "data": [{
+    "name":"AppStore",
+    "newUserRatio":22,
+    "activeUserRatio":37,
+    "registeredUserRatio":14,
+    "paidUserRatio":27
+  },{
+    "name":"微信朋友圈",
+    "newUserRatio":19,
+    "activeUserRatio":40,
+    "registeredUserRatio":17,
+    "paidUserRatio":24
+  },{
+    "name":"地推二维码",
+    "newUserRatio":27,
+    "activeUserRatio":42,
+    "registeredUserRatio":16,
+    "paidUserRatio":15
+  },{
+    "name":"QQ空间",
+    "newUserRatio":14,
+    "activeUserRatio":45,
+    "registeredUserRatio":13,
+    "paidUserRatio":28
+  },{
+    "name":"新浪微博",
+    "newUserRatio":20,
+    "activeUserRatio":42,
+    "registeredUserRatio":15,
+    "paidUserRatio":23
+  }]
 }

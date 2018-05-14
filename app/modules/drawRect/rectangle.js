@@ -225,7 +225,8 @@ function index() {
             top: 20,
             unit: '',
             xytext: { x: 'middle', y: 'bottom' },
-            range: [0.08, 0.05],
+            // range: [0.1, 0.1],
+            range: val.range,
             color: val.color,
             xyshow: { linenum: 2, close: true },
             format: function(num) {

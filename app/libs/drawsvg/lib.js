@@ -19,7 +19,7 @@ svg ===============================
         ================== fontColor ==================
      lineColor:string
      svg设置背景图的线条颜色
-     默认值 #ccc
+     默认值 #f3f3f3
 
  BaseOption ========================
     ===============背景控制==============
@@ -102,7 +102,7 @@ svg ===============================
         ================= alinecolor =================
     alinecolor:string
     表示为平均线的颜色
-    默认为#ccc
+    默认为#f3f3f3
         ================= colorShow =================
     colorShow:[]
     表示为图表上面数值的显示
@@ -227,9 +227,9 @@ function attributes() {
         ftype: 'normal',
         ctype: ['normal'],
         avage: 0,
-        alinecolor: '#ccc',
-        colorShow: ['#ccc'],
-        backLineColor: '#ccc',
+        alinecolor: '#f3f3f3',
+        colorShow: ['#f3f3f3'],
+        backLineColor: '#f3f3f3',
         format: function(num) {
             return num;
         },
@@ -251,12 +251,12 @@ function attributes() {
         rate: [],
         chainrate: [],
         //矩形图
-        bgcolor: '#ccc',
+        bgcolor: '#f3f3f3',
         //线图
         fill: [true],
         circleShow: [true],
-        lineColor: ['#ccc'],
-        fillColor: ['#ccc'],
+        lineColor: ['#f3f3f3'],
+        fillColor: ['#f3f3f3'],
         iconImages: [],
         circleMouseEvent: false,
         //圆形图
@@ -282,7 +282,7 @@ function svg(option) {
         paper: null,
         'font': '100 12px "Microsoft Yahei","黑体","宋体","Helvetica", "Arial Unicode MS", Arial, sans-serif',
         'fontColor': '#4c4c4c',
-        'lineColor': "#ccc"
+        'lineColor': "#f3f3f3"
     }, option)
     svgLib.paper = Raphael(document.getElementById(svgLib.el), svgLib.width, svgLib.height)
 
@@ -447,13 +447,13 @@ function svg(option) {
             var color = Math.floor(i % 2) == 0 ? "#eee" : "#fff"
             svgLib.paper.circle(svgLib.width / 2, svgLib.height / 2, Math.floor(r * 0.4 * (8 - i) / 8)).attr({
                 fill: color,
-                'stroke': "#ccc"
+                'stroke': "#f3f3f3"
             })
         }
         for (var j = 0; j < option.x.length; j++) {
             var angle = -90 + j * (360 / option.x.length)
             svgLib.paper.rect(svgLib.width / 2, svgLib.height / 2, r * 0.4, 1).attr({
-                'fill': "#ccc",
+                'fill': "#f3f3f3",
                 'stroke-width': 0
             }).rotate(angle, svgLib.width / 2, svgLib.height / 2)
             svgLib.paper.text(svgLib.width / 2 + r * 0.45 * Math.cos(Math.PI * angle / 180), svgLib.height / 2 + r * 0.45 * Math.sin(Math.PI * angle / 180), option.formatKdX(option.x[j])).attr({

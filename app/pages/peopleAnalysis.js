@@ -565,6 +565,7 @@ function peopleAnalysis() {
         obj['arrX'] = arrX;
         obj['arrX1'] = arrX1;
         obj['arrY'] = arrY;
+        obj['range'] = [0.03, 0.01];
         obj['color'] = color;
         obj['tips'] = tips;
         obj['tips1'] = tips1;

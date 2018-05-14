@@ -67,7 +67,7 @@ function svg(option) {
         alinecolor: '#000',
         angle: 0,
         fill: true,
-        backLineColor: '#ccc',
+        backLineColor: '#f3f3f3',
         xyshow: [2, true],
         lineColor: ['#44a4fa', '#44a4fa', '#44a4fa'],
         fillColor: ['#ff0', '#f0f', "#000"],
@@ -76,11 +76,11 @@ function svg(option) {
         datacolor: '#eee',
         overcolor: '#cfd8dc',
         unit: '',
-        colorShow: '#ccc',
+        colorShow: '#f3f3f3',
         geo: null,
         data: null,
         color: ["#44a4fa"],
-        bgcolor: "#ccc",
+        bgcolor: "#f3f3f3",
         maxX: 0,
         minX: 0,
         maxY: 0,
@@ -384,13 +384,13 @@ function svg(option) {
             var color = Math.floor(i % 2) == 0 ? "#eee" : "#fff"
             svgLib.paper.circle(svgLib.width / 2, svgLib.height / 2, Math.floor(r * 0.4 * (8 - i) / 8)).attr({
                 fill: color,
-                'stroke': "#ccc"
+                'stroke': "#f3f3f3"
             })
         }
         for (var j = 0; j < option.x.length; j++) {
             var angle = -90 + j * (360 / option.x.length)
             svgLib.paper.rect(svgLib.width / 2, svgLib.height / 2, r * 0.4, 1).attr({
-                'fill': "#ccc",
+                'fill': "#f3f3f3",
                 'stroke-width': 0
             }).rotate(angle, svgLib.width / 2, svgLib.height / 2)
             svgLib.paper.text(svgLib.width / 2 + r * 0.45 * Math.cos(Math.PI * angle / 180), svgLib.height / 2 + r * 0.45 * Math.sin(Math.PI * angle / 180), option.formatKdX(option.x[j])).attr({

@@ -99,13 +99,13 @@ svgBG.drawR = function(svgLib, option) {
         var color = Math.floor(i % 2) == 0 ? "#eee" : "#fff"
         svgLib.option.paper.circle(svgLib.option.width / 2, svgLib.option.height / 2, Math.floor(r * 0.4 * (8 - i) / 8)).attr({
             fill: color,
-            'stroke': "#ccc"
+            'stroke': "#f3f3f3"
         })
     }
     for (var j = 0; j < option.x.length; j++) {
         var angle = -90 + j * (360 / option.x.length)
         svgLib.option.paper.rect(svgLib.option.width / 2, svgLib.option.height / 2, r * 0.4, 1).attr({
-            'fill': "#ccc",
+            'fill': "#f3f3f3",
             'stroke-width': 0
         }).rotate(angle, svgLib.option.width / 2, svgLib.option.height / 2)
         svgLib.option.paper.text(svgLib.option.width / 2 + r * 0.45 * Math.cos(Math.PI * angle / 180), svgLib.option.height / 2 + r * 0.45 * Math.sin(Math.PI * angle / 180), option.formatKdX(option.x[j])).attr({

@@ -281,6 +281,7 @@ function versionAnalysisIndex() {
         obj['arrX'] = arrX;
         obj['arrY'] = arrY;
         obj['color'] = color;
+        obj['range'] = [0.15, 0.1];
         obj['tips'] = tips;
         obj['tipsName'] = tipsName;
         obj['width'] = that.dom.find('.versionAnalysis1').width() + 20;

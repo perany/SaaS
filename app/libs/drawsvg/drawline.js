@@ -186,7 +186,7 @@ function drawSingleLine(nowOption, mouseEvent) {
             var jgessdsk = Math.floor(nowOption.showArr.w / nowOption.data.length)
             var linea = nowOption.paper.rect(stp - jgessdsk / 2, nowOption.top, jgessdsk, (nowOption.showArr.h)).attr({
                 //var linea = nowOption.paper.rect(stp - 10, nowOption.top, 20, (nowOption.showArr.h)).attr({
-                'fill': '#ccc',
+                'fill': '#f3f3f3',
                 'stroke-width': 1,
                 'fill-opacity': 0,
                 'opacity': 0
