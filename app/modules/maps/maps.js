@@ -48,7 +48,7 @@ function index() {
             });
 
             titleCont.event._addEvent('title.underline', function(val) {
-                console.log('=====', val);
+                // console.log('=====', val);
                 that.event._dispatch('crowd.type', val)
             });
         })
@@ -84,7 +84,7 @@ function index() {
     this.renderCity = function() {
         cityC = that.app.loadModule(city, that.dom.find('#map'));
         cityC.setData(arrMap);
-        console.log("@@@@", line)
+        // console.log("@@@@", line)
         lineC = that.app.loadModule(line, that.dom.find('.mapLine'));
         lineC.setData(that.data);
     }
