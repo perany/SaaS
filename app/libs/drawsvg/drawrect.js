@@ -269,7 +269,7 @@ function drawRectOne(nowOption, par) {
                     'fill': nowOption.color[par.i],
                     'stroke-width': 0
                 })
-                console.log('///////////////////','wwwwwwwwwwwwwwww')
+                // console.log('///////////////////','wwwwwwwwwwwwwwww')
                 nowOption.paper.text(par.st + par.i * par.xjg , nowOption.showArr.h + nowOption.top - tempH-12, nowOption.format(nowOption.data[par.i], par.i)).attr({
                     'fill': nowOption.color[par.i],
                     font: nowOption.font,

@@ -67,7 +67,7 @@ function selectTime() {
         that.dom.find('.yearSelect .selectArrow2').css('width', '16px')
         that.dom.find('.yearSelect .selectArrow2').css('height', '16px')
         yearselectCont.event._addEvent('select.id', function(val) {
-            console.log('55555', val);
+            // console.log('55555', val);
 
         })
         selectCont.event._addEvent('select.id', function(val) {
@@ -293,7 +293,7 @@ function selectTime() {
         that.fun({ id: 'day' });
     }
     this.refreshData = function(value) {
-        console.log(value, '9999999999999999')
+        // console.log(value, '9999999999999999')
         daypicker.refreshData(value);
     }
 }

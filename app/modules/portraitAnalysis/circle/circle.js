@@ -48,7 +48,7 @@ function index() {
         this.app.returnRequier([resolve1, resolve2]).done(function() {
             that.dom.find('.' + val.id).find('.body_cont_left').empty();
             that.dom.find('.' + val.id).find('.body_cont_right').empty();
-            console.log('///', val.width);
+            // console.log('///', val.width);
             var svgEx1 = new that.app.svgLib({
                 width: val.width,
                 height: 190,

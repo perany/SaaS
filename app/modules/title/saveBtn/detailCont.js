@@ -7,12 +7,12 @@ function index() {
     this.html = html;
     var data
     this.complete = function() {
-        console.log('yytyyytt', that.nowParam)
+        // console.log('yytyyytt', that.nowParam)
         that.dom.find('.transform').attr('type', that.nowParam.type);
         that.dom.find('.smallBox').on('click', function() {
             var len = that.dom.find('.disbaled');
             var par = $(this).parent().attr('type');
-            console.log('len1', par);
+            // console.log('len1', par);
             if (!$(this).hasClass('disbaled') && len.length < 2) {
                 var data_id = $(this).attr('data_id');
                 that.dom.find('.smallBox').removeClass('selected');

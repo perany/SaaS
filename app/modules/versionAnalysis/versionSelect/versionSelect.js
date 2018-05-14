@@ -16,7 +16,7 @@ function index() {
     this.setData = function(val) {
         that.dom.find('.versionNum input').val('已选择0个');
         that.dom.find('.versionSum').empty();
-        console.log('/////', val);
+        // console.log('/////', val);
         var html = '';
         var i = 0;
         if (val.length > 0) {
@@ -67,7 +67,7 @@ function index() {
             that.dom.find('.versionTips1').addClass('hide')
             if ($(this).hasClass('choose')) {
                 var len1 = that.dom.find('.choose').length;
-                console.log('len1', len1)
+                // console.log('len1', len1)
                 if (len1 > 1) {
                     $(this).removeClass('choose');
                 } else {

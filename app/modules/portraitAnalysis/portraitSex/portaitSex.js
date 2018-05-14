@@ -38,7 +38,7 @@ function index() {
                 '</dd>' +
                 '</dl>';
         }
-        console.log("00000000000000000000000000",val,that.dom.find("#" + val.id),html_,);
+        // console.log("00000000000000000000000000",val,that.dom.find("#" + val.id),html_,);
         that.dom.find(".body_cont").append(html_);
     }
 }

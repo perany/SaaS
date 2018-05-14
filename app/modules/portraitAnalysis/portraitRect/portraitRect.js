@@ -52,7 +52,7 @@ function index() {
                 colorShow: val.color,
                 ruleshow: [false, true],
                 format: function(num) {
-                    console.log('新的数据', num)
+                    // console.log('新的数据', num)
                     return num + '%';
                 },
                 formatKdY: function(num) {
