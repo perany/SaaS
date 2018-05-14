@@ -4,13 +4,12 @@ $(document).ready(function () {
     var viewH = $(window).height();
     var allTop = [];
     complete();
+    $("#year").change(function () {
+        year = $(this).val();
+        // console.log(year,"change year");
+        complete();
+    });
     function complete() {
-        /*$('.year-tab').on('change', function() {
-            year = $(this).find("option:selected").attr('value');
-            getMonth();
-            $('.scrollContent').html('')
-            initData();
-        });*/
         initData();
         getMonth();
         $('.right').css(
@@ -36,7 +35,7 @@ $(document).ready(function () {
                     $('.right .connn').height($('#versionNew').height() - 100);
                 })
             } else {
-                console.log('隐藏')
+                // console.log('隐藏')
                 $('.loadMore').addClass('hide');
             }
             if (scrollTop > viewH) {
@@ -55,8 +54,15 @@ $(document).ready(function () {
         });
     }
     function getMonth() {
+        var path;
+        // console.log(year,"11111111111");
+        if(year=="2017"){
+            path = '/public/js/api/versionNew2017.json';
+        }else{
+            path = '/public/js/api/versionNew2018.json';
+        }
         $.ajax( {
-            url:'/public/js/api/versionNew1.json',
+            url:path,
             data:{
             },
             type:'get',
@@ -69,8 +75,15 @@ $(document).ready(function () {
         });
     }
     function initData() {
+        var path;
+        // console.log(year,"2222222");
+        if(year=="2017"){
+            path = '/public/js/api/versionNew7.json';
+        }else{
+            path = '/public/js/api/versionNew8.json';
+        }
          $.ajax( {
-             url:'/public/js/api/versionNew.json',
+             url:path,
              data:{
              },
              type:'get',
@@ -150,9 +163,9 @@ $(document).ready(function () {
             if (value[0].id.lastIndexOf($('.year-tab').val()) != -1) {
                 var html='<ul class="cont1" attr_id="' + value[0].id + '">';
                 var def = getTemplate(1,value,html)
-                def.done(function(res){
-                    res += '</ul>';
-                    endData[idx].html=res
+                    def.done(function(res){
+                        res += '</ul>';
+                        endData[idx].html=res
                     defnum++
                     if(defnum==total){
                         var endHtml=''
@@ -185,7 +198,7 @@ $(document).ready(function () {
         var deferred=$.Deferred()
         if(list.length>1) {
             $.get('/template/'+ list[i].list, function (res) {
-                html += '<li class="contentLi">' + '<span class="version">' +  list[i].date +' - '+  list[i].version + '升级日志</span>' + '<p>' + res + '</p></li>';
+                html += ('<li class="contentLi">' + '<span class="version">' +  list[i].date +' - '+  list[i].version + '升级日志</span>' + '<p>' + res + '</p></li>');
                 if(i<list.length-1){
                     var a=i+1
                     var def=getTemplate(a,list,html)
@@ -224,7 +237,7 @@ $(document).ready(function () {
                 $('.left').height($('#versionNew').height() + 20)
                 $('.right').height($('#versionNew').height())
                 $('.right .connn').height($('#versionNew').height() - 100);
-                console.log('qqqqqqqqq',$('.left').height(), $('.right').height(), $('.right .connn').height());
+                // console.log('qqqqqqqqq',$('.left').height(), $('.right').height(), $('.right .connn').height());
                 topNum = val.topLen
             }
         })
@@ -236,6 +249,6 @@ $(document).ready(function () {
         var doms = $('.cont1');
         year = $(doms[0]).attr('attr_id').slice(0, 4);
         $('#year').val(year);
-        getMonth();
+        getMonth(year);
     }
 })
