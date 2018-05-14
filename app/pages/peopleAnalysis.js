@@ -565,13 +565,12 @@ function peopleAnalysis() {
         obj['arrX'] = arrX;
         obj['arrX1'] = arrX1;
         obj['arrY'] = arrY;
-        obj['range'] = [0.03, 0.01];
+        obj['range'] = [0.08, 0.05];
         obj['color'] = color;
         obj['tips'] = tips;
         obj['tips1'] = tips1;
         obj['width'] = that.dom.find('.peopleAnalysis2').width();
         obj['id'] = 'peopleAnalysis2';
-        // console.log('lllllll', obj);
         rectCont.setData(obj);
         html = '<div style="width:36px;height:243px;position:absolute;top:50px;left:20px;">' +
             '<span style="display:block;height:25%;padding-top:30px;">超高</span>' +

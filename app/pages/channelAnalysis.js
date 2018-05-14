@@ -48,7 +48,7 @@ function channelAnalysis() {
     var lineColor = ['#47b7af', '#85c2ff', '#47b7af', '#85c2ff'];
     var fillColor = ['#a1dad6', '#c2e0ff', '', ''];
     this.complete = function() {
-        console.log('ijisidsjic', that.app.model.get('iosId'));
+        // console.log('ijisidsjic', that.app.model.get('iosId'));
         osId = that.app.model.get('iosId') ? that.app.model.get('iosId') : '1';
         this.app.returnRequier([resolve, resolve1, resolve2, resolve3]).done(function() {
             topCont = that.app.loadModule(top, that.dom.find('.firstActCont'), {
@@ -141,7 +141,7 @@ function channelAnalysis() {
                 })
             });
             setTimeout(function() {
-                console.log('23232', that.app.model.get('iosId'));
+                // console.log('23232', that.app.model.get('iosId'));
                 if (parseInt(osId) == 2) {
                     topCont.setTimeMin('calendar', '2017-05-16');
                 } else {

@@ -28,7 +28,6 @@ function versionAnalysisIndex() {
     var lineCont3 = null;
     var lineCont4 = null;
     var osId = '1';
-    var myDate = new Date(new Date().getTime() - 86400000);
     var startDate = Tool.GetDateStr(-30);
     var endDate = Tool.GetDateStr(-1);
     var versionIds = '';
@@ -37,8 +36,6 @@ function versionAnalysisIndex() {
     var sameId = ['versionAnalysis2', 'versionAnalysis3', 'versionAnalysis4', 'versionAnalysis5']
     var sameDom = ['lineCont1', 'lineCont2', 'lineCont3', 'lineCont4']
     var sameTitleTips = ['所选周期范围内（去重），至少启动过一次的用户', '所选周期范围内，有注册成功行为的用户', '所选周期范围内，有付费成功行为的用户', '日留存用户=第一天新增用户在第二天登录过的用户，以日存储次日留存用户； 周留存用户=第一周新增用户在第二周登录过的用户；月留存用户=第一月新增用户在第二月登录过的用户']
-    var lineColor = ['#99ccff', '#6699cc', '#6666cc', '#9999cc'];
-    var fillColor = ['#99ccff', '#6699cc', '#6666cc', '#9999cc'];
     var timeType = 1;
     this.complete = function() {
         osId = that.app.model.get('iosId') ? that.app.model.get('iosId') : '1';
@@ -52,7 +49,7 @@ function versionAnalysisIndex() {
                 }
             });
             topCont.event._addEvent('topCont.data', function(val) {
-                console.log('数据', val);
+                // console.log('数据', val);
                 for (var n in val) {
                     switch (n) {
                         case 'startTime':
@@ -140,7 +137,6 @@ function versionAnalysisIndex() {
                 that.versionListDb();
             }
             that.versionListDb();
-            //that.dom.find('.Timers').val(Tool.GetDateStr(-30) + '至' + Tool.GetDateStr(-1));
         });
     }
 
@@ -241,7 +237,7 @@ function versionAnalysisIndex() {
             }
             smallRectArr.push(obj)
         });
-        console.log('smallRectArr', smallRectArr)
+        // console.log('smallRectArr', smallRectArr)
         rectCont.setSmallRect(smallRectArr)
         $.each(res.versionDetailList[0], function(idx, val) {
             if (startDate == endDate) {
@@ -386,7 +382,8 @@ function versionAnalysisIndex() {
                             fillColor.push('')
                         } else {
                             color.push(allColor[idx]);
-                            fillColor.push(allColor[idx])
+                            // fillColor.push(allColor[idx])
+                            fillColor.push('')
                         }
                     })
                     $.each(tips, function(idx, val) {

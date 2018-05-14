@@ -86,7 +86,7 @@ function activesAnalysis() {
                     that.dom.find('.right1').addClass('hide');
                 }
                 sameDom[idx].event._addEvent('line.radio', function(val) {
-                    console.log('**********', val);
+                    // console.log('**********', val);
                     campaignId = val.id;
                     campaignName = val.name;
                     timeType = 1;
@@ -206,7 +206,7 @@ function activesAnalysis() {
         })
     }
     this.match = function(i, data) {
-        console.log('campaignId', campaignId)
+        // console.log('campaignId', campaignId)
         var json;
         if (data) {
             json = data
@@ -297,7 +297,7 @@ function activesAnalysis() {
         }
     }
     this.timeDiff = function(type) {
-        console.log('diff', diff);
+        // console.log('diff', diff);
         if (type == 0) {
             sameDom[2].timeDiff(diff, type);
             sameDom[3].timeDiff1(diff, type);

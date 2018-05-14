@@ -110,14 +110,14 @@ function portraitAnalysis() {
             topCont.event._addEvent('topCont.data', function(val) {
                 that.dom.find('.underline a').removeClass('hasUnderline');
                 that.dom.find('.underline').find('a').eq(0).addClass('hasUnderline');
-                console.log('000000', val);
+                // console.log('000000', val);
                 if (val.topTypeId == 'select_mutil111') {
-                    console.log('******111', json);
+                    // console.log('******111', json);
                     setTimeout(function() {
                         json['dimensionId'] = that.dom.find('.left_cont3 .selectCont1').find("option:selected").attr('data_id');
                         json['startTime'] = that.dom.find('.left_cont3 .selectCont1').find("option:selected").attr('start');
                         json['endTime'] = that.dom.find('.left_cont3 .selectCont1').find("option:selected").attr('end');
-                        console.log('******', json)
+                        // console.log('******', json)
                         topCont.setCalendar({ startDay: json['startTime'], endDay: json['endTime'], max: json['endTime'], min: json['startTime'] });
                         that.dom.find('.left_cont7 .Timers').val(json['startTime'] + '至' + json['endTime']);
                     }, 1000)
@@ -159,7 +159,7 @@ function portraitAnalysis() {
                         case 'eventId':
                             var dimensionName = that.dom.find('.left_cont5 .selectCont1').find("option:selected").html();
                             var dimensionName1 = that.dom.find('.left_cont4 .selectCont1').find("option:selected").html();
-                            console.log('dimensionName1', dimensionName1);
+                            // console.log('dimensionName1', dimensionName1);
                             if (dimensionName1 == '全部') {
                                 that.dom.find('.left_cont5').addClass('hide');
                             }
@@ -191,7 +191,7 @@ function portraitAnalysis() {
                 }
             })
             topCont.event._addEvent('portraitAnalysis.dimensionId', function(val) {
-                console.log('99999999999999', val);
+                // console.log('99999999999999', val);
                 if (val) {
                     that.costListDb(val);
                 } else {
@@ -422,7 +422,7 @@ function portraitAnalysis() {
                     that.dom.find('.left_cont6').addClass('hide');
                     that.dom.find('.left_cont7').removeClass('hide');
                     topCont.initSelectData(res.data, 'db2');
-                    console.log('123', json);
+                    // console.log('123', json);
                     //topCont.setCalendar({ startDay: res.data[0].startDate ? res.data[0].startDate : res.data[0].startTime, endDay: res.data[0].endDate ? res.data[0].endDate : res.data[0].endTime, max: res.data[0].endDate ? res.data[0].endDate : res.data[0].endTime, min: res.data[0].startDate ? res.data[0].startDate : res.data[0].startTime });
                     //that.dom.find('.left_cont7 .Timers').val(res.data[0].startDate ? res.data[0].startDate : res.data[0].startTime + '至' + res.data[0].endDate ? res.data[0].endDate : res.data[0].endTime);
                 } else {

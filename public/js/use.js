@@ -8,13 +8,13 @@ $(function() {
 
     function complete() {
         init();
-        change();
+        // change();
         $('.right').css({
             'width': $('#header').width() - 323
         })
-        $('.titleName').eq(0).css(
-            'color', '#ffd200'
-        )
+        // $('.titleName').eq(0).css(
+        //     'color', '#ffd200'
+        // )
 
         $(window).scroll(function() {
             var viewH = $(window).height();

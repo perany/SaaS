@@ -7,14 +7,14 @@
     {
       "id": 80,
       "startTime": "2017-07-16",
-      "channelName": "wsx",
+      "channelName": "渠道a",
       "channelId": 86,
       "endTime": "2017-07-18"
     },
     {
       "id": 82,
       "startTime": "2017-05-23",
-      "channelName": "qaz",
+      "channelName": "渠道b",
       "channelId": 85,
       "endTime": "2017-07-31"
     }
