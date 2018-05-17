@@ -6,17 +6,87 @@
   "data": [
     {
       "id": 80,
-      "startTime": "2017-07-16",
-      "channelName": "渠道a",
-      "channelId": 86,
-      "endTime": "2017-07-18"
+      "channelName": "channel-a",
+      "startTime": "2017-06-03",
+      "endTime": "2017-07-11",
+      "channelId": 85
     },
     {
       "id": 82,
-      "startTime": "2017-05-23",
-      "channelName": "渠道b",
-      "channelId": 85,
-      "endTime": "2017-07-31"
+      "channelName": "channel-b",
+      "startTime": "2017-10-01",
+      "endTime": "2017-10-07",
+      "channelId": 85
+    },
+    {
+      "id": 80,
+      "channelName": "channel-c",
+      "startTime": "2017-11-11",
+      "endTime": "2017-11-11",
+      "channelId": 85
+    },
+    {
+      "id": 82,
+      "channelName": "channel-d",
+      "startTime": "2017-12-24",
+      "endTime": "2017-12-26",
+      "channelId": 85
+    },
+    {
+      "id": 80,
+      "channelName": "channel-e",
+      "startTime": "2017-12-31",
+      "endTime": "2018-01-01",
+      "channelId": 85
+    },
+    {
+      "id": 82,
+      "channelName": "channel-f",
+      "startTime": "2018-02-15",
+      "endTime": "2018-02-20",
+      "channelId": 85
+    },
+    {
+      "id": 80,
+      "channelName": "channel-g",
+      "startTime": "2018-03-02",
+      "endTime": "2018-03-02",
+      "channelId": 85
+    },
+    {
+      "id": 82,
+      "channelName": "channel-h",
+      "startTime": "2018-04-05",
+      "endTime": "2018-04-08",
+      "channelId": 85
+    },
+    {
+      "id": 80,
+      "channelName": "channel-i",
+      "startTime": "2018-05-01",
+      "endTime": "2018-05-03",
+      "channelId": 85
+    },
+    {
+      "id": 82,
+      "channelName": "channel-j",
+      "startTime": "2018-05-11",
+      "endTime": "2018-05-11",
+      "channelId": 85
+    },
+    {
+      "id": 80,
+      "channelName": "channel-k",
+      "startTime": "2018-05-26",
+      "endTime": "2018-05-26",
+      "channelId": 85
+    },
+    {
+      "id": 82,
+      "channelName": "channel-l",
+      "startTime": "2018-05-27",
+      "endTime": "2018-05-27",
+      "channelId": 85
     }
   ]
 }

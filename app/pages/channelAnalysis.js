@@ -100,7 +100,7 @@ function channelAnalysis() {
                         titleTips: sameTitleTips[idx],
                         type: (idx == 2 || idx == 3) ? ['title', 'radio', 'saveBtn'] : ['title', 'radio'],
                         position: (idx == 2 || idx == 3) ? ['left1', 'left2', 'right1'] : ['left1', 'left2'],
-                        saveName: (idx == 3) ? ['日转化', '周转化', '月转化'] : ['日留存', '周留存', '月留存'],
+                        saveName: (idx == 3) ? ['日付费', '周付费', '月付费'] : ['日留存', '周留存', '月留存'],
                         saveBtnType: idx
                     }
                 })
