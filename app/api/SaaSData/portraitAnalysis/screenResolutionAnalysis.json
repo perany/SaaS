@@ -6,39 +6,39 @@
   "data": [
     {
       "accountId": 3,
-      "demension": "320*480",
+      "demension": "1080*1920",
       "percentage": 2
     },{
       "accountId": 5,
-      "demension": "360*640",
+      "demension": "720*1184",
       "percentage": 3
     },{
       "accountId": 6,
-      "demension": "480*800",
+      "demension": "1080*1282",
       "percentage": 2
     },{
       "accountId": 7,
-      "demension": "600*800",
-      "percentage": 3
+      "demension": "480*854",
+      "percentage": 1
     },{
       "accountId": 1,
-      "demension": "640*960",
-      "percentage": 11
+      "demension": "1280*720",
+      "percentage": 7
     },{
       "accountId": 4,
-      "demension": "640*1136",
-      "percentage": 14
+      "demension": "1080*1800",
+      "percentage": 11
     },{
       "accountId": 2,
-      "demension": "750*1334",
-      "percentage": 26
+      "demension": "720*1080",
+      "percentage": 21
     },{
       "accountId": 8,
       "demension": "1080*1920",
       "percentage": 27
     },{
       "accountId": 8,
-      "demension": "其它",
+      "demension": "1920*1080",
       "percentage": 12
     }
   ]

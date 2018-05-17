@@ -16,7 +16,7 @@
       "demensionId": 1073,
       "demension": "4G",
       "uv": 2,
-      "percentage": 39
+      "percentage": 34
     },
     {
       "accountId": 0,
@@ -30,7 +30,14 @@
       "demensionId": 4,
       "demension": "2G",
       "uv": 2,
-      "percentage": 4
+      "percentage": 2
+    },
+    {
+      "accountId": 0,
+      "demensionId": 4,
+      "demension": "其它",
+      "uv": 2,
+      "percentage": 7
     }
   ]
 }

@@ -9,19 +9,19 @@
       "demensionId": 1060,
       "demension": "高",
       "uv": 8,
-      "percentage": 43
+      "percentage": 22.81
     },{
       "accountId": 0,
       "demensionId": 1060,
       "demension": "中",
       "uv": 8,
-      "percentage": 32
+      "percentage": 41.39
     },{
       "accountId": 0,
       "demensionId": 1060,
       "demension": "低",
       "uv": 8,
-      "percentage": 25
+      "percentage": 35.80
     }
   ]
 }

@@ -9,14 +9,14 @@
       "demensionId": 1001,
       "demension": "男",
       "uv": 4,
-      "percentage": 50.0
+      "percentage": 57.8
     },
     {
       "accountId": 0,
       "demensionId": 1002,
       "demension": "女",
       "uv": 4,
-      "percentage": 50.0
+      "percentage": 43.2
     }
   ]
 }

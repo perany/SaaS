@@ -5,8 +5,28 @@
   },
   "data": [
     {
-      "typeName": "click",
+      "typeName": "事件组01",
       "typeCode": 68
+    },
+    {
+      "typeName": "事件组02",
+      "typeCode": 67
+    },
+    {
+      "typeName": "事件组03",
+      "typeCode": 66
+    },
+    {
+      "typeName": "事件组04",
+      "typeCode": 65
+    },
+    {
+      "typeName": "事件组05",
+      "typeCode": 64
+    },
+    {
+      "typeName": "事件组06",
+      "typeCode": 63
     }
   ]
 }

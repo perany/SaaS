@@ -25,27 +25,45 @@
     },{
       "accountId": 4,
       "demensionId": 4,
-      "demension": "华为P系列",
+      "demension": "华为",
       "uv": 61,
-      "percentage": 12
+      "percentage": 13
     },{
       "accountId": 5,
       "demensionId": 5,
-      "demension": "荣耀系列",
+      "demension": "荣耀",
       "uv": 61,
-      "percentage": 14
+      "percentage": 10
     },{
       "accountId": 6,
       "demensionId": 6,
       "demension": "小米",
       "uv": 61,
-      "percentage": 15
+      "percentage": 11
     },{
       "accountId": 7,
       "demensionId": 7,
       "demension": "美图",
       "uv": 61,
-      "percentage": 3
+      "percentage": 2
+    },{
+      "accountId": 7,
+      "demensionId": 7,
+      "demension": "金立",
+      "uv": 61,
+      "percentage": 1
+    },{
+      "accountId": 7,
+      "demensionId": 7,
+      "demension": "酷派",
+      "uv": 61,
+      "percentage": 2
+    },{
+      "accountId": 7,
+      "demensionId": 7,
+      "demension": "魅族",
+      "uv": 61,
+      "percentage": 5
     }
   ]
 }

@@ -21,7 +21,13 @@
       "demensionId": 1068,
       "demension": "中国联通",
       "uv": 8,
-      "percentage": 21
+      "percentage": 20.21
+    },{
+      "accountId": 0,
+      "demensionId": 1068,
+      "demension": "其它",
+      "uv": 8,
+      "percentage": 0.79
     }
   ]
 }

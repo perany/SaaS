@@ -9,21 +9,28 @@
       "demensionId": 1056,
       "demension": "高中及以下",
       "uv": 6,
-      "percentage": 18
+      "percentage": 28.18
     },
     {
       "accountId": 0,
       "demensionId": 1058,
       "demension": "本科",
       "uv": 2,
-      "percentage": 67
+      "percentage": 47.23
     },
     {
       "accountId": 0,
       "demensionId": 1058,
       "demension": "研究生及以上",
       "uv": 2,
-      "percentage": 15
+      "percentage": 17.21
+    },
+    {
+      "accountId": 0,
+      "demensionId": 1058,
+      "demension": "其它",
+      "uv": 2,
+      "percentage": 7.38
     }
   ]
 }
