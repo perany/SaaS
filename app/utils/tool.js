@@ -143,7 +143,7 @@
         return result;
     },
     timeY: function(value) {
-        console.log('***', value)
+        // console.log('***', value)
             //value = value / 1000;
         var days = Math.floor(value / (24 * 3600));
         var leave1 = value % (24 * 3600)
