@@ -66,16 +66,16 @@ var api = {
         var deferred = $.Deferred()
         var path;
         switch (value.typeCode){
-            case "1":
+            case 1:
                 path=api.app.localDomain+'overviewFlow/getUserTypeUv1.json';
                 break;
-            case "2":
+            case 2:
                 path=api.app.localDomain+'overviewFlow/getUserTypeUv2.json';
                 break;
-            case "3":
+            case 3:
                 path=api.app.localDomain+'overviewFlow/getUserTypeUv3.json';
                 break;
-            case "4":
+            case 4:
                 path=api.app.localDomain+'overviewFlow/getUserTypeUv4.json';
                 break;
             default:
@@ -168,9 +168,13 @@ var api = {
     },
     getUvTotal: function(value) {
         var deferred = $.Deferred()
+        var path = api.app.localDomain+'overviewFlow/getUvTotal1.json';
+        if(value.startDate==value.endDate){
+            path = api.app.localDomain+'overviewFlow/getUvTotal.json';
+        }
         $.ajax({
             // url: api.app.domain + 'overviewFlow/getUvTotal',
-            url:api.app.localDomain+'overviewFlow/getUvTotal.json',
+            url:path,
             type: "post",
             dataType: "json",
             data: api.app.format(value),
