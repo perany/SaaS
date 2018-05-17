@@ -6,25 +6,25 @@
   "data": [
     {
       "startTime": "2018-05-03",
-      "name": "活动a",
+      "name": "v1.1.0",
       "id": "01",
       "endTime": "2018-05-03"
     },
     {
       "startTime": "2018-05-05",
-      "name": "活动b",
+      "name": "v1.2.0",
       "id": "02",
       "endTime": "2018-05-05"
     },
     {
       "startTime": "2018-05-11",
-      "name": "活动c",
+      "name": "v1.3.0",
       "id": "03",
       "endTime": "2018-05-11"
     },
     {
       "startTime": "2018-05-03",
-      "name": "活动d",
+      "name": "v1.4.0",
       "id": "04",
       "endTime": "2018-05-11"
     }
