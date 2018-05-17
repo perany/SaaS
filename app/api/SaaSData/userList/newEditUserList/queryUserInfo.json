@@ -16,7 +16,12 @@
     "teamNames": null,
     "groupNames": null,
     "createdUser": null,
-    "roleList": [],
+    "roleList": [{
+      "status": 0,
+      "roleId": 493,
+      "roleName": "role02",
+      "hasAssociated": 0
+    }],
     "publicKey": null,
     "privateTeamId": null,
     "privateTeamName": null,

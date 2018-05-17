@@ -39,17 +39,17 @@ var api = {
     //删除角色
     deleteRole: function(id){
         var deferred = $.Deferred();
-        var path = api.app.localDomain + 'roleManager/delete.json';
+        var path = api.app.localDomain + 'roleManager/deleteerror.json';
         switch (id){
-            case "493":
-                path=api.app.localDomain+'roleManager/deleteerror.json';
+            case "497":
+                path=api.app.localDomain+'roleManager/delete.json';
                 break;
         }
         $.ajax({
             url:path,
             type: "get",
             dataType: "json",
-            data: api.app.format({value:value}),
+            data: api.app.format({value:id}),
             contentType:"application/json",
             headers: { "x-auth-token": api.app.local.get('session') },
             success: function(response) {

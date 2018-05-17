@@ -7,6 +7,9 @@
     "remark": "role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述role02角色描述……",
     "associatedUserList": [
       {
+        "userId": 498,
+        "userName": "user01"
+      },{
         "userId": 493,
         "userName": "user02"
       }

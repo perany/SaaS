@@ -11,8 +11,7 @@ function department() {
     var idArr = ''
     var keyword = ''
     this.complete = function() {
-        var count =
-            api.app = this.app;
+        api.app = this.app;
         search = this.app.loadModule(searchment, this.dom.find('.search'))
             // that.initHearder(count);
     }
